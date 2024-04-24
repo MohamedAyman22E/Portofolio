@@ -13,6 +13,12 @@ const Menu = styled.div`
   box-shadow: 0 0 5px ${props => props.theme.body};
   color: ${props => props.theme.body};
   padding: 15px;
+  @media (max-width: 800px) {
+    width: 250px;
+  }
+  @media (max-width: 700px) {
+    width: 240px;
+  }
 `;
 const Chose = styled.div`
   margin: 0px 0;
@@ -35,13 +41,18 @@ const Chose = styled.div`
     display: flex;
     align-items: center;
   }
+  @media (max-width: 800px) {
+    font-size: 17px;
+  }
+  @media (max-width: 700px) {
+    font-size: 15px;
+  }
 `;
 const IconRight = styled.span``;
 const Arrow = styled.div`
   display: flex;
   align-items: center;
 `;
-
 const Hidden = styled.div`
   position: absolute;
   right: -200px;
@@ -57,17 +68,20 @@ const Hidden = styled.div`
   transition: all.3s;
   padding: 15px;
   overflow: auto;
-  /* ::-webkit-scrollbar {
-    width: 10px;
-  }
-  ::-webkit-scrollbar-thumb {
-    border-radius: 10px;
-    background-color: #fff;
-  } */
-
   ${Chose}:hover & {
     display: flex;
     flex-direction: column;
+  }
+  @media (max-width: 800px) {
+    width: 150px;
+    height: 260px;
+    transform: translate(-17%, -50%);
+    top: 50%;
+  }
+  @media (max-width: 700px) {
+    width: 100px;
+    height: 240px;
+    transform: translate(-60%, -50%);
   }
 `;
 const Name = styled.div`
@@ -96,12 +110,6 @@ const Line = styled.div`
 const Icon = styled.span`
   margin-top: 7px;
 `;
-// const Show = styled.div`
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-//   gap: 7px;
-// `;
 const CustomMenu = () => {
   const [ShowMenu, SetShowMenu] = useState(false);
   const [colorMenu, SetColorMenu] = useState(false);
