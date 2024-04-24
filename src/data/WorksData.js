@@ -1,3 +1,6 @@
+import img1 from "../assets/Images/1.png";
+import img2 from "../assets/Images/2.png";
+import img3 from "../assets/Images/3.png";
 export const Works = [
   {
     id: 1,
@@ -6,6 +9,7 @@ export const Works = [
     date: "1 jun, 2023",
     link: "https://mohamedayman22e.github.io/Portfolio-/",
     type: "js",
+    img: img1,
   },
   {
     id: 2,
@@ -14,6 +18,7 @@ export const Works = [
     date: "10 Jun, 2023",
     link: "https://mohamedayman22e.github.io/Portfolio/",
     type: "js",
+    img: img2,
   },
   {
     id: 3,
@@ -22,6 +27,7 @@ export const Works = [
     date: "23 Feb, 2024",
     link: "https://mohamedayman22e.github.io/EducationJs/",
     type: "react",
+    img: img3,
   },
   {
     id: 4,

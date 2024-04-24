@@ -8,7 +8,6 @@ const Container = styled(motion.div)``;
 const Box = styled(motion.div)`
   width: calc(10rem + 12vw);
   text-decoration: none;
-  height: 20rem;
   padding: 1rem;
   color: ${props => props.theme.text};
   background: transparent;
@@ -24,18 +23,14 @@ const Box = styled(motion.div)`
     color: ${props => props.theme.body};
   }
 `;
-const AllVideo = styled.div`
-  width: 100%;
-  height: 50%;
+const AllImg = styled.div`
   background-size: cover;
   border: 2px solid ${props => props.theme.text};
-  background-position: center;
   ${Box}:hover & {
     border-color: ${props => props.theme.body};
   }
-  video {
+  img {
     width: 100%;
-    height: 100%;
   }
 `;
 const Title = styled.h3`
@@ -119,11 +114,13 @@ const Git = styled(Link)`
   }
 `;
 const WorkContent = props => {
-  const { name, tags, date, link, linkGit } = props.blog;
+  const { name, tags, date, link, linkGit, img } = props.blog;
   return (
     <Container variants={Item}>
       <Box>
-        <AllVideo className="allImg"></AllVideo>
+        <AllImg className="allImg">
+          <img src={img} alt="" />
+        </AllImg>
         <Title>{name}</Title>
         <Line />
         <Skills>
