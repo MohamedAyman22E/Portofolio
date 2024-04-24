@@ -8,7 +8,6 @@ import BlogContent from "./WorkContent";
 import AnchorContainer from "./Anchor";
 import { motion } from "framer-motion";
 import { Works } from "../../data/WorksData";
-
 const MainContainer = styled(motion.div)`
   background-image: url(${img});
   background-position: center;

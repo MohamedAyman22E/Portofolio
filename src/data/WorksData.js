@@ -37,6 +37,50 @@ import img36 from "../assets/Images/36.png";
 import img37 from "../assets/Images/37.png";
 import img38 from "../assets/Images/38.png";
 import img39 from "../assets/Images/39.png";
+import img40 from "../assets/Images/40.png";
+import img41 from "../assets/Images/41.png";
+import img42 from "../assets/Images/42.png";
+import img43 from "../assets/Images/43.png";
+import img44 from "../assets/Images/44.png";
+import img45 from "../assets/Images/45.png";
+import img46 from "../assets/Images/46.png";
+import img47 from "../assets/Images/47.png";
+import img48 from "../assets/Images/48.png";
+import img49 from "../assets/Images/49.png";
+import img50 from "../assets/Images/50.png";
+import img51 from "../assets/Images/51.png";
+import img52 from "../assets/Images/52.png";
+import img53 from "../assets/Images/53.png";
+import img54 from "../assets/Images/54.png";
+import img55 from "../assets/Images/55.png";
+import img56 from "../assets/Images/56.png";
+import img57 from "../assets/Images/57.png";
+import img58 from "../assets/Images/58.png";
+import img59 from "../assets/Images/59.png";
+import img60 from "../assets/Images/60.png";
+import img61 from "../assets/Images/61.png";
+import img62 from "../assets/Images/62.png";
+import img63 from "../assets/Images/63.png";
+import img64 from "../assets/Images/64.png";
+import img65 from "../assets/Images/65.png";
+import img66 from "../assets/Images/66.png";
+import img67 from "../assets/Images/67.png";
+import img68 from "../assets/Images/68.png";
+import img69 from "../assets/Images/69.png";
+import img70 from "../assets/Images/70.png";
+import img71 from "../assets/Images/71.png";
+import img72 from "../assets/Images/72.png";
+import img73 from "../assets/Images/73.png";
+import img74 from "../assets/Images/74.png";
+import img75 from "../assets/Images/75.png";
+import img76 from "../assets/Images/76.png";
+import img77 from "../assets/Images/77.png";
+import img78 from "../assets/Images/78.png";
+import img79 from "../assets/Images/79.png";
+import img80 from "../assets/Images/80.png";
+import img81 from "../assets/Images/81.png";
+import img82 from "../assets/Images/82.png";
+import img83 from "../assets/Images/83.png";
 export const Works = [
   {
     id: 1,
@@ -392,6 +436,7 @@ export const Works = [
     date: "28 Nov, 2023",
     link: "https://mohamedayman22e.github.io/Digital-Clock/",
     linkGit: "https://github.com/MohamedAyman22E/Digital-Clock",
+    img: img40,
   },
   {
     id: 41,
@@ -400,6 +445,7 @@ export const Works = [
     date: "28 Nov, 2023",
     link: "https://mohamedayman22e.github.io/Simple-Form/",
     linkGit: "https://github.com/MohamedAyman22E/Simple-Form",
+    img: img41,
   },
   {
     id: 42,
@@ -408,6 +454,7 @@ export const Works = [
     date: "29 Nov, 2023",
     link: "https://mohamedayman22e.github.io/Multiple-Options-Select-Menu/",
     linkGit: "https://github.com/MohamedAyman22E/Multiple-Options-Select-Menu",
+    img: img42,
   },
   {
     id: 43,
@@ -416,6 +463,7 @@ export const Works = [
     date: "29 Nov, 2023",
     link: "https://mohamedayman22e.github.io/Password-Validation-Check/",
     linkGit: "https://github.com/MohamedAyman22E/Password-Validation-Check",
+    img: img43,
   },
   {
     id: 44,
@@ -424,6 +472,7 @@ export const Works = [
     date: "29 Nov, 2023",
     link: "https://mohamedayman22e.github.io/Multi-Step-Form/",
     linkGit: "https://github.com/MohamedAyman22E/Multi-Step-Form",
+    img: img44,
   },
   {
     id: 45,
@@ -432,6 +481,7 @@ export const Works = [
     date: "29 Nov, 2023",
     link: "https://mohamedayman22e.github.io/Portfolio-4/",
     linkGit: "https://github.com/MohamedAyman22E/Portfolio-4",
+    img: img45,
   },
   {
     id: 46,
@@ -441,6 +491,7 @@ export const Works = [
     link: "https://mohamedayman22e.github.io/Build-A-Gradient-Color-Generator/",
     linkGit:
       "https://github.com/MohamedAyman22E/Build-A-Gradient-Color-Generator",
+    img: img46,
   },
   {
     id: 47,
@@ -450,6 +501,7 @@ export const Works = [
     link: "https://mohamedayman22e.github.io/Action-Menu-with-Custom-Checkbox-Toggle/",
     linkGit:
       "https://github.com/MohamedAyman22E/Action-Menu-with-Custom-Checkbox-Toggle",
+    img: img47,
   },
   {
     id: 48,
@@ -458,6 +510,7 @@ export const Works = [
     date: "30 Nov, 2023",
     link: "https://mohamedayman22e.github.io/watch/",
     linkGit: "https://github.com/MohamedAyman22E/watch",
+    img: img48,
   },
   {
     id: 49,
@@ -466,6 +519,7 @@ export const Works = [
     date: "30 Nov, 2023",
     link: "https://mohamedayman22e.github.io/Stop-watch/",
     linkGit: "https://github.com/MohamedAyman22E/Stop-watch",
+    img: img49,
   },
   {
     id: 50,
@@ -474,6 +528,7 @@ export const Works = [
     date: "1 Jan, 2024",
     link: "https://mohamedayman22e.github.io/Text-to-Speech-Converter/",
     linkGit: "https://github.com/MohamedAyman22E/Text-to-Speech-Converter",
+    img: img50,
   },
   {
     id: 51,
@@ -483,6 +538,7 @@ export const Works = [
     link: "https://mohamedayman22e.github.io/Custom-Right-Click-Context-Menu//",
     linkGit:
       "https://github.com/MohamedAyman22E/Custom-Right-Click-Context-Menu",
+    img: img51,
   },
   {
     id: 52,
@@ -491,6 +547,7 @@ export const Works = [
     date: "2 Jan, 2024",
     link: "https://mohamedayman22e.github.io/Star-Rating-System/",
     linkGit: "https://github.com/MohamedAyman22E/Star-Rating-System",
+    img: img52,
   },
   {
     id: 53,
@@ -499,6 +556,7 @@ export const Works = [
     date: "1 Des, 2023",
     link: "https://mohamedayman22e.github.io/Costom-select/",
     linkGit: "https://github.com/MohamedAyman22E/Costom-select",
+    img: img53,
   },
   {
     id: 54,
@@ -507,6 +565,7 @@ export const Works = [
     date: "1 Des, 2023",
     link: "https://mohamedayman22e.github.io/Calendar/",
     linkGit: "https://github.com/MohamedAyman22E/Calendar",
+    img: img54,
   },
   {
     id: 55,
@@ -515,6 +574,7 @@ export const Works = [
     date: "1 Des, 2023",
     link: "https://mohamedayman22e.github.io/Check-Email-Validation/",
     linkGit: "https://github.com/MohamedAyman22E/Check-Email-Validation",
+    img: img55,
   },
   {
     id: 56,
@@ -524,6 +584,7 @@ export const Works = [
     link: "https://mohamedayman22e.github.io/Draggable-Circular-Navigation-Menu/",
     linkGit:
       "https://github.com/MohamedAyman22E/Draggable-Circular-Navigation-Menu",
+    img: img56,
   },
   {
     id: 57,
@@ -532,6 +593,7 @@ export const Works = [
     date: "2 Des, 2023",
     link: "https://mohamedayman22e.github.io/calculation/",
     linkGit: "https://github.com/MohamedAyman22E/calculation",
+    img: img57,
   },
   {
     id: 58,
@@ -540,6 +602,7 @@ export const Works = [
     date: "2 Des, 2023",
     link: "https://mohamedayman22e.github.io/Simple-Contact/",
     linkGit: "https://github.com/MohamedAyman22E/Simple-Contact",
+    img: img58,
   },
   {
     id: 59,
@@ -548,6 +611,7 @@ export const Works = [
     date: "28 Nov, 2023",
     link: "https://magnificent-lollipop-70c4ae.netlify.app/",
     linkGit: "https://github.com/MohamedAyman22E/Volit",
+    img: img59,
   },
   {
     id: 60,
@@ -556,6 +620,7 @@ export const Works = [
     date: "16 Oct, 2023",
     link: "https://mohamedayman22e.github.io/Foodcap/",
     linkGit: "https://github.com/MohamedAyman22E/Foodcap",
+    img: img60,
   },
   {
     id: 61,
@@ -564,6 +629,7 @@ export const Works = [
     date: "17 Oct, 2023",
     link: "https://mohamedayman22e.github.io/Food-project/",
     linkGit: "https://github.com/MohamedAyman22E/Food-project",
+    img: img61,
   },
   {
     id: 62,
@@ -572,6 +638,7 @@ export const Works = [
     date: "20 Oct, 2023",
     link: "https://mohamedayman22e.github.io/Electronic-Shop/",
     linkGit: "https://github.com/MohamedAyman22E/Electronic-Shop",
+    img: img62,
   },
   {
     id: 63,
@@ -580,6 +647,7 @@ export const Works = [
     date: "21 Oct, 2023",
     link: "https://mohamedayman22e.github.io/CISECO/",
     linkGit: "https://github.com/MohamedAyman22E/CISECO",
+    img: img63,
   },
   {
     id: 64,
@@ -588,6 +656,7 @@ export const Works = [
     date: "22 Oct, 2023",
     link: "https://mohamedayman22e.github.io/PLANTEX/",
     linkGit: "https://github.com/MohamedAyman22E/PLANTEX",
+    img: img64,
   },
   {
     id: 65,
@@ -596,6 +665,7 @@ export const Works = [
     date: "24 Oct, 2023",
     link: "https://mohamedayman22e.github.io/BAILO/",
     linkGit: "https://github.com/MohamedAyman22E/BAILO",
+    img: img65,
   },
   {
     id: 66,
@@ -604,6 +674,7 @@ export const Works = [
     date: "26 Oct, 2023",
     link: "https://mohamedayman22e.github.io/FIXPRO/",
     linkGit: "https://github.com/MohamedAyman22E/FIXPRO",
+    img: img66,
   },
   {
     id: 67,
@@ -612,6 +683,7 @@ export const Works = [
     date: "27 Oct, 2023",
     link: "https://mohamedayman22e.github.io/Education-/",
     linkGit: "https://github.com/MohamedAyman22E/Education-",
+    img: img67,
   },
   {
     id: 68,
@@ -620,6 +692,7 @@ export const Works = [
     date: "27 Oct, 2023",
     link: "https://mohamedayman22e.github.io/Dreams/",
     linkGit: "https://github.com/MohamedAyman22E/Dreams",
+    img: img68,
   },
   {
     id: 69,
@@ -628,6 +701,7 @@ export const Works = [
     date: "29 Oct, 2023",
     link: "https://mohamedayman22e.github.io/BARBER/",
     linkGit: "https://github.com/MohamedAyman22E/BARBER",
+    img: img69,
   },
   {
     id: 70,
@@ -636,6 +710,7 @@ export const Works = [
     date: "31 Oct, 2023",
     link: "https://mohamedayman22e.github.io/Educe/",
     linkGit: "https://github.com/MohamedAyman22E/Educe",
+    img: img70,
   },
   {
     id: 71,
@@ -644,6 +719,7 @@ export const Works = [
     date: "27 Oct, 2023",
     link: "https://mohamedayman22e.github.io/Foods/",
     linkGit: "https://github.com/MohamedAyman22E/Foods",
+    img: img71,
   },
   {
     id: 72,
@@ -652,6 +728,7 @@ export const Works = [
     date: "2 Nov, 2023",
     link: "https://mohamedayman22e.github.io/Book/",
     linkGit: "https://github.com/MohamedAyman22E/Book",
+    img: img72,
   },
   {
     id: 73,
@@ -660,6 +737,7 @@ export const Works = [
     date: "4 Nov, 2023",
     link: "https://majestic-lokum-15a5b0.netlify.app/",
     linkGit: "https://github.com/MohamedAyman22E/BURGERs",
+    img: img73,
   },
   {
     id: 74,
@@ -668,6 +746,7 @@ export const Works = [
     date: "5 Nov, 2023",
     link: "https://mohamedayman22e.github.io/Portfolio-2/",
     linkGit: "https://github.com/MohamedAyman22E/Portfolio-2",
+    img: img74,
   },
   {
     id: 75,
@@ -676,6 +755,7 @@ export const Works = [
     date: "7 Nov, 2023",
     link: "https://mohamedayman22e.github.io/Dizme/",
     linkGit: "https://github.com/MohamedAyman22E/Dizme",
+    img: img75,
   },
   {
     id: 76,
@@ -684,6 +764,7 @@ export const Works = [
     date: "9 Nov, 2023",
     link: "https://mohamedayman22e.github.io/Portfolio-3/",
     linkGit: "https://github.com/MohamedAyman22E/Portfolio-3",
+    img: img76,
   },
   {
     id: 77,
@@ -692,6 +773,7 @@ export const Works = [
     date: "11 Nov, 2023",
     link: "https://mohamedayman22e.github.io/Car-/",
     linkGit: "https://github.com/MohamedAyman22E/Car-",
+    img: img77,
   },
   {
     id: 78,
@@ -700,6 +782,7 @@ export const Works = [
     date: "13 Nov, 2023",
     link: "https://mohamedayman22e.github.io/Elmiz/",
     linkGit: "https://github.com/MohamedAyman22E/Elmiz",
+    img: img78,
   },
   {
     id: 79,
@@ -708,6 +791,7 @@ export const Works = [
     date: "16 Nov, 2023",
     link: "https://mohamedayman22e.github.io/Join/",
     linkGit: "https://github.com/MohamedAyman22E/Join",
+    img: img79,
   },
   {
     id: 80,
@@ -716,6 +800,7 @@ export const Works = [
     date: "19 Nov, 2023",
     link: "https://mohamedayman22e.github.io/Creway/",
     linkGit: "https://github.com/MohamedAyman22E/Creway",
+    img: img80,
   },
   {
     id: 81,
@@ -724,6 +809,7 @@ export const Works = [
     date: "22 Nov, 2023",
     link: "https://mohamedayman22e.github.io/Drawing-App/",
     linkGit: "https://github.com/MohamedAyman22E/Drawing-App",
+    img: img81,
   },
   {
     id: 82,
@@ -732,6 +818,7 @@ export const Works = [
     date: "25 Nov, 2023",
     link: "https://mohamedayman22e.github.io/Bingles/",
     linkGit: "https://github.com/MohamedAyman22E/Bingles",
+    img: img82,
   },
   {
     id: 83,
@@ -740,5 +827,6 @@ export const Works = [
     date: "5 Mar, 2023",
     link: "https://mohamedayman22e.github.io/Food-/",
     linkGit: "https://github.com/MohamedAyman22E/Food-",
+    img: img83,
   },
 ];

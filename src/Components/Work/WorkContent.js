@@ -3,7 +3,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { Github } from "../AllSvg/AllSvg";
-// import { DarkThem } from "../../global/Thems";
 const Container = styled(motion.div)``;
 const Box = styled(motion.div)`
   width: calc(10rem + 12vw);
@@ -75,21 +74,6 @@ const Code = styled.div`
   align-items: center;
   justify-content: space-between;
 `;
-// const DemoBtn = styled.button`
-//   border: none;
-//   outline: none;
-//   padding: 10px 0px;
-//   border-radius: 2px;
-//   background-color: ${props => props.theme.text};
-//   color: ${props => props.theme.body};
-//   transition: 0.3s;
-//   ${Box}:hover & {
-//     & > * {
-//       background-color: ${props => props.theme.body};
-//       color: ${props => props.theme.text};
-//     }
-//   }
-// `;
 const Demo = styled(Link)`
   text-decoration: none;
   border-radius: 2px;
@@ -97,11 +81,10 @@ const Demo = styled(Link)`
   background-color: ${props => props.theme.text};
   color: ${props => props.theme.body};
   font-weight: 600;
+  transition: all.3s;
   ${Box}:hover & {
-    & > * {
-      background-color: ${props => props.theme.body};
-      color: ${props => props.theme.text};
-    }
+    background-color: ${props => props.theme.body};
+    color: ${props => props.theme.text};
   }
 `;
 const Git = styled(Link)`

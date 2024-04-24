@@ -4,7 +4,7 @@ import music from "../assets/audio/003.mp3";
 const Box = styled.div`
   position: fixed;
   top: 3rem;
-  left: 9rem;
+  left: 7rem;
   z-index: 1111100000000000;
   @media (max-width: 850px) {
     left: 7rem;
