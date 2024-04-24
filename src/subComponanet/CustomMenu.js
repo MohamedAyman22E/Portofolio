@@ -19,6 +19,15 @@ const Menu = styled.div`
   @media (max-width: 700px) {
     width: 240px;
   }
+  @media (max-width: 600px) {
+    width: 220px;
+  }
+  @media (max-width: 500px) {
+    width: 200px;
+  }
+  @media (max-width: 400px) {
+    width: 150px;
+  }
 `;
 const Chose = styled.div`
   margin: 0px 0;
@@ -47,6 +56,12 @@ const Chose = styled.div`
   @media (max-width: 700px) {
     font-size: 15px;
   }
+  @media (max-width: 600px) {
+    font-size: 13px;
+  }
+  @media (max-width: 500px) {
+    font-size: 10px;
+  }
 `;
 const IconRight = styled.span``;
 const Arrow = styled.div`
@@ -57,7 +72,7 @@ const Hidden = styled.div`
   position: absolute;
   right: -200px;
   top: 45%;
-  transform: translateY(-50%);
+  transform: translate(10%, -50%);
   background-color: ${props => props.theme.text};
   box-shadow: 0 0 5px ${props => props.theme.body};
   color: ${props => props.theme.body};
