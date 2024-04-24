@@ -13,7 +13,7 @@ const Logo = styled.h1`
   }
 `;
 const LogoComponents = props => {
-  return <Logo color={props.theme}>M.A</Logo>;
+  return <Logo color={props.theme}>Mfdsafdsa.A</Logo>;
 };
 
 export default LogoComponents;
