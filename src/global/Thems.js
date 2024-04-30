@@ -7,7 +7,6 @@ export const lightThem = {
 export const DarkThem = {
   body: "#000000",
   text: "#FcF6F4",
-  // fontFamily: "'Source Sans Pro', sans-serif",
   textRgba: "252, 246, 244",
   bodyRgba: "0,0,0",
 };

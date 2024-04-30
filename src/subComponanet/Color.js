@@ -186,6 +186,10 @@ const SpanColor = styled.span`
   width: 25px;
   height: 25px;
   border-radius: 50%;
+  border: 3px solid #fff;
+  &.add {
+    border: 3px solid #000;
+  }
   cursor: pointer;
   &:nth-child(1) {
     background-color: #6b4ce6;
@@ -219,11 +223,16 @@ const ColorItem = styled.span`
   height: 40px;
   border-radius: 2px;
   background-color: var(--bg-Color);
-  border: 2px solid #fff;
+  border: 3px solid #fff;
   line-height: 40px;
+  &.add {
+    border: 3px solid #000;
+  }
 `;
 const Color = ({ SetColorMenu }) => {
   const [next, setNext] = useState(false);
+  const [changeBackGround, setChangeBackGround] = useState();
+  const [changeColor, setChangeColor] = useState();
   const handelClickNext = () => {
     setNext(true);
   };
@@ -241,28 +250,51 @@ const Color = ({ SetColorMenu }) => {
     "#30336b",
     "#30336b",
   ];
-  const setColor = event => {
-    const currentColor = event.target.style.getPropertyValue("background");
-    document.querySelector("body").style.backgroundColor = currentColor;
-    lightThem.body = currentColor;
-    lightThem.text = currentColor;
-    lightThem.bodyRgba = currentColor;
-    event.target.style.border = "2px solid #000";
-    document.querySelectorAll(".allSpan span").forEach(e => {
-      e.addEventListener("click", () => {
-        document.querySelectorAll(".allSpan span").forEach(x => {
-          x.classList.remove("add");
-          x.style.border = "3px solid #fff";
-        });
-        e.classList.add("add");
-        e.style.border = "3px solid #000";
+  document.querySelectorAll(".allSpan span").forEach(e => {
+    e.addEventListener("click", () => {
+      document.querySelectorAll(".allSpan span").forEach(x => {
+        x.classList.remove("add");
+        x.style.border = "3px solid #fff";
       });
+      e.classList.add("add");
+      e.style.border = "3px solid #000";
+      let currentBackGround = window
+        .getComputedStyle(e)
+        .getPropertyValue("background-color");
+      lightThem.body = currentBackGround;
+      setChangeBackGround(currentBackGround);
+      localStorage.setItem("BackGround", currentBackGround);
+      if (localStorage.getItem("BackGround")) {
+        document.querySelector("body").style.backgroundColor =
+          localStorage.getItem("BackGround");
+      }
     });
-  };
-  useEffect(() => {
-    document.addEventListener("click", setColor);
-    return document.removeEventListener("click", setColor);
   });
+  // color
+  document.querySelectorAll(".colChange span").forEach(e => {
+    e.addEventListener("click", () => {
+      document.querySelectorAll(".colChange span").forEach(x => {
+        x.classList.remove("add");
+        x.style.border = "3px solid #fff";
+      });
+      e.classList.add("add");
+      e.style.border = "3px solid #000";
+      let changeColor = window
+        .getComputedStyle(e)
+        .getPropertyValue("background-color");
+      lightThem.text = changeColor;
+      setChangeColor(changeColor);
+      localStorage.setItem("Color", changeColor);
+      if (localStorage.getItem("Color")) {
+        document.querySelector("body").style.color =
+          localStorage.getItem("Color");
+      }
+    });
+  });
+
+  useEffect(() => {
+    document.body.style.backgroundColor = changeBackGround;
+  }, [changeBackGround, changeColor]);
   document.querySelectorAll(".allFontSize span").forEach(e => {
     e.addEventListener("click", () => {
       document.querySelectorAll(".allFontSize span").forEach(x => {
@@ -286,6 +318,11 @@ const Color = ({ SetColorMenu }) => {
         e.classList.add("active");
       }
       document.querySelector("html").style.fontSize = fontSize;
+      window.localStorage.setItem("fontSize", fontSize);
+      if (window.localStorage.getItem("fontSize")) {
+        document.querySelector("body").style.fontSize =
+          window.localStorage.getItem("fontSize");
+      }
     });
   });
   // font family
@@ -295,7 +332,6 @@ const Color = ({ SetColorMenu }) => {
         x.classList.remove("active");
       });
       let fontFamily;
-
       if (e.classList.contains("font-family-1")) {
         fontFamily = "'Dancing Script', cursive";
         e.classList.add("active");
@@ -321,13 +357,14 @@ const Color = ({ SetColorMenu }) => {
         fontFamily = "'Amatic SC', sans-serif";
         e.classList.add("active");
       }
-      window.localStorage.setItem("fontFamily", fontFamily);
-      if (window.localStorage.getItem("fontFamily")) {
+      localStorage.setItem("fontFamily", fontFamily);
+      if (localStorage.getItem("fontFamily")) {
         document.querySelector("body").style.fontFamily =
-          window.localStorage.getItem("fontFamily");
+          localStorage.getItem("fontFamily");
       }
     });
   });
+
   return (
     <motion.div
       initial={{ scale: 0 }}
@@ -417,7 +454,7 @@ const Color = ({ SetColorMenu }) => {
               <ColorMenu>
                 <TitleFontSize>color</TitleFontSize>
                 <ChangeColor>
-                  <AllSpanColor className="">
+                  <AllSpanColor className="colChange">
                     <SpanColor></SpanColor>
                     <SpanColor></SpanColor>
                     <SpanColor></SpanColor>
@@ -434,7 +471,6 @@ const Color = ({ SetColorMenu }) => {
                       <ColorItem
                         key={index}
                         style={{ background: color }}
-                        onClick={setColor}
                       ></ColorItem>
                     ))}
                   </AllSpanBackGroundColor>
