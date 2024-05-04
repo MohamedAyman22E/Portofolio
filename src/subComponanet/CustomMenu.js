@@ -1,10 +1,11 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { FaLink } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import Color from "./Color";
 import { FaAngleRight } from "react-icons/fa";
 import { BsFullscreen } from "react-icons/bs";
+import { useTranslation } from "react-i18next";
 const Menu = styled.div`
   position: absolute;
   width: 300px;
@@ -72,7 +73,7 @@ const Hidden = styled.div`
   position: absolute;
   right: -200px;
   top: 45%;
-  transform: translate(10%, -50%);
+  transform: translate(5%, -50%);
   background-color: ${props => props.theme.text};
   box-shadow: 0 0 5px ${props => props.theme.body};
   color: ${props => props.theme.body};
@@ -90,7 +91,7 @@ const Hidden = styled.div`
   @media (max-width: 800px) {
     width: 150px;
     height: 260px;
-    transform: translate(-17%, -50%);
+    transform: translate(-20%, -50%);
     top: 50%;
   }
   @media (max-width: 700px) {
@@ -174,6 +175,18 @@ const CustomMenu = () => {
       element.requestFullscreen();
     }
   };
+  // Language
+  const { i18n } = useTranslation();
+  const changeEn = () => {
+    i18n.changeLanguage("en");
+  };
+  const changeFr = () => {
+    i18n.changeLanguage("fr");
+  };
+  const changeSp = () => {
+    i18n.changeLanguage("sp");
+  };
+
   return (
     <div>
       <div
@@ -225,11 +238,9 @@ const CustomMenu = () => {
               <FaAngleRight />
             </IconRight>
             <Hidden className="hidden">
-              <NameTwo>Ar</NameTwo>
-              <NameTwo>En</NameTwo>
-              <NameTwo>Fr</NameTwo>
-              <NameTwo>Ch</NameTwo>
-              <NameTwo>Ru</NameTwo>
+              <NameTwo onClick={() => changeEn()}>En</NameTwo>
+              <NameTwo onClick={() => changeFr()}>Fr</NameTwo>
+              <NameTwo onClick={() => changeSp()}>Sp</NameTwo>
             </Hidden>
           </Chose>
           <Chose>

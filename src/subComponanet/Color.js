@@ -25,6 +25,21 @@ const Box = styled.div`
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   display: ${props => (props.close ? "none" : "block")};
   text-align: center;
+  @media (max-width: 525px) {
+    width: 450px;
+  }
+  @media (max-width: 485px) {
+    width: 400px;
+  }
+  @media (max-width: 420px) {
+    width: 350px;
+  }
+  @media (max-width: 360px) {
+    width: 330px;
+  }
+  @media (max-width: 340px) {
+    width: 300px;
+  }
 `;
 const CloseIcon = styled.span`
   position: absolute;
@@ -79,17 +94,29 @@ const BoxColor = styled.div`
 // change box
 const H2 = styled.h2`
   font-size: 30px;
+  @media (max-width: 360px) {
+    font-size: 25px;
+  }
 `;
 const H3 = styled.h3`
   font-size: 15px;
+  @media (max-width: 360px) {
+    font-size: 12px;
+  }
 `;
 const FontSize = styled.div`
   position: relative;
   padding: 0 30px;
   margin-top: 10px;
+  @media (max-width: 360px) {
+    padding: 0 15px;
+  }
 `;
 const TitleFontSize = styled.h3`
   font-size: 25px;
+  @media (max-width: 360px) {
+    font-size: 20px;
+  }
 `;
 const Change = styled.div`
   background-color: ${props => `rgb(${props.theme.textRgba},.6)`};
@@ -99,6 +126,9 @@ const Change = styled.div`
   justify-content: space-between;
   padding: 10px 15px;
   border-radius: 30px;
+  @media (max-width: 360px) {
+    padding: 6px 10px;
+  }
 `;
 const Small = styled.h4`
   font-size: 20px;
@@ -142,6 +172,9 @@ const AllSpanFontFamily = styled.div`
   grid-template-columns: repeat(4, 1fr);
   gap: 8px;
   margin-top: 10px;
+  @media (max-width: 360px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
 `;
 const SpanFamily = styled.div`
   height: 40px;
@@ -149,6 +182,9 @@ const SpanFamily = styled.div`
   background-color: var(--bg-Color);
   border: 2px solid #fff;
   line-height: 40px;
+  @media (max-width: 360px) {
+    font-size: 15px;
+  }
   cursor: pointer;
   &.active {
     background-color: #000;
@@ -157,6 +193,9 @@ const SpanFamily = styled.div`
 `;
 const TitleFontFamily = styled.h2`
   font-size: 30px;
+  @media (max-width: 360px) {
+    font-size: 20px;
+  }
 `;
 // color
 const ColorMenu = styled.div`
@@ -291,7 +330,6 @@ const Color = ({ SetColorMenu }) => {
       }
     });
   });
-
   useEffect(() => {
     document.body.style.backgroundColor = changeBackGround;
   }, [changeBackGround, changeColor]);

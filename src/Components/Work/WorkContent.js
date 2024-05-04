@@ -113,11 +113,9 @@ const WorkContent = props => {
         </Skills>
         <Date>{date}</Date>
         <Code>
-          {/* <DemoBtn> */}
           <Demo target="_blank" to={link}>
             Demo
           </Demo>
-          {/* </DemoBtn> */}
           <Git target="_blank" to={linkGit}>
             <Github
               width={25}

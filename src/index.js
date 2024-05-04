@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 import Loading from "./subComponanet/Loading";
+import "./Language/i18n";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 const LazyLoading = React.lazy(() => import("./App"));
 

@@ -7,6 +7,7 @@ import { NavLink } from "react-router-dom";
 import { YinYang } from "../AllSvg/AllSvg";
 import Hero from "../Hero/Hero";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 const MainContainer = styled.div`
   background: ${props => props.theme.body};
   width: 100vw;
@@ -144,6 +145,7 @@ const Main = () => {
   const handelClick = () => setClick(!click);
   const [clickWork, setClickWork] = useState(false);
   const handelClickWork = () => setClickWork(!clickWork);
+  const { t } = useTranslation();
   return (
     <MainContainer click={click}>
       <Container>
@@ -158,7 +160,7 @@ const Main = () => {
             height={click ? "120" : "200"}
             fill="currentColor"
           />
-          <span>Click hera</span>
+          <span> {t("ClickHere")}</span>
         </Center>
         <SayHi to="/say">
           <motion.h2
@@ -173,7 +175,7 @@ const Main = () => {
               transition: { type: "spring", duration: 1.5, delay: 1 },
             }}
           >
-            Say hi..
+            {t("SayHi")}
           </motion.h2>
         </SayHi>
         <Work to="/work" onClick={() => handelClickWork()}>
@@ -189,7 +191,7 @@ const Main = () => {
               transition: { type: "spring", duration: 1.5, delay: 1 },
             }}
           >
-            Work
+            {t("WorkLink")}
           </motion.h2>
         </Work>
         <Skills to="/skills">
@@ -205,7 +207,7 @@ const Main = () => {
               transition: { type: "spring", duration: 1.5, delay: 1 },
             }}
           >
-            My Skill
+            {t("Skills")}
           </motion.h2>
         </Skills>
         <About to="/about" click={click}>
@@ -221,7 +223,7 @@ const Main = () => {
               transition: { type: "spring", duration: 1.5, delay: 1 },
             }}
           >
-            About.
+            {t("About")}
           </motion.h2>
         </About>
         <Blog to="/blog" click={click}>
@@ -237,7 +239,7 @@ const Main = () => {
               transition: { type: "spring", duration: 1.5, delay: 1 },
             }}
           >
-            Blog
+            {t("Blog")}
           </motion.h2>
         </Blog>
       </Container>
