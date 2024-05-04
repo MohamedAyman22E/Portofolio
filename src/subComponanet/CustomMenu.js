@@ -6,6 +6,7 @@ import Color from "./Color";
 import { FaAngleRight } from "react-icons/fa";
 import { BsFullscreen } from "react-icons/bs";
 import { useTranslation } from "react-i18next";
+import I18nextBrowserLanguageDetector from "i18next-browser-languagedetector/cjs";
 const Menu = styled.div`
   position: absolute;
   width: 300px;
@@ -177,16 +178,25 @@ const CustomMenu = () => {
   };
   // Language
   const { i18n } = useTranslation();
+  console.log(i18n.language);
   const changeEn = () => {
     i18n.changeLanguage("en");
+    document.querySelector("html").lang = "en";
   };
   const changeFr = () => {
     i18n.changeLanguage("fr");
+    document.querySelector("html").lang = "fr";
   };
   const changeSp = () => {
     i18n.changeLanguage("sp");
+    document.querySelector("html").lang = "sp";
   };
-
+  console.log(document.querySelector("html").lang);
+  useEffect(() => {
+    window.localStorage.setItem("language", i18n.language);
+    document.querySelector("html").lang =
+      window.localStorage.getItem("language");
+  }, [i18n.language]);
   return (
     <div>
       <div

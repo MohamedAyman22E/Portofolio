@@ -7,8 +7,9 @@ import Card from "./Card";
 import { YinYang } from "../AllSvg/AllSvg";
 import { DarkThem } from "../../global/Thems";
 import { motion } from "framer-motion";
-import SoundBar from "../../subComponanet/SoundBar";
-import allBlogData from "../../data/BlogData";
+import En from "../../data/Blog_En";
+import Fr from "../../data/Blog_Fr";
+import Sp from "../../data/Blog_Sp";
 const WorkContainer = styled.div`
   background-color: ${props => props.theme.text};
   height: 400vh;
@@ -71,7 +72,14 @@ const Work = () => {
       <SocialIcon theme={"light"} />
       <Logo>BLOG</Logo>
       <MainWork ref={ref} variants={container} initial="hidden" animate="show">
-        {allBlogData.map(item => (
+        {(document.querySelector("html").lang === "en"
+          ? En
+          : document.querySelector("html").lang === "fr"
+          ? Fr
+          : document.querySelector("html").lang === "sp"
+          ? Sp
+          : En
+        ).map(item => (
           <Card key={item} data={item} />
         ))}
       </MainWork>

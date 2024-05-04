@@ -1,4 +1,4 @@
-const allBlogData = [
+const En = [
   {
     id: 1,
     name: "Agency Landing Page",
@@ -60,4 +60,4 @@ const allBlogData = [
     github: "https://github.com/codebucks27/React-responsive-navbar",
   },
 ];
-export default allBlogData;
+export default En;

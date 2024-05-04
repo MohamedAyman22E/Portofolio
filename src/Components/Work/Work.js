@@ -4,10 +4,12 @@ import LogoComponents from "../../subComponanet/LogoComponents";
 import SocialIcon from "../../subComponanet/SocialIcon";
 import styled from "styled-components";
 import img from "../../assets/Images/patrick-tomasso-Oaqk7qqNh_c-unsplash.jpg";
-import BlogContent from "./WorkContent";
 import AnchorContainer from "./Anchor";
 import { motion } from "framer-motion";
-import { Works } from "../../data/WorksData";
+import En from "../../data/Work_En";
+import Fr from "../../data/Work_Fr";
+import Sp from "../../data/Work_Sp";
+import WorkContent from "./WorkContent";
 const MainContainer = styled(motion.div)`
   background-image: url(${img});
   background-position: center;
@@ -72,9 +74,16 @@ const Work = () => {
         <Logo>WORK</Logo>
         <Center>
           <Grid>
-            {Works.map(blog => {
-              return <BlogContent key={blog.id} blog={blog} />;
-            })}
+            {(document.querySelector("html").lang === "en"
+              ? En
+              : document.querySelector("html").lang === "fr"
+              ? Fr
+              : document.querySelector("html").lang === "sp"
+              ? Sp
+              : En
+            ).map(item => (
+              <WorkContent key={item.id} blog={item} />
+            ))}
           </Grid>
         </Center>
       </Container>

@@ -3,6 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { Github } from "../AllSvg/AllSvg";
+import { useTranslation } from "react-i18next";
 const Container = styled(motion.div)``;
 const Box = styled(motion.div)`
   width: calc(10rem + 12vw);
@@ -76,7 +77,7 @@ const Code = styled.div`
 `;
 const Demo = styled(Link)`
   text-decoration: none;
-  border-radius: 2px;
+  border-radius: 4px;
   padding: 10px 25px;
   background-color: ${props => props.theme.text};
   color: ${props => props.theme.body};
@@ -98,6 +99,8 @@ const Git = styled(Link)`
 `;
 const WorkContent = props => {
   const { name, tags, date, link, linkGit, img } = props.blog;
+  const { t } = useTranslation();
+
   return (
     <Container variants={Item}>
       <Box>
@@ -114,7 +117,7 @@ const WorkContent = props => {
         <Date>{date}</Date>
         <Code>
           <Demo target="_blank" to={link}>
-            Demo
+            {t("Demo")}
           </Demo>
           <Git target="_blank" to={linkGit}>
             <Github
