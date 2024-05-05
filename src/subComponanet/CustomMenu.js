@@ -6,7 +6,19 @@ import Color from "./Color";
 import { FaAngleRight } from "react-icons/fa";
 import { BsFullscreen } from "react-icons/bs";
 import { useTranslation } from "react-i18next";
-import I18nextBrowserLanguageDetector from "i18next-browser-languagedetector/cjs";
+import img1 from "../assets/svg/Flag_of_the_United_States.svg.png";
+import img2 from "../assets/svg/Flag_of_France.svg.webp";
+import img3 from "../assets/svg/Flag_of_Spain.svg.webp";
+import img4 from "../assets/svg/Flag_of_Germany.svg.png";
+import img5 from "../assets/svg/Flag_of_Indonesia.svg.png";
+import img6 from "../assets/svg/Flag_of_Italy.svg.webp";
+import img7 from "../assets/svg/Flag_of_Portugal.svg.webp";
+import img8 from "../assets/svg/pngtree-turkish-flag-png-image_6135788.png";
+import img9 from "../assets/svg/Flag_of_Denmark.svg.png";
+import img10 from "../assets/svg/Flag_of_Russia.svg.png";
+import img11 from "../assets/svg/Flag_of_the_People's_Republic_of_China.svg.png";
+import img12 from "../assets/svg/Flag_of_North_Korea.svg.png";
+import img13 from "../assets/svg/Flag_of_Japan.svg.png";
 const Menu = styled.div`
   position: absolute;
   width: 300px;
@@ -127,6 +139,15 @@ const Line = styled.div`
 const Icon = styled.span`
   margin-top: 7px;
 `;
+const Img = styled.span`
+  width: 50px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  img {
+    width: 100%;
+  }
+`;
 const CustomMenu = () => {
   const [ShowMenu, SetShowMenu] = useState(false);
   const [colorMenu, SetColorMenu] = useState(false);
@@ -191,6 +212,47 @@ const CustomMenu = () => {
     i18n.changeLanguage("sp");
     document.querySelector("html").lang = "sp";
   };
+  const changeGe = () => {
+    i18n.changeLanguage("ge");
+    document.querySelector("html").lang = "ge";
+  };
+  const changeIn = () => {
+    i18n.changeLanguage("in");
+    document.querySelector("html").lang = "in";
+  };
+  const changeIt = () => {
+    i18n.changeLanguage("it");
+    document.querySelector("html").lang = "it";
+  };
+  const changePo = () => {
+    i18n.changeLanguage("po");
+    document.querySelector("html").lang = "po";
+  };
+  const changeTu = () => {
+    i18n.changeLanguage("tu");
+    document.querySelector("html").lang = "tu";
+  };
+  const changeRu = () => {
+    i18n.changeLanguage("ru");
+    document.querySelector("html").lang = "ru";
+  };
+  const changeKo = () => {
+    i18n.changeLanguage("ko");
+    document.querySelector("html").lang = "ko";
+  };
+  const changeJa = () => {
+    i18n.changeLanguage("js");
+    document.querySelector("html").lang = "ja";
+  };
+  const changeCh = () => {
+    i18n.changeLanguage("ch");
+    document.querySelector("html").lang = "ch";
+  };
+  const changeDa = () => {
+    i18n.changeLanguage("da");
+    document.querySelector("html").lang = "da";
+  };
+
   console.log(document.querySelector("html").lang);
   useEffect(() => {
     window.localStorage.setItem("language", i18n.language);
@@ -248,9 +310,84 @@ const CustomMenu = () => {
               <FaAngleRight />
             </IconRight>
             <Hidden className="hidden">
-              <NameTwo onClick={() => changeEn()}>En</NameTwo>
-              <NameTwo onClick={() => changeFr()}>Fr</NameTwo>
-              <NameTwo onClick={() => changeSp()}>Sp</NameTwo>
+              <NameTwo onClick={() => changeEn()}>
+                <Img>
+                  <img src={img1} alt="" />
+                  <span> English</span>
+                </Img>
+              </NameTwo>
+              <NameTwo onClick={() => changeFr()}>
+                <Img>
+                  <img src={img2} alt="" />
+                  <span> French</span>
+                </Img>
+              </NameTwo>
+              <NameTwo onClick={() => changeSp()}>
+                <Img>
+                  <img src={img3} alt="" />
+                  <span> Spanish</span>
+                </Img>
+              </NameTwo>
+              <NameTwo onClick={() => changeGe()}>
+                <Img>
+                  <img src={img4} alt="" />
+                  <span> German</span>
+                </Img>
+              </NameTwo>
+              <NameTwo onClick={() => changeIn()}>
+                <Img>
+                  <img src={img5} alt="" />
+                  <span>Indonesian</span>
+                </Img>
+              </NameTwo>
+              <NameTwo onClick={() => changeIt()}>
+                <Img>
+                  <img src={img6} alt="" />
+                  <span> Italian</span>
+                </Img>
+              </NameTwo>
+              <NameTwo onClick={() => changePo()}>
+                <Img>
+                  <img src={img7} alt="" />
+                  <span> Portugal</span>
+                </Img>
+              </NameTwo>
+              <NameTwo onClick={() => changeTu()}>
+                <Img>
+                  <img src={img8} alt="" />
+                  <span> Turkish</span>
+                </Img>
+              </NameTwo>
+              <NameTwo onClick={() => changeDa()}>
+                <Img>
+                  <img src={img9} alt="" />
+                  <span> Danish</span>
+                </Img>
+              </NameTwo>
+              <NameTwo onClick={() => changeRu()}>
+                <Img>
+                  <img src={img10} alt="" />
+                  <span> Russian</span>
+                </Img>
+              </NameTwo>
+              <NameTwo onClick={() => changeCh()}>
+                <Img>
+                  <img src={img11} alt="" />
+                  <span>Chinese</span>
+                </Img>
+              </NameTwo>
+              <NameTwo onClick={() => changeKo()}>
+                <Img>
+                  <img src={img12} alt="" />
+                  <span>Korean</span>
+                </Img>
+              </NameTwo>
+              <NameTwo onClick={() => changeJa()}>
+                <Img>
+                  <img src={img13} alt="" />
+                  <span>Japanese</span>
+                </Img>
+              </NameTwo>
             </Hidden>
           </Chose>
           <Chose>
