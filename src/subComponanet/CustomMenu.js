@@ -241,7 +241,7 @@ const CustomMenu = () => {
     document.querySelector("html").lang = "ko";
   };
   const changeJa = () => {
-    i18n.changeLanguage("js");
+    i18n.changeLanguage("ja");
     document.querySelector("html").lang = "ja";
   };
   const changeCh = () => {

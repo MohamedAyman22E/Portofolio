@@ -8,6 +8,12 @@ import dataCh from "./Local/Ch.json";
 import dataDa from "./Local/Da.json";
 import dataGe from "./Local/Ge.json";
 import dataIt from "./Local/It.json";
+import dataIn from "./Local/In.json";
+import dataKo from "./Local/Ko.json";
+import dataRu from "./Local/Ru.json";
+import dataPo from "./Local/Po.json";
+import dataTu from "./Local/Tu.json";
+import dataJa from "./Local/Ja.json";
 i18n
   .use(LanguageDetector)
   .use(initReactI18next)
@@ -28,31 +34,31 @@ i18n
         translation: dataGe,
       },
       in: {
-        translation: dataSp,
+        translation: dataIn,
       },
       it: {
         translation: dataIt,
       },
       po: {
-        translation: dataSp,
+        translation: dataPo,
       },
       tu: {
-        translation: dataSp,
+        translation: dataTu,
       },
       da: {
         translation: dataDa,
       },
       ru: {
-        translation: dataSp,
+        translation: dataRu,
       },
       ch: {
         translation: dataCh,
       },
       ko: {
-        translation: dataSp,
+        translation: dataKo,
       },
-      js: {
-        translation: dataSp,
+      ja: {
+        translation: dataJa,
       },
     },
   });

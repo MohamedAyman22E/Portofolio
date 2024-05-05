@@ -63,6 +63,7 @@ const Title = styled.div`
   img {
     width: 50px;
   }
+
   ${Main}:hover & {
     & > * {
       fill: ${props => props.theme.body};
@@ -163,7 +164,17 @@ const MySkills = () => {
           <Main>
             <Title>
               <Develope width={40} height={40} />
-              <Span>{t("FrontEnd")}</Span>
+              <Span
+              // style={{
+              //   fontSize: `${
+              //     document.querySelector("html").lang === "ge"
+              //       ? "20px"
+              //       : "calc(0.5em + 1.5vw)"
+              //   }`,
+              // }}
+              >
+                {t("FrontEnd")}
+              </Span>
             </Title>
 
             <Disc>{t("DescriptionFront")}</Disc>
