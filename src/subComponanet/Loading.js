@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import styled from "styled-components";
 const Load = styled.div`
   width: 100%;
@@ -13,9 +14,11 @@ const H2 = styled.div`
   font-size: 50px;
 `;
 const Loading = () => {
+  const { t } = useTranslation();
+
   return (
     <Load>
-      <H2>Loading...</H2>
+      <H2>{t("Loading")}</H2>
     </Load>
   );
 };

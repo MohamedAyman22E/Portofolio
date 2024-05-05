@@ -10,6 +10,7 @@ import En from "../../data/Work_En";
 import Fr from "../../data/Work_Fr";
 import Sp from "../../data/Work_Sp";
 import WorkContent from "./WorkContent";
+import { useTranslation } from "react-i18next";
 const MainContainer = styled(motion.div)`
   background-image: url(${img});
   background-position: center;
@@ -59,6 +60,8 @@ const container = {
   },
 };
 const Work = () => {
+  const { t } = useTranslation();
+
   return (
     <MainContainer
       variants={container}
@@ -71,7 +74,7 @@ const Work = () => {
         <LogoComponents theme={"dark"} />
         <SocialIcon theme={"dark"} />
         <AnchorContainer />
-        <Logo>WORK</Logo>
+        <Logo>{t("Work")}</Logo>
         <Center>
           <Grid>
             {(document.querySelector("html").lang === "en"

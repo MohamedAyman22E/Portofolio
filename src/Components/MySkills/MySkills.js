@@ -5,6 +5,7 @@ import PowerButton from "../../subComponanet/PowerButton";
 import LogoComponents from "../../subComponanet/LogoComponents";
 import SocialIcon from "../../subComponanet/SocialIcon";
 import { Design, Develope } from "../AllSvg/AllSvg";
+import { useTranslation } from "react-i18next";
 const SkillContainer = styled.div`
   background-color: ${props => props.theme.body};
 `;
@@ -129,58 +130,50 @@ const Logo = styled.h3`
   }
 `;
 const MySkills = () => {
+  const { t } = useTranslation();
   return (
     <SkillContainer theme={lightThem}>
       <Box>
         <PowerButton />
-        <Logo>Skills</Logo>
+        <Logo>{t("Skills")}</Logo>
         <LogoComponents theme={"dark"} />
         <SocialIcon theme={"dark"} />
         <AllMain>
           <Main>
             <Title>
               <Design width={40} height={40} />
-              <Span>Designer</Span>
+              <Span>{t("Designer")}</Span>
             </Title>
 
-            <Disc>
-              I love to create design which speaks, Keep it clean, minimal and
-              simple.
-            </Disc>
+            <Disc>{t("DescriptionDesign")}</Disc>
             <Ul1>
-              <H2>I LIKE TO DESIGN</H2>
+              <H2>{t("H2Design")}</H2>
               <ul>
-                <li>Web Design</li>
-                <li>Mobile Apps</li>
+                <li>{t("Li1WebDesign")}</li>
+                <li>{t("Li2WebDesign")}</li>
               </ul>
             </Ul1>
             <Ul1>
-              <H2>TOOLS</H2>
+              <H2>{t("ScendWebDesign")}</H2>
               <ul>
-                <li>Figma</li>
+                <li>{t("Figma")}</li>
               </ul>
             </Ul1>
           </Main>
           <Main>
             <Title>
               <Develope width={40} height={40} />
-              <Span>Frontend Developer</Span>
+              <Span>{t("FrontEnd")}</Span>
             </Title>
 
-            <Disc>
-              I value business or brand for which i'm creating, thus i enjoy
-              bringing new ideas to life.
-            </Disc>
+            <Disc>{t("DescriptionFront")}</Disc>
             <Ul1>
-              <H2>SKILLS</H2>
-              <Skill>
-                Html, Css, Js, React, Redux, Sass, Bootstrap, Tailwind, Firebase
-                etc.
-              </Skill>
+              <H2> {t("H2Front")}</H2>
+              <Skill>{t("SkillsFront")}</Skill>
             </Ul1>
             <Ul1>
-              <H2>TOOLS</H2>
-              <Skill>VScode, Github, Codepen etc.</Skill>
+              <H2> {t("Li2WebFront")}</H2>
+              <Skill>{t("Git")}</Skill>
             </Ul1>
           </Main>
         </AllMain>

@@ -5,6 +5,7 @@ import PowerButton from "../../subComponanet/PowerButton";
 import LogoComponents from "../../subComponanet/LogoComponents";
 import SocialIcon from "../../subComponanet/SocialIcon";
 import imgMan from "../../assets/Images/spaceman.png";
+import { useTranslation } from "react-i18next";
 const SkillContainer = styled.div`
   background-color: ${props => props.theme.body};
 `;
@@ -45,10 +46,10 @@ const Ul1 = styled.h2`
   margin: 25px 0;
   font-size: calc(0.5em + 0.9vw);
   line-height: 30px;
-  @media (max-width: 700px) {
+  @media (max-width: 860px) {
     margin: 20px 0;
   }
-  @media (max-width: 422px) {
+  @media (max-width: 460px) {
     margin: 10px 0;
   }
   @media (max-width: 350px) {
@@ -85,27 +86,19 @@ const SpaceMan = styled.div`
   }
 `;
 const MySkills = () => {
+  const { t } = useTranslation();
+
   return (
     <SkillContainer theme={DarkThem}>
       <Box>
         <PowerButton />
-        <Logo>ABOUT</Logo>
+        <Logo>{t("About")}</Logo>
         <LogoComponents theme={"light"} />
         <SocialIcon theme={"light"} />
         <Main>
-          <Ul1>
-            I'm a front-end developer located in Egypt. I love to create simple
-            yet beautiful websites with great user experience.
-          </Ul1>
-          <Ul1>
-            I'm interested in the whole frontend stack Like trying new things
-            and building great projects. I'm an independent freelancer . I love
-            to write blogs and read books.
-          </Ul1>
-          <Ul1>
-            I believe everything is an Art when you put your consciousness in
-            it. You can connect with me via social links.
-          </Ul1>
+          <Ul1>{t("AboutUL1")}</Ul1>
+          <Ul1>{t("AboutUL2")}</Ul1>
+          <Ul1>{t("AboutUL3")}</Ul1>
         </Main>
         <SpaceMan>
           <img src={imgMan} alt="" />

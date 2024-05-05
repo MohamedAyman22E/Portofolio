@@ -5,6 +5,30 @@
     "Skills": "Habilidades",
     "About": "Acerca de",
     "Blog": "Blog",
-    "Demo":"Intentar"
+    "Demo":"Intentar",
+    "Work":"TRABAJAR",
+    "Hi":"Hola",
+    "Name":"Soy Mohamed Aymán.",
+    "Details":"Soy ingeniero de software, desarrollador de pila completa.",
+    "Designer":"Diseñador",
+    "DescriptionDesign":"Me encanta crear diseños que hablen. Mantenlos limpios, minimalistas y simples.",
+    "H2Design":"ME GUSTA DISEÑAR",
+    "Li1WebDesign":"Diseño web",
+    "Li2WebDesign":"Aplicaciones móviles",
+    "ScendWebDesign":"HERRAMIENTAS",
+    "Figma":"figura",
+    "FrontEnd":"Desarrollador frontend",
+    "DescriptionFront":" Valoro el negocio o la marca para la que estoy creando, por eso disfruto dando vida a nuevas ideas.",
+    "H2Front":"HABILIDADES",
+    "SkillsFront":"Html, Css, Js, React, Redux, Sass, Bootstrap, Tailwind, Firebase etc.",
+    "Li2WebFront":"HERRAMIENTAS",
+    "Git":"VScode, Github, Codepen etc.",
+    "AboutUL1":" Soy un desarrollador front-end ubicado en Egipto. Me encanta crear sitios web simples pero hermosos con una excelente experiencia de usuario.",
+    "AboutUL2":" Estoy interesado en toda la pila de frontend, como probar cosas nuevas y crear grandes proyectos. Soy un profesional independiente. Me encanta escribir blogs y leer libros.",
+    "AboutUL3":" Creo que todo es Arte cuando pones tu conciencia en ello. Puedes conectarte conmigo a través de enlaces sociales.",
+    "Loading":"Cargando..."
+
+
+
 
 }

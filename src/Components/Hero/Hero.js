@@ -3,6 +3,7 @@ import styled from "styled-components";
 import videoMe from "../../assets/video/07bf80f9847c4a89bcc02f22615681aa.webm";
 import { motion } from "framer-motion";
 import ReactPlayer from "react-player";
+import { useTranslation } from "react-i18next";
 const Box = styled(motion.div)`
   display: flex;
   position: absolute;
@@ -102,6 +103,7 @@ const Video = styled.div`
   }
 `;
 const Hero = () => {
+  const { t } = useTranslation();
   return (
     <Box
       initial={{ height: 0 }}
@@ -110,9 +112,9 @@ const Hero = () => {
     >
       <SubBox>
         <Text>
-          <h1>Hi,</h1>
-          <h3>I'm Mohamed Ayman.</h3>
-          <h6>I'm software Engineer , full stack developer.</h6>
+          <h1>{t("Hi")},</h1>
+          <h3>{t("Name")}</h3>
+          <h6>{t("Details")}</h6>
         </Text>
       </SubBox>
       <SubBox className="Two">
