@@ -19,6 +19,7 @@ import img10 from "../assets/svg/Flag_of_Russia.svg.png";
 import img11 from "../assets/svg/Flag_of_the_People's_Republic_of_China.svg.png";
 import img12 from "../assets/svg/Flag_of_North_Korea.svg.png";
 import img13 from "../assets/svg/Flag_of_Japan.svg.png";
+import img14 from "../assets/svg/Flag_of_Egypt.svg.png";
 const Menu = styled.div`
   position: absolute;
   width: 300px;
@@ -205,6 +206,10 @@ const CustomMenu = () => {
   // Language
   const { i18n } = useTranslation();
   console.log(i18n.language);
+  const changeAr = () => {
+    i18n.changeLanguage("ar");
+    document.querySelector("html").lang = "ar";
+  };
   const changeEn = () => {
     i18n.changeLanguage("en");
     document.querySelector("html").lang = "en";
@@ -303,12 +308,12 @@ const CustomMenu = () => {
               <FaAngleRight />
             </IconRight>
             <Hidden className="hidden">
-              <NameTwo to="/">Main</NameTwo>
-              <NameTwo to="/say">SayHi</NameTwo>
-              <NameTwo to="/work">Work</NameTwo>
-              <NameTwo to="/blog">Blog</NameTwo>
-              <NameTwo to="/about">About</NameTwo>
-              <NameTwo to="/skills">MySkill</NameTwo>
+              <NameTwo to="/">{t("Main")}</NameTwo>
+              <NameTwo to="/say">{t("SayHi")}</NameTwo>
+              <NameTwo to="/work">{t("WorkLink")}</NameTwo>
+              <NameTwo to="/blog">{t("Work")}</NameTwo>
+              <NameTwo to="/about">{t("About")}</NameTwo>
+              <NameTwo to="/skills">{t("Skills")}</NameTwo>
             </Hidden>
           </Chose>
           <Chose>
@@ -322,6 +327,12 @@ const CustomMenu = () => {
               <FaAngleRight />
             </IconRight>
             <Hidden className="hidden">
+              <NameTwo className="Lang" onClick={() => changeAr()}>
+                <Img>
+                  <img src={img14} alt="" />
+                  <span>{t("Arabic")} </span>
+                </Img>
+              </NameTwo>
               <NameTwo className="Lang" onClick={() => changeEn()}>
                 <Img>
                   <img src={img1} alt="" />

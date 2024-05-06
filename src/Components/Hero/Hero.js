@@ -112,7 +112,7 @@ const Hero = () => {
     >
       <SubBox>
         <Text>
-          <h1>{t("Hi")},</h1>
+          <h1>{t("Hi")}</h1>
           <h3>{t("Name")}</h3>
           <h6>{t("Details")}</h6>
         </Text>

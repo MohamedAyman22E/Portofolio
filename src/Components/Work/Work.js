@@ -13,6 +13,7 @@ import WorkContent from "./WorkContent";
 import { useTranslation } from "react-i18next";
 import Ge from "../../data/Work_Ge";
 import Ch from "../../data/Work_Ch";
+import KO from "../../data/Work_Ko";
 const MainContainer = styled(motion.div)`
   background-image: url(${img});
   background-position: center;
@@ -89,6 +90,8 @@ const Work = () => {
               ? Ge
               : document.querySelector("html").lang === "ch"
               ? Ch
+              : document.querySelector("html").lang === "ko"
+              ? KO
               : En
             ).map(item => (
               <WorkContent key={item.id} blog={item} />

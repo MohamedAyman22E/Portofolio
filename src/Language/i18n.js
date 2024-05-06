@@ -14,6 +14,7 @@ import dataRu from "./Local/Ru.json";
 import dataPo from "./Local/Po.json";
 import dataTu from "./Local/Tu.json";
 import dataJa from "./Local/Ja.json";
+import dataAr from "./Local/Ar.json";
 i18n
   .use(LanguageDetector)
   .use(initReactI18next)
@@ -59,6 +60,9 @@ i18n
       },
       ja: {
         translation: dataJa,
+      },
+      ar: {
+        translation: dataAr,
       },
     },
   });
