@@ -26,5 +26,25 @@
     "AboutUL1":"我是一名位于埃及的前端开发人员。我喜欢创建简单而美丽的网站，并具有良好的用户体验。",
     "AboutUL2":"我对整个前端堆栈感兴趣，比如尝试新事物和构建伟大的项目。我是一名独立的自由职业者。我喜欢写博客和读书。",
     "AboutUL3":"我相信，当你将意识投入其中时，一切都是一门艺术。您可以通过社交链接与我联系。",
-    "Loading":"加载中..."
+    "Loading":"加载中...",
+    "FullScreen":"全屏",
+    "Path":"小路",
+    "Language":"语言",
+    "Communication":"沟通",
+    "Setting":"环境",
+    "English":"英语",
+    "French":"法语",
+    "Spanish":"西班牙语",
+    "German":"德语",
+    "Indonesian":"印度尼西亚",
+    "Italian":"意大利语",
+    "Portugal":"葡萄牙",
+    "Turkish":"土耳其",
+    "Danish":"丹麦语",
+    "Russian":"俄语",
+    "Chinese":"中国人",
+    "Korean":"韩国人",
+    "Japanese":"日本人",
+    "Logo":"嘛"
+
 }

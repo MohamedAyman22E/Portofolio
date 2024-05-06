@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { DarkThem } from "../global/Thems";
+import { useTranslation } from "react-i18next";
 const Logo = styled.h1`
   display: inline-block;
   color: ${props => (props.color === "dark" ? DarkThem.body : DarkThem.text)};
@@ -13,7 +14,9 @@ const Logo = styled.h1`
   }
 `;
 const LogoComponents = props => {
-  return <Logo color={props.theme}>M.A</Logo>;
+  const { t } = useTranslation();
+
+  return <Logo color={props.theme}>{t("Logo")}</Logo>;
 };
 
 export default LogoComponents;

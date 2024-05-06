@@ -151,6 +151,8 @@ const Img = styled.span`
 const CustomMenu = () => {
   const [ShowMenu, SetShowMenu] = useState(false);
   const [colorMenu, SetColorMenu] = useState(false);
+  const { t } = useTranslation();
+
   let menu = document.querySelector(".shareMenu");
   let shareMenu = document.querySelectorAll(".hidden");
   const handelContextMenu = e => {
@@ -274,7 +276,7 @@ const CustomMenu = () => {
               <Icon>
                 <FaLink />
               </Icon>
-              <Name>Full Screen</Name>
+              <Name>{t("FullScreen")}</Name>
             </Arrow>
             <IconRight>
               <BsFullscreen />
@@ -285,7 +287,7 @@ const CustomMenu = () => {
               <Icon>
                 <FaLink />
               </Icon>
-              <Name>Path</Name>
+              <Name>{t("Path")}</Name>
             </Arrow>
             <IconRight>
               <FaAngleRight />
@@ -304,7 +306,7 @@ const CustomMenu = () => {
               <Icon>
                 <FaLink />
               </Icon>
-              <Name>Languages</Name>
+              <Name>{t("Language")}</Name>
             </Arrow>
             <IconRight>
               <FaAngleRight />
@@ -313,79 +315,79 @@ const CustomMenu = () => {
               <NameTwo onClick={() => changeEn()}>
                 <Img>
                   <img src={img1} alt="" />
-                  <span> English</span>
+                  <span>{t("English")} </span>
                 </Img>
               </NameTwo>
               <NameTwo onClick={() => changeFr()}>
                 <Img>
                   <img src={img2} alt="" />
-                  <span> French</span>
+                  <span>{t("French")} </span>
                 </Img>
               </NameTwo>
               <NameTwo onClick={() => changeSp()}>
                 <Img>
                   <img src={img3} alt="" />
-                  <span> Spanish</span>
+                  <span>{t("Spanish")} </span>
                 </Img>
               </NameTwo>
               <NameTwo onClick={() => changeGe()}>
                 <Img>
                   <img src={img4} alt="" />
-                  <span> German</span>
+                  <span>{t("German")} </span>
                 </Img>
               </NameTwo>
               <NameTwo onClick={() => changeIn()}>
                 <Img>
                   <img src={img5} alt="" />
-                  <span>Indonesian</span>
+                  <span>{t("Indonesian")}</span>
                 </Img>
               </NameTwo>
               <NameTwo onClick={() => changeIt()}>
                 <Img>
                   <img src={img6} alt="" />
-                  <span> Italian</span>
+                  <span>{t("Italian")} </span>
                 </Img>
               </NameTwo>
               <NameTwo onClick={() => changePo()}>
                 <Img>
                   <img src={img7} alt="" />
-                  <span> Portugal</span>
+                  <span>{t("Portugal")} </span>
                 </Img>
               </NameTwo>
               <NameTwo onClick={() => changeTu()}>
                 <Img>
                   <img src={img8} alt="" />
-                  <span> Turkish</span>
+                  <span>{t("Turkish")} </span>
                 </Img>
               </NameTwo>
               <NameTwo onClick={() => changeDa()}>
                 <Img>
                   <img src={img9} alt="" />
-                  <span> Danish</span>
+                  <span>{t("Danish")} </span>
                 </Img>
               </NameTwo>
               <NameTwo onClick={() => changeRu()}>
                 <Img>
                   <img src={img10} alt="" />
-                  <span> Russian</span>
+                  <span>{t("Russian")} </span>
                 </Img>
               </NameTwo>
               <NameTwo onClick={() => changeCh()}>
                 <Img>
                   <img src={img11} alt="" />
-                  <span>Chinese</span>
+                  <span>{t("Chinese")}</span>
                 </Img>
               </NameTwo>
               <NameTwo onClick={() => changeKo()}>
                 <Img>
                   <img src={img12} alt="" />
-                  <span>Korean</span>
+                  <span>{t("Korean")}</span>
                 </Img>
               </NameTwo>
               <NameTwo onClick={() => changeJa()}>
                 <Img>
                   <img src={img13} alt="" />
-                  <span>Japanese</span>
+                  <span>{t("Japanese")}</span>
                 </Img>
               </NameTwo>
             </Hidden>
@@ -395,7 +397,7 @@ const CustomMenu = () => {
               <Icon>
                 <FaLink />
               </Icon>
-              <Name>Contacts</Name>
+              <Name>{t("Communication")}</Name>
             </Arrow>
             <IconRight>
               <FaAngleRight />
@@ -419,7 +421,7 @@ const CustomMenu = () => {
               <Icon>
                 <FaLink />
               </Icon>
-              <Name>Setting</Name>
+              <Name>{t("Setting")}</Name>
             </Arrow>
             <IconRight>
               <FaAngleRight />

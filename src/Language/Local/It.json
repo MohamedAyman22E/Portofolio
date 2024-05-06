@@ -26,5 +26,26 @@
     "AboutUL1":"Sono uno sviluppatore front-end con sede in Egitto. Adoro creare siti Web semplici ma belli con un'ottima esperienza utente.",
     "AboutUL2":"Sono interessato all'intero stack del frontend, come provare cose nuove e costruire grandi progetti. Sono un libero professionista indipendente. Amo scrivere blog e leggere libri.",
     "AboutUL3":"Credo che tutto sia un'arte quando ci metti la tua consapevolezza. Puoi connetterti con me tramite i link social.",
-    "Loading":"Caricamento..."
+    "Loading":"Caricamento...",
+    "FullScreen":"A schermo intero",
+
+    "Path":"Sentiero",
+    "Language":"Lingua",
+    "Communication":"Comunicazione",
+    "Setting":"Collocamento",
+    "English":"Inglese",
+    "French":"francese",
+    "Spanish":"Spagnolo",
+    "German":"Tedesco",
+    "Indonesian":"Indonesiano",
+    "Italian":"Italiano",
+    "Portugal":"Portogallo",
+    "Turkish":"Turco",
+    "Danish":"danese",
+    "Russian":"Russo",
+    "Chinese":"Cinese",
+    "Korean":"Coreano",
+    "Japanese":"giapponese",
+    "Logo":"M.A"
+    
 }

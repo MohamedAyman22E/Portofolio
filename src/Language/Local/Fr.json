@@ -26,6 +26,28 @@
     "AboutUL1":" Je suis un développeur front-end basé en Egypte. J'aime créer des sites Web simples mais beaux avec une excellente expérience utilisateur.",
     "AboutUL2":" Je m'intéresse à l'ensemble de la pile frontend, comme essayer de nouvelles choses et construire de grands projets. Je suis un indépendant indépendant. J'aime écrire des blogs et lire des livres.",
     "AboutUL3":"Je crois que tout est un Art quand on y met sa conscience. Vous pouvez me contacter via les liens sociaux.",
-    "Loading":"Chargement..."
+    "Loading":"Chargement...",
+    "FullScreen":"Plein écran",
+
+    "Path":"Chemin",
+    "Language":"Langue",
+    "Communication":"Communication",
+    "Setting":"Paramètre",
+    "English":"Anglais",
+    "French":"Français",
+    "Spanish":"Espagnol",
+    "German":"Allemand",
+    "Indonesian":"Indonésien",
+    "Italian":"Italien",
+    "Portugal":"le Portugal",
+    "Turkish":"Turc",
+    "Danish":"Danois",
+    "Russian":"russe",
+    "Chinese":"Chinois",
+    "Korean":"Coréen",
+    "Japanese":"Japonais",
+    "Logo":"M.A"
+
+
 
 }

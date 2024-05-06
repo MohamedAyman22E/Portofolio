@@ -26,5 +26,26 @@
     "AboutUL1":"Mısır'da bulunan bir ön uç geliştiriciyim. Harika kullanıcı deneyimine sahip basit ama güzel web siteleri oluşturmayı seviyorum.",
     "AboutUL2":"Yeni şeyler denemek ve harika projeler oluşturmak gibi tüm ön uç yığınıyla ilgileniyorum. Ben bağımsız bir serbest çalışanım. Blog yazmayı ve kitap okumayı seviyorum.",
     "AboutUL3":"Bilincinizi içine koyduğunuz zaman her şeyin bir Sanat olduğuna inanıyorum. Benimle sosyal bağlantılar aracılığıyla bağlantı kurabilirsiniz.",
-    "Loading":"Yükleniyor..."
+    "Loading":"Yükleniyor...",
+    "FullScreen":"Tam ekran",
+
+    "Path":"Path",
+    "Language":"Language",
+    "Communication":"Communication",
+    "Setting":"Setting",
+    "English":"English",
+    "French":"French",
+    "Spanish":"Spanish",
+    "German":"German",
+    "Indonesian":"Indonesian",
+    "Italian":"Italian",
+    "Portugal":"Portugal",
+    "Turkish":"Turkish",
+    "Danish":"Danish",
+    "Russian":"Russian",
+    "Chinese":"Chinese",
+    "Korean":"Korean",
+    "Japanese":"Japanese",
+    "Logo":"M.A"
+
 }
