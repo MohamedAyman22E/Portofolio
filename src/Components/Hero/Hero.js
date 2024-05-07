@@ -26,7 +26,7 @@ const Box = styled(motion.div)`
       center top;
   background-repeat: no-repeat;
   background-size: 100% 2px;
-  z-index: 1000000000000000;
+  z-index: 1000000000;
   border-left: 2px solid ${props => props.theme.body};
   border-right: 2px solid ${props => props.theme.text};
   @media (max-width: 630px) {
@@ -78,26 +78,28 @@ const Text = styled.div`
 const Video = styled.div`
   position: absolute;
   bottom: 0%;
-  height: 390px;
+  height: 455px;
+  left: 100px;
   width: 270px;
-  @media (max-width: 845px) {
-    bottom: -10px;
-    left: -50px;
+
+  @media (max-width: 1140px) {
+    left: 50px;
   }
-  @media (max-width: 676px) {
-    bottom: -10px;
-    left: -70px;
+  @media (max-width: 1010px) {
+    left: 0px;
+  }
+  @media (max-width: 830px) {
+    left: -60px;
   }
   @media (max-width: 630px) {
-    bottom: -10px;
-    left: 0px;
-    height: 300px;
+    bottom: -80px;
+    left: 00px;
   }
-  @media (max-width: 400px) {
-    bottom: -10px;
-    left: -60px;
+  @media (max-width: 440px) {
+    bottom: 380px;
+    left: -80px;
     background-color: aqua;
-    height: 300px;
+    height: 000px;
     z-index: -1;
     width: 0;
   }
@@ -127,7 +129,7 @@ const Hero = () => {
             <ReactPlayer
               className="Ved"
               width={400}
-              height={430}
+              height={530}
               url={videoMe}
               playing
               loop

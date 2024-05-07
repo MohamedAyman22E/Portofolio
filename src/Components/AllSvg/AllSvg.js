@@ -106,7 +106,6 @@ export const YinYang = props => {
     </svg>
   );
 };
-
 export const Anchor = props => {
   return (
     <svg

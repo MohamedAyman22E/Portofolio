@@ -4,10 +4,10 @@ import PowerButton from "../../subComponanet/PowerButton";
 import LogoComponents from "../../subComponanet/LogoComponents";
 import SocialIcon from "../../subComponanet/SocialIcon";
 import { NavLink } from "react-router-dom";
-import { YinYang } from "../AllSvg/AllSvg";
 import Hero from "../Hero/Hero";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
+import img from "../../assets/svg/clipart-dodecagon-connections-512x512-ef2e.png";
 const MainContainer = styled.div`
   background: ${props => props.theme.body};
   width: 100vw;
@@ -41,7 +41,6 @@ const Work = styled(NavLink)`
   top: 45%;
   transform: translateY(-50%) rotate(90deg);
   right: 2rem;
-  font-weight: 600;
   color: ${props => props.theme.text};
   z-index: 100;
   @media (max-width: 630px) {
@@ -92,6 +91,15 @@ to{
     transform: rotate(360deg);
 }
 `;
+const ImgMain = styled.div`
+  width: ${props => (props.click ? " 140px" : " 240px")};
+  height: ${props => (props.click ? " 140px" : " 240px")};
+  img {
+    width: ${props => (props.click ? " 140px" : " 240px")};
+    height: ${props => (props.click ? " 140px" : " 240px")};
+    transition: 0.8s;
+  }
+`;
 const Center = styled.button`
   position: absolute;
   top: ${props => (props.click ? "85%" : "50%")};
@@ -111,11 +119,27 @@ const Center = styled.button`
     transition: all 1s;
     cursor: pointer;
     @media (max-width: 900px) {
-      width: 100px;
+      width: ${props => (props.click ? " 100px" : " 240px")};
+      height: ${props => (props.click ? " 100px" : " 240px")};
+      img {
+        width: ${props => (props.click ? " 100px" : " 240px")};
+        height: ${props => (props.click ? " 100px" : " 240px")};
+        transition: 0.8s;
+      }
     }
-    @media (max-width: 600px) {
-      width: 80px;
+    @media (max-width: 550px) {
+      width: ${props => (props.click ? " 80px" : " 240px")};
+      height: ${props => (props.click ? " 80px" : " 240px")};
+      img {
+        width: ${props => (props.click ? " 80px" : " 240px")};
+        height: ${props => (props.click ? " 80px" : " 240px")};
+        transition: 0.8s;
+      }
     }
+  }
+  @media (max-width: 630px) {
+    top: ${props => (props.click ? "86%" : "50%")};
+    left: ${props => (props.click ? "83%" : "50%")};
   }
   span {
     font-size: 20px;
@@ -140,6 +164,7 @@ const DarkDiv = styled.div`
     right: 0%;
   }
 `;
+
 const Main = () => {
   const [click, setClick] = useState(false);
   const handelClick = () => setClick(!click);
@@ -154,15 +179,21 @@ const Main = () => {
         <SocialIcon theme={click ? "light" : "dark"} />
         <DarkDiv click={click} />
         <Center click={click}>
-          <YinYang
+          <ImgMain
             onClick={() => handelClick()}
-            width={click ? "120" : "200"}
-            height={click ? "120" : "200"}
             fill="currentColor"
-          />
+            click={click}
+          >
+            <img
+              src={img}
+              alt=""
+              width={click ? "60px" : "60px"}
+              height={click ? "60px" : "60px"}
+            />
+          </ImgMain>
           <span> {t("ClickHere")}</span>
         </Center>
-        <SayHi to="/say">
+        <SayHi to="/say" click={click}>
           <motion.h2
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
@@ -178,7 +209,7 @@ const Main = () => {
             {t("SayHi")}
           </motion.h2>
         </SayHi>
-        <Work to="/work" onClick={() => handelClickWork()}>
+        <Work to="/work" onClick={() => handelClickWork()} click={click}>
           <motion.h2
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}

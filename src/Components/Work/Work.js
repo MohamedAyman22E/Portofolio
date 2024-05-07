@@ -14,6 +14,14 @@ import { useTranslation } from "react-i18next";
 import Ge from "../../data/Work_Ge";
 import Ch from "../../data/Work_Ch";
 import KO from "../../data/Work_Ko";
+import Ar from "../../data/Work_Ar";
+import Ja from "../../data/Work_Ja";
+import Da from "../../data/Work_Da";
+import In from "../../data/Work_In";
+import It from "../../data/Work_It";
+import Po from "../../data/Work_Po";
+import Ru from "../../data/Work_Ru";
+import Tu from "../../data/Work_Tu";
 const MainContainer = styled(motion.div)`
   background-image: url(${img});
   background-position: center;
@@ -92,6 +100,22 @@ const Work = () => {
               ? Ch
               : document.querySelector("html").lang === "ko"
               ? KO
+              : document.querySelector("html").lang === "ar"
+              ? Ar
+              : document.querySelector("html").lang === "ja"
+              ? Ja
+              : document.querySelector("html").lang === "da"
+              ? Da
+              : document.querySelector("html").lang === "in"
+              ? In
+              : document.querySelector("html").lang === "it"
+              ? It
+              : document.querySelector("html").lang === "po"
+              ? Po
+              : document.querySelector("html").lang === "ru"
+              ? Ru
+              : document.querySelector("html").lang === "tu"
+              ? Tu
               : En
             ).map(item => (
               <WorkContent key={item.id} blog={item} />

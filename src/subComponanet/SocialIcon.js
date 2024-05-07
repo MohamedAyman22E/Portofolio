@@ -17,11 +17,9 @@ const Icons = styled.div`
   flex-direction: column;
   align-items: center;
   z-index: 11;
-
   & > *:not(:last-child) {
     margin: 0.5rem 0;
   }
-
   @media (max-width: 500px) {
     left: 0.5rem;
   }

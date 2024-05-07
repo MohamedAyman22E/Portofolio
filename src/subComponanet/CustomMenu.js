@@ -6,20 +6,20 @@ import Color from "./Color";
 import { FaAngleRight } from "react-icons/fa";
 import { BsFullscreen } from "react-icons/bs";
 import { useTranslation } from "react-i18next";
-import img1 from "../assets/svg/Flag_of_the_United_States.svg.png";
-import img2 from "../assets/svg/Flag_of_France.svg.webp";
-import img3 from "../assets/svg/Flag_of_Spain.svg.webp";
-import img4 from "../assets/svg/Flag_of_Germany.svg.png";
-import img5 from "../assets/svg/Flag_of_Indonesia.svg.png";
-import img6 from "../assets/svg/Flag_of_Italy.svg.webp";
-import img7 from "../assets/svg/Flag_of_Portugal.svg.webp";
-import img8 from "../assets/svg/pngtree-turkish-flag-png-image_6135788.png";
-import img9 from "../assets/svg/Flag_of_Denmark.svg.png";
-import img10 from "../assets/svg/Flag_of_Russia.svg.png";
-import img11 from "../assets/svg/Flag_of_the_People's_Republic_of_China.svg.png";
-import img12 from "../assets/svg/Flag_of_North_Korea.svg.png";
-import img13 from "../assets/svg/Flag_of_Japan.svg.png";
-import img14 from "../assets/svg/Flag_of_Egypt.svg.png";
+import img1 from "../assets/Flag/Flag_of_the_United_States.svg.png";
+import img2 from "../assets/Flag/Flag_of_France.svg.webp";
+import img3 from "../assets/Flag/Flag_of_Spain.svg.webp";
+import img4 from "../assets/Flag/Flag_of_Germany.svg.png";
+import img5 from "../assets/Flag/Flag_of_Indonesia.svg.png";
+import img6 from "../assets/Flag/Flag_of_Italy.svg.webp";
+import img7 from "../assets/Flag/Flag_of_Portugal.svg.webp";
+import img8 from "../assets/Flag/pngtree-turkish-flag-png-image_6135788.png";
+import img9 from "../assets/Flag/Flag_of_Denmark.svg.png";
+import img10 from "../assets/Flag/Flag_of_Russia.svg.png";
+import img11 from "../assets/Flag/Flag_of_the_People's_Republic_of_China.svg.png";
+import img12 from "../assets/Flag/Flag_of_North_Korea.svg.png";
+import img13 from "../assets/Flag/Flag_of_Japan.svg.png";
+import img14 from "../assets/Flag/Flag_of_Egypt.svg.png";
 const Menu = styled.div`
   position: absolute;
   width: 300px;
@@ -28,6 +28,7 @@ const Menu = styled.div`
   box-shadow: 0 0 5px ${props => props.theme.body};
   color: ${props => props.theme.body};
   padding: 15px;
+  z-index: 100000000000000000000000000;
   @media (max-width: 800px) {
     width: 250px;
   }
