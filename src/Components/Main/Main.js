@@ -136,6 +136,15 @@ const Center = styled.button`
         transition: 0.8s;
       }
     }
+    @media (max-width: 450px) {
+      width: ${props => (props.click ? " 80px" : " 150px")};
+      height: ${props => (props.click ? " 80px" : " 150px")};
+      img {
+        width: ${props => (props.click ? " 80px" : " 150px")};
+        height: ${props => (props.click ? " 80px" : " 150px")};
+        transition: 0.8s;
+      }
+    }
   }
   @media (max-width: 630px) {
     top: ${props => (props.click ? "86%" : "50%")};

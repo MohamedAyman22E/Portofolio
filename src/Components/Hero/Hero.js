@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 import videoMe from "../../assets/video/07bf80f9847c4a89bcc02f22615681aa.webm";
 import { motion } from "framer-motion";
-import ReactPlayer from "react-player";
 import { useTranslation } from "react-i18next";
 const Box = styled(motion.div)`
   display: flex;
@@ -49,7 +48,6 @@ const SubBox = styled.div`
   width: 50%;
   position: relative;
   display: flex;
-
   @media (max-width: 630px) {
     width: 100%;
   }
@@ -77,33 +75,54 @@ const Text = styled.div`
 `;
 const Video = styled.div`
   position: absolute;
-  bottom: 0%;
-  height: 455px;
-  left: 100px;
-  width: 270px;
-
-  @media (max-width: 1140px) {
-    left: 50px;
+  bottom: -20%;
+  left: 60px;
+  video {
+    width: 300px;
+  }
+  @media (max-width: 1060px) {
+    left: 20px;
   }
   @media (max-width: 1010px) {
+    bottom: -18%;
     left: 0px;
   }
-  @media (max-width: 830px) {
-    left: -60px;
+  @media (max-width: 913px) {
+    bottom: -15%;
+
+    video {
+      width: 250px;
+    }
+  }
+  @media (max-width: 712px) {
+    bottom: -10%;
+
+    video {
+      width: 220px;
+    }
   }
   @media (max-width: 630px) {
-    bottom: -80px;
-    left: 00px;
+    bottom: -158px;
+    left: 12%;
+    video {
+      width: 300px;
+    }
   }
   @media (max-width: 440px) {
-    bottom: 380px;
-    left: -80px;
-    background-color: aqua;
-    height: 000px;
-    z-index: -1;
-    width: 0;
+    bottom: -85px;
+    video {
+      width: 223px;
+    }
+  }
+  @media (max-width: 345px) {
+    left: -2%;
+    bottom: -85px;
+    video {
+      width: 223px;
+    }
   }
 `;
+
 const Hero = () => {
   const { t } = useTranslation();
   return (
@@ -126,14 +145,7 @@ const Hero = () => {
           transition={{ duration: 1, delay: 2 }}
         >
           <Video>
-            <ReactPlayer
-              className="Ved"
-              width={400}
-              height={530}
-              url={videoMe}
-              playing
-              loop
-            />
+            <video src={videoMe} autoPlay loop></video>
           </Video>
         </motion.div>
       </SubBox>

@@ -16,6 +16,9 @@ const Box = styled.div`
   padding: 0px 10%;
   height: 100vh;
   z-index: 2;
+  @media (max-width: 1660px) {
+    padding: 0px 7%;
+  }
   @media (max-width: 1085px) {
     height: 100%;
   }
@@ -34,13 +37,20 @@ const Main = styled.div`
   border: 2px solid ${props => props.theme.text};
   width: 50%;
   height: 400px;
+  height: ${document.querySelector("html").lang === ("ge" && "ru")
+    ? "420px"
+    : document.querySelector("html").lang === "ja"
+    ? "460px"
+    : "400px"};
   padding: 40px;
   &:hover {
     background-color: ${props => props.theme.text};
     color: ${props => props.theme.body};
   }
-
+  @media (max-width: 1118px) {
+  }
   @media (max-width: 1080px) {
+    height: 400px;
     padding: 40px 20px;
   }
   @media (max-width: 920px) {
@@ -53,6 +63,15 @@ const Main = styled.div`
   }
   @media (max-width: 700px) {
     width: 70%;
+  }
+  @media (max-width: 450px) {
+  }
+  @media (max-width: 380px) {
+    height: ${document.querySelector("html").lang === "ar"
+      ? "420px"
+      : document.querySelector("html").lang === "ja"
+      ? "430px"
+      : "360px"};
   }
 `;
 const Title = styled.div`
@@ -83,12 +102,31 @@ const Ul1 = styled.div`
   display: flex;
   flex-direction: column;
   margin: 30px 0;
+  ul {
+    transform: translate(
+      ${document.querySelector("html").lang === "ar" ? "-20px" : "-20px"}
+    );
+    @media (max-width: 580px) {
+      transform: translate(
+        ${document.querySelector("html").lang === "ar" ? "-20px" : "-20px"}
+      );
+    }
+  }
   li {
     margin: 10px 0;
     font-size: calc(0.5em + 1.2vw);
-
     font-weight: 600;
     transform: translateX(40px);
+  }
+  @media (max-width: 1473px) {
+    margin-top: ${document.querySelector("html").lang === "ar"
+      ? "-20px"
+      : "20px"};
+  }
+  @media (max-width: 1085px) {
+    margin-top: ${document.querySelector("html").lang === "ar"
+      ? "30px"
+      : "0px"};
   }
 `;
 const H2 = styled.h2`
@@ -98,42 +136,65 @@ const H2 = styled.h2`
 const Skill = styled.h3`
   font-size: calc(0.5em + 1.2vw);
   margin: 10px 0;
-  transform: translateX(30px);
   line-height: 30px;
-  @media (max-width: 1030px) {
-    transform: translateX(20px);
+  transform: translateX(
+    ${document.querySelector("html").lang === "ar" ? "-30px" : "30px"}
+  );
+  @media (max-width: 1000px) {
+    transform: translateX(
+      ${document.querySelector("html").lang === "ar" ? "0px" : "30px"}
+    );
   }
-  @media (max-width: 670px) {
-    transform: translateX(0px);
+  @media (max-width: 880px) {
+    transform: translateX(
+      ${document.querySelector("html").lang === "ar" ? "0px" : "16px"}
+    );
   }
 `;
 const Logo = styled.h3`
-  font-size: calc(7em + 4vw);
+  font-size: ${document.querySelector("html").lang === "fr" ? "80px" : "152px"};
   position: fixed;
-  bottom: -3rem;
+  bottom: -1rem;
   right: 400px;
   color: ${props => props.theme.text};
   opacity: 0.1;
-  @media (max-width: 800px) {
+  @media (max-width: 900px) {
     right: 300px;
   }
-  @media (max-width: 680px) {
-    bottom: -2.5rem;
-    font-size: calc(5em + 4vw);
-    right: 200px;
+  @media (max-width: 800px) {
+    font-size: ${document.querySelector("html").lang === "fr"
+      ? "70px"
+      : "120px"};
+
+    right: 100px;
   }
   @media (max-width: 570px) {
     bottom: -1.5rem;
-    font-size: calc(4em + 4vw);
+
+    font-size: ${document.querySelector("html").lang === "fr"
+      ? "60px"
+      : "90px"};
+  }
+  @media (max-width: 490px) {
+    right: 80px;
   }
   @media (max-width: 420px) {
-    right: 200px;
+    bottom: -1rem;
+    right: 60px;
+    font-size: ${document.querySelector("html").lang === "fr"
+      ? "40px"
+      : "90px"};
   }
 `;
 const MySkills = () => {
   const { t } = useTranslation();
   return (
-    <SkillContainer theme={lightThem}>
+    <SkillContainer
+      theme={lightThem}
+      style={{
+        direction: document.querySelector("html").lang === "ar" ? "rtl" : "ltr",
+      }}
+    >
       <Box>
         <PowerButton />
         <Logo>{t("Skills")}</Logo>
@@ -149,14 +210,28 @@ const MySkills = () => {
             <Disc>{t("DescriptionDesign")}</Disc>
             <Ul1>
               <H2>{t("H2Design")}</H2>
-              <ul>
+              <ul
+                style={{
+                  translate:
+                    document.querySelector("html").lang === "ar"
+                      ? "-100px"
+                      : "10px",
+                }}
+              >
                 <li>{t("Li1WebDesign")}</li>
                 <li>{t("Li2WebDesign")}</li>
               </ul>
             </Ul1>
             <Ul1>
               <H2>{t("ScendWebDesign")}</H2>
-              <ul>
+              <ul
+                style={{
+                  translate:
+                    document.querySelector("html").lang === "ar"
+                      ? "-100px"
+                      : "10px",
+                }}
+              >
                 <li>{t("Figma")}</li>
               </ul>
             </Ul1>
@@ -164,17 +239,7 @@ const MySkills = () => {
           <Main>
             <Title>
               <Develope width={40} height={40} />
-              <Span
-              // style={{
-              //   fontSize: `${
-              //     document.querySelector("html").lang === "ge"
-              //       ? "20px"
-              //       : "calc(0.5em + 1.5vw)"
-              //   }`,
-              // }}
-              >
-                {t("FrontEnd")}
-              </Span>
+              <Span>{t("FrontEnd")}</Span>
             </Title>
 
             <Disc>{t("DescriptionFront")}</Disc>
