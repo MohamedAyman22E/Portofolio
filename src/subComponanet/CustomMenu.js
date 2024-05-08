@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { FaLink } from "react-icons/fa6";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import styled from "styled-components";
 import Color from "./Color";
 import { FaAngleRight } from "react-icons/fa";
@@ -103,6 +103,16 @@ const Hidden = styled.div`
     display: flex;
     flex-direction: column;
   }
+  &.contact a {
+    margin: 5px 0;
+    padding: 7px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: ${props => props.theme.body};
+    &:hover {
+      cursor: pointer;
+    }
+  }
   @media (max-width: 800px) {
     width: 150px;
     height: 260px;
@@ -151,6 +161,18 @@ const Img = styled.span`
   gap: 5px;
   img {
     width: 100%;
+  }
+`;
+const LinkContact = styled.div`
+  display: flex;
+  align-items: center;
+  padding: 2px 12px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: ${props => props.theme.body};
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
   }
 `;
 const CustomMenu = () => {
@@ -423,17 +445,51 @@ const CustomMenu = () => {
             <IconRight>
               <FaAngleRight />
             </IconRight>
-            <Hidden className="hidden">
-              <NameTwo>Ar</NameTwo>
-              <NameTwo>En</NameTwo>
-              <NameTwo>Fr</NameTwo>
-              <NameTwo>Ch</NameTwo>
-              <NameTwo>Ru</NameTwo>
-              <NameTwo>Ar</NameTwo>
-              <NameTwo>En</NameTwo>
-              <NameTwo>Fr</NameTwo>
-              <NameTwo>Ch</NameTwo>
-              <NameTwo>Ru</NameTwo>
+            <Hidden className="hidden contact">
+              <LinkContact>
+                <Icon>
+                  <FaLink />
+                </Icon>
+                <NavLink
+                  target="_blank"
+                  to={"https://www.facebook.com/profile.php?id=100012452676002"}
+                >
+                  Facebook
+                </NavLink>
+              </LinkContact>
+              <LinkContact>
+                <Icon>
+                  <FaLink />
+                </Icon>
+                <NavLink
+                  target="_blank"
+                  to={"https://github.com/MohamedAyman22E"}
+                >
+                  Github
+                </NavLink>
+              </LinkContact>
+              <LinkContact>
+                <Icon>
+                  <FaLink />
+                </Icon>
+                <NavLink
+                  target="_blank"
+                  to={"https://www.linkedin.com/in/mohamed-ayman-61626028b"}
+                >
+                  Linkedin
+                </NavLink>
+              </LinkContact>
+              <LinkContact>
+                <Icon>
+                  <FaLink />
+                </Icon>
+                <NavLink
+                  target="_blank"
+                  to={"https://twitter.com/Mohamedaym15624"}
+                >
+                  Twitter
+                </NavLink>
+              </LinkContact>
             </Hidden>
           </Chose>
           <Line></Line>
