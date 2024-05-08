@@ -53,11 +53,11 @@ const SubBox = styled.div`
   }
 `;
 const Text = styled.div`
-  color: ${props => props.theme.body};
   padding: 30px 32px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  color: ${props => props.theme.body};
   font-size: calc(1em + 1.5vw);
   h3 {
     font-size: calc(0.5em + 1.5vw);
@@ -122,7 +122,6 @@ const Video = styled.div`
     }
   }
 `;
-
 const Hero = () => {
   const { t } = useTranslation();
   return (

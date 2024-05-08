@@ -14,6 +14,7 @@ const MainContainer = styled.div`
   height: 100vh;
   overflow: hidden;
   position: relative;
+
   h2,
   h3,
   h4,
@@ -35,6 +36,13 @@ const SayHi = styled(NavLink)`
   @media (max-width: 630px) {
     color: ${props => (props.click ? props.theme.body : props.theme.text)};
   }
+  @media (max-width: 412px) {
+    right: ${document.querySelector("html").lang === ("in" && "ru")
+      ? ".7rem"
+      : "2rem"};
+    top: 2.5rem;
+    font-size: 12px;
+  }
 `;
 const Work = styled(NavLink)`
   position: absolute;
@@ -55,8 +63,10 @@ const Skills = styled(NavLink)`
   bottom: 1rem;
   right: 30%;
   color: ${props => props.theme.text};
-  @media (max-width: 500px) {
-    right: 15%;
+  @media (max-width: 575px) {
+    right: ${document.querySelector("html").lang === ("fr" && "in")
+      ? "8%"
+      : "15%"};
   }
 `;
 const About = styled(NavLink)`
@@ -65,11 +75,11 @@ const About = styled(NavLink)`
   z-index: 1;
   left: 30%;
   color: ${props => (props.click ? props.theme.body : props.theme.text)};
-  @media (max-width: 500px) {
-    left: 15%;
-  }
   @media (max-width: 630px) {
     color: ${props => props.theme.text};
+  }
+  @media (max-width: 575px) {
+    left: 15%;
   }
 `;
 const Blog = styled(NavLink)`
@@ -173,7 +183,6 @@ const DarkDiv = styled.div`
     right: 0%;
   }
 `;
-
 const Main = () => {
   const [click, setClick] = useState(false);
   const handelClick = () => setClick(!click);
@@ -182,7 +191,12 @@ const Main = () => {
   const { t } = useTranslation();
   return (
     <MainContainer click={click}>
-      <Container>
+      <Container
+        style={{
+          direction:
+            document.querySelector("html").lang === "ar" ? "rtl" : "ltr",
+        }}
+      >
         <PowerButton />
         <LogoComponents theme={click ? "light" : "dark"} />
         <SocialIcon theme={click ? "light" : "dark"} />
