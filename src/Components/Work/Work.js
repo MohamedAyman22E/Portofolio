@@ -44,6 +44,18 @@ const Logo = styled.h2`
   left: 6%;
   color: ${props => `rgba(${props.theme.text},.8)`};
   opacity: 0.2;
+  @media (max-width: 850px) {
+    font-size: 90px;
+  }
+  @media (max-width: 750px) {
+    font-size: 80px;
+  }
+  @media (max-width: 650px) {
+    font-size: 70px;
+  }
+  @media (max-width: 550px) {
+    font-size: 60px;
+  }
 `;
 const Center = styled.div`
   display: flex;

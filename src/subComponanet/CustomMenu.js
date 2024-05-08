@@ -88,7 +88,7 @@ const Hidden = styled.div`
   position: absolute;
   right: -200px;
   top: 45%;
-  transform: translate(5%, -50%);
+  transform: translate(5%, -45%);
   background-color: ${props => props.theme.text};
   box-shadow: 0 0 5px ${props => props.theme.body};
   color: ${props => props.theme.body};
@@ -110,9 +110,8 @@ const Hidden = styled.div`
     top: 50%;
   }
   @media (max-width: 700px) {
-    width: 100px;
-    height: 240px;
-    transform: translate(-60%, -50%);
+    width: 154px;
+    transform: translate(-22%, -50%);
   }
 `;
 const Name = styled.div`
@@ -337,7 +336,7 @@ const CustomMenu = () => {
               <NameTwo className="Lang" onClick={() => changeEn()}>
                 <Img>
                   <img src={img1} alt="" />
-                  <span>{t("English")} </span>
+                  <span>{t("English")}</span>
                 </Img>
               </NameTwo>
               <NameTwo className="Lang" onClick={() => changeFr()}>
