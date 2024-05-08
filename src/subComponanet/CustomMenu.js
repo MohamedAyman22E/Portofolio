@@ -20,6 +20,7 @@ import img11 from "../assets/Flag/Flag_of_the_People's_Republic_of_China.svg.png
 import img12 from "../assets/Flag/Flag_of_North_Korea.svg.png";
 import img13 from "../assets/Flag/Flag_of_Japan.svg.png";
 import img14 from "../assets/Flag/Flag_of_Egypt.svg.png";
+import ReactWhatsapp from "react-whatsapp";
 const Menu = styled.div`
   position: absolute;
   width: 300px;
@@ -495,7 +496,7 @@ const CustomMenu = () => {
                   <FaLink />
                 </Icon>
                 <NavLink target="_blank" to={"https://web.whatsapp.com/"}>
-                  WhatsApp
+                  <ReactWhatsapp number="+20 01228518203" message="fdsa" />
                 </NavLink>
               </LinkContact>
             </Hidden>
