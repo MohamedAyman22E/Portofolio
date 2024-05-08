@@ -259,6 +259,26 @@ const Logo = styled.h3`
   left: 100px;
   color: ${props => props.theme.body};
   opacity: 0.1;
+  @media (max-width: 800px) {
+    font-size: calc(6em + 4vw);
+    top: 2.9rem;
+  }
+  @media (max-width: 700px) {
+    font-size: calc(5em + 4vw);
+    top: 3.1rem;
+  }
+  @media (max-width: 600px) {
+    font-size: calc(4em + 4vw);
+    top: 3.3rem;
+  }
+  @media (max-width: 500px) {
+    font-size: calc(3em + 4vw);
+    top: 3.5rem;
+  }
+  @media (max-width: 400px) {
+    font-size: calc(2em + 4vw);
+    top: 3.7rem;
+  }
 `;
 const animate = keyframes`
   0%,100%{

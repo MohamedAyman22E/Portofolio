@@ -490,6 +490,14 @@ const CustomMenu = () => {
                   Twitter
                 </NavLink>
               </LinkContact>
+              <LinkContact>
+                <Icon>
+                  <FaLink />
+                </Icon>
+                <NavLink target="_blank" to={"https://web.whatsapp.com/"}>
+                  WhatsApp
+                </NavLink>
+              </LinkContact>
             </Hidden>
           </Chose>
           <Line></Line>
