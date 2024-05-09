@@ -171,6 +171,13 @@ const LinkContact = styled.div`
   border-radius: 5px;
   text-decoration: none;
   color: ${props => props.theme.body};
+  .reactWhatsapp {
+    color: ${props => props.theme.body};
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: inherit;
+  }
   &:hover {
     background-color: rgba(255, 255, 255, 0.3);
     cursor: pointer;
@@ -495,8 +502,107 @@ const CustomMenu = () => {
                 <Icon>
                   <FaLink />
                 </Icon>
-                <NavLink target="_blank" to={"https://web.whatsapp.com/"}>
-                  <ReactWhatsapp number="+20 01228518203" message="fdsa" />
+                <NavLink target="_blank">
+                  <ReactWhatsapp
+                    number="+20 01228518203"
+                    message="Hello Mohamed"
+                    className="reactWhatsapp"
+                  >
+                    WhatsApp
+                  </ReactWhatsapp>
+                </NavLink>
+              </LinkContact>
+              <LinkContact>
+                <Icon>
+                  <FaLink />
+                </Icon>
+                <NavLink
+                  target="_blank"
+                  to={"mailto:mohamedaymanezat@gmail.com"}
+                >
+                  Gmail
+                </NavLink>
+              </LinkContact>
+              <LinkContact>
+                <Icon>
+                  <FaLink />
+                </Icon>
+                <NavLink
+                  target="_blank"
+                  to={
+                    "https://www.freelancer.com/search/projects?ref=membership-offer&funnel=true&projectSkills=335,9,137,323,759,2376,343,2435,979,901,1623,1685&projectLanguages=en"
+                  }
+                >
+                  Freelancer
+                </NavLink>
+              </LinkContact>
+              <LinkContact>
+                <Icon>
+                  <FaLink />
+                </Icon>
+                <NavLink
+                  target="_blank"
+                  to={
+                    "https://elements.envato.com/collections?_ga=2.235784257.1300475167.1715214934-1072593555.1715214934&_gac=1.187175514.1715214963.Cj0KCQjwxeyxBhC7ARIsAC7dS397_nA6Uo085bPP3L79YAOtPb9nsBC71he_vV0br_6UPl1-ZhD6QwkaAknrEALw_wcB"
+                  }
+                >
+                  Envato
+                </NavLink>
+              </LinkContact>
+              <LinkContact>
+                <Icon>
+                  <FaLink />
+                </Icon>
+                <NavLink
+                  target="_blank"
+                  to={"https://www.upwork.com/freelancers/~0166acfa54c6f065de"}
+                >
+                  UpWork
+                </NavLink>
+              </LinkContact>
+              <LinkContact>
+                <Icon>
+                  <FaLink />
+                </Icon>
+                <NavLink
+                  target="_blank"
+                  to={
+                    "https://www.peopleperhour.com/freelancer/mohamed-ayman-i-m-web-developer-zzxzzzvv"
+                  }
+                >
+                  PeoplePerHour
+                </NavLink>
+              </LinkContact>
+              <LinkContact>
+                <Icon>
+                  <FaLink />
+                </Icon>
+                <NavLink
+                  target="_blank"
+                  to={
+                    "https://www.bayt.com/ar/profile/minified-profile/completed/#"
+                  }
+                >
+                  Beat
+                </NavLink>
+              </LinkContact>
+              <LinkContact>
+                <Icon>
+                  <FaLink />
+                </Icon>
+                <NavLink
+                  target="_blank"
+                  to={"https://www.tasmeemme.com/mohamedaymanezat"}
+                >
+                  TasmeemMe
+                </NavLink>
+              </LinkContact>
+              <LinkContact>
+                <Icon>
+                  <FaLink />
+                </Icon>
+                <NavLink target="_blank" to={"https://nafezly.com/"}>
+                  Nafezly
                 </NavLink>
               </LinkContact>
             </Hidden>
