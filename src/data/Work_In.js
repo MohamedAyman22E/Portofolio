@@ -90,6 +90,8 @@ const In = [
     link: "https://mohamedayman22e.github.io/Portfolio-/",
     type: "js",
     img: img1,
+    category: ["js"],
+    linkGit: "https://github.com/MohamedAyman22E/Portfolio-?tab=readme-ov-file",
   },
   {
     id: 2,
@@ -99,6 +101,8 @@ const In = [
     link: "https://mohamedayman22e.github.io/Portfolio/",
     type: "js",
     img: img2,
+    category: ["js"],
+    linkGit: "https://github.com/MohamedAyman22E/Portfolio?tab=readme-ov-file",
   },
   {
     id: 3,
@@ -108,6 +112,8 @@ const In = [
     link: "https://mohamedayman22e.github.io/EducationJs/",
     type: "react",
     img: img3,
+    category: ["React"],
+    linkGit: "https://github.com/MohamedAyman22E/EducationJs",
   },
   {
     id: 4,
@@ -117,6 +123,8 @@ const In = [
     link: "https://lamppage.netlify.app/",
     type: "tilwind",
     img: img6,
+    category: ["Tailwind", "js"],
+    linkGit: "https://github.com/MohamedAyman22E/Lamp-",
   },
   {
     id: 5,
@@ -126,6 +134,9 @@ const In = [
     link: "https://mohamedayman22e.github.io/SolnHub/",
     type: "react",
     img: img5,
+    category: ["React"],
+
+    linkGit: "https://github.com/MohamedAyman22E/SolnHub",
   },
   {
     id: 6,
@@ -134,6 +145,9 @@ const In = [
     date: "14 Desember, 2023",
     link: "https://mohamedayman22e.github.io/Wern/",
     img: img4,
+    category: ["js"],
+
+    linkGit: "https://github.com/MohamedAyman22E/Wern",
   },
   {
     id: 7,
@@ -142,6 +156,9 @@ const In = [
     date: "3 Desember, 2023",
     link: "https://mohamedayman22e.github.io/Password-Strength-Checker/",
     img: img7,
+    category: ["Small"],
+
+    linkGit: "https://github.com/MohamedAyman22E/Password-Strength-Checker",
   },
   {
     id: 8,
@@ -150,6 +167,9 @@ const In = [
     date: "2 Desember, 2023",
     link: "https://mohamedayman22e.github.io/Circle-progress-par/",
     img: img8,
+    category: ["Small"],
+
+    linkGit: "https://github.com/MohamedAyman22E/Circle-progress-par",
   },
   {
     id: 9,
@@ -158,6 +178,10 @@ const In = [
     date: "2 Desember, 2023",
     link: "https://mohamedayman22e.github.io/Create-A-Custom-Select-Menu-with-Search-Box/",
     img: img9,
+    category: ["Small"],
+
+    linkGit:
+      "https://github.com/MohamedAyman22E/Create-A-Custom-Select-Menu-with-Search-Box",
   },
   {
     id: 10,
@@ -165,6 +189,7 @@ const In = [
     tags: ["Html", "css", "js"],
     date: "15 Januari , 2024",
     link: "https://mohamedayman22e.github.io/Todo-List/",
+    category: ["Small"],
     linkGit: "https://github.com/MohamedAyman22E/Todo-List",
     img: img12,
   },
@@ -174,6 +199,8 @@ const In = [
     tags: ["React", "scss"],
     date: "22 Januari , 2024",
     link: "https://mohamedayman22e.github.io/React-Portfolio-Sass/",
+    category: ["React", "Sass"],
+
     linkGit: "https://github.com/MohamedAyman22E/React-Portfolio-Sass",
     img: img11,
   },
@@ -183,6 +210,8 @@ const In = [
     tags: ["Html", "css", "js"],
     date: "24 Januari , 2024",
     link: "https://mohamedayman22e.github.io/Notes-App/",
+    category: ["Small"],
+
     linkGit: "https://github.com/MohamedAyman22E/Notes-App/tree/master",
     img: img10,
   },
@@ -192,6 +221,8 @@ const In = [
     tags: ["Html", "css", "js"],
     date: "9 Februari , 2024",
     link: " https://mohamedayman22e.github.io/Random-Password/",
+    category: ["Small"],
+
     linkGit: "https://github.com/MohamedAyman22E/Random-Password",
     img: img18,
   },
@@ -201,6 +232,8 @@ const In = [
     tags: ["Html", "css", "js"],
     date: "5 Februari , 2024",
     link: "https://mohamedayman22e.github.io/Digital-Clock2/",
+    category: ["Small"],
+
     linkGit: "https://github.com/MohamedAyman22E/Digital-Clock2",
     img: img13,
   },
@@ -210,6 +243,8 @@ const In = [
     tags: ["Html", "css", "js"],
     date: "25 Januari , 2024",
     link: "https://mohamedayman22e.github.io/Bolby/",
+    category: ["js"],
+
     linkGit: "https://github.com/MohamedAyman22E/Bolby",
     img: img14,
   },
@@ -219,6 +254,8 @@ const In = [
     tags: ["Html", "css", "js"],
     date: "14 Januari , 2024",
     link: "https://mohamedayman22e.github.io/Simple-BMI-Calculator/",
+    category: ["Small"],
+
     linkGit: "https://github.com/MohamedAyman22E/Simple-BMI-Calculator",
     img: img17,
   },
@@ -228,6 +265,7 @@ const In = [
     tags: ["Html", "css", "js"],
     date: "13 Januari , 2024",
     link: "https://mohamedayman22e.github.io/-Cursor-Click-Animation/",
+    category: ["Small"],
     linkGit: "https://github.com/MohamedAyman22E/-Cursor-Click-Animation",
     img: img16,
   },
@@ -237,6 +275,8 @@ const In = [
     tags: ["Html", "css", "js"],
     date: "10 Januari , 2024",
     link: "https://mohamedayman22e.github.io/Random-Hex-Color/",
+    category: ["Small"],
+
     linkGit: "https://github.com/MohamedAyman22E/Random-Hex-Color",
     img: img15,
   },
@@ -246,15 +286,19 @@ const In = [
     tags: ["Html", "css", "js"],
     date: "16 Desember, 2023",
     link: "https://mohamedayman22e.github.io/Simple-portfolios/",
+    category: ["js"],
+
     linkGit: "https://github.com/MohamedAyman22E/Simple-portfolios",
     img: img19,
   },
   {
     id: 20,
     name: "Buat Aplikasi Elias React Tailwind Sederhana Menggunakan Html css js",
-    tags: ["React", "css"],
+    tags: ["React", "css", "Tailwind"],
     date: "14 Desember, 2023",
     link: "https://mohamedayman22e.github.io/Elias-React-Tailwind-/#home",
+    category: ["React", "Tailwind"],
+
     linkGit: "https://github.com/MohamedAyman22E/Elias-React-Tailwind-",
     img: img20,
   },
@@ -264,6 +308,8 @@ const In = [
     tags: ["Html", "css"],
     date: "4 Desember, 2023",
     link: "https://mohamedayman22e.github.io/Random-Color-Generator/",
+    category: ["Small"],
+
     linkGit: "https://github.com/MohamedAyman22E/Random-Color-Generator",
     img: img21,
   },
@@ -273,6 +319,8 @@ const In = [
     tags: ["Html", "css", "js"],
     date: "6 Desember, 2023",
     link: "https://mohamedayman22e.github.io/-Progress-Bar-Animation/",
+    category: ["Small"],
+
     linkGit: "https://github.com/MohamedAyman22E/-Progress-Bar-Animation",
     img: img24,
   },
@@ -282,6 +330,8 @@ const In = [
     tags: ["Html", "css", "js"],
     date: "6 Desember, 2023",
     link: "https://mohamedayman22e.github.io/Length-of-Letter/",
+    category: ["Small"],
+
     linkGit: "https://github.com/MohamedAyman22E/Length-of-Letter",
     img: img23,
   },
@@ -291,6 +341,8 @@ const In = [
     tags: ["Html", "css", "js"],
     date: "6 Desember, 2023",
     link: "https://mohamedayman22e.github.io/RGB-Color-Generator/",
+    category: ["Small"],
+
     linkGit: "https://github.com/MohamedAyman22E/RGB-Color-Generator",
     img: img22,
   },
@@ -300,6 +352,8 @@ const In = [
     tags: ["Html", "css", "js"],
     date: "6 Desember, 2023",
     link: "https://mohamedayman22e.github.io/Captcha-Matched/",
+    category: ["Small"],
+
     linkGit: "https://github.com/MohamedAyman22E/Captcha-Matched",
     img: img25,
   },
@@ -309,6 +363,8 @@ const In = [
     tags: ["Html", "css", "js"],
     date: "6 Desember, 2023",
     link: "https://mohamedayman22e.github.io/Mouse-Event/",
+    category: ["Small"],
+
     linkGit: "https://github.com/MohamedAyman22E/Mouse-Event",
     img: img26,
   },
@@ -318,6 +374,8 @@ const In = [
     tags: ["Html", "css", "js"],
     date: "3 Desember, 2023",
     link: "https://mohamedayman22e.github.io/Create-Rating-Form/",
+    category: ["Small"],
+
     linkGit: "https://github.com/MohamedAyman22E/Create-Rating-Form",
     img: img27,
   },
@@ -327,6 +385,8 @@ const In = [
     tags: ["React", "css"],
     date: "6 Desember, 2023",
     link: "https://resonant-truffle-f4aad3.netlify.app/",
+    category: ["React"],
+
     linkGit: "https://github.com/MohamedAyman22E/React-Project",
     img: img28,
   },
@@ -336,6 +396,8 @@ const In = [
     tags: ["Html", "css", "Js"],
     date: "28 Maret , 2024",
     link: "https://mohamedayman22e.github.io/Custom-Range-Input-2/",
+    category: ["Small"],
+
     linkGit: "https://github.com/MohamedAyman22E/Custom-Range-Input-2t",
     img: img29,
   },
@@ -345,6 +407,8 @@ const In = [
     tags: ["React", "css"],
     date: "20 November , 2023",
     link: "https://mohamedayman22e.github.io/reactProjectOne/",
+    category: ["React"],
+
     linkGit: "https://github.com/MohamedAyman22E/reactProjectOne",
     img: img30,
   },
@@ -354,6 +418,8 @@ const In = [
     tags: ["Html", "css", "Js"],
     date: "21 November , 2023",
     link: "https://mohamedayman22e.github.io/ETIMAD/",
+    category: ["js"],
+
     linkGit: "https://github.com/MohamedAyman22E/ETIMAD",
     img: img31,
   },
@@ -363,6 +429,8 @@ const In = [
     tags: ["Html", "css", "Js"],
     date: "22 November , 2023",
     link: "https://mohamedayman22e.github.io/Pixology/",
+    category: ["js"],
+
     linkGit: "https://github.com/MohamedAyman22E/Pixology",
     img: img32,
   },
@@ -372,6 +440,8 @@ const In = [
     tags: ["Html", "css", "Js"],
     date: "23 November , 2023",
     link: "https://mohamedayman22e.github.io/Foodle/",
+    category: ["js"],
+
     linkGit: "https://github.com/MohamedAyman22E/Foodle",
     img: img33,
   },
@@ -381,6 +451,8 @@ const In = [
     tags: ["Html", "css", "Js"],
     date: "26 November , 2023",
     link: "https://mohamedayman22e.github.io/Share-Social-Media-Links/",
+    category: ["Small"],
+
     linkGit: "https://github.com/MohamedAyman22E/Share-Social-Media-Links",
     img: img34,
   },
@@ -390,6 +462,8 @@ const In = [
     tags: ["Html", "css", "Js"],
     date: "24 November , 2023",
     link: "https://mohamedayman22e.github.io/Landio/",
+    category: ["js"],
+
     linkGit: "https://github.com/MohamedAyman22E/Landio",
     img: img35,
   },
@@ -399,6 +473,8 @@ const In = [
     tags: ["Html", "css", "Js"],
     date: "26 November , 2023",
     link: "https://mohamedayman22e.github.io/Countdown-Timer/",
+    category: ["js"],
+
     linkGit: "https://github.com/MohamedAyman22E/Countdown-Timer",
     img: img36,
   },
@@ -408,6 +484,8 @@ const In = [
     tags: ["Html", "css", "Js"],
     date: "26 November , 2023",
     link: "https://mohamedayman22e.github.io/NavBar/#",
+    category: ["Small"],
+
     linkGit: "https://github.com/MohamedAyman22E/NavBar",
     img: img37,
   },
@@ -417,6 +495,8 @@ const In = [
     tags: ["Html", "css", "Js"],
     date: "28 November , 2023",
     link: "https://mohamedayman22e.github.io/Tolmol/",
+    category: ["js"],
+
     linkGit: "https://github.com/MohamedAyman22E/Tolmol",
     img: img38,
   },
@@ -426,6 +506,8 @@ const In = [
     tags: ["Html", "css", "Js"],
     date: "28 November , 2023",
     link: "https://mohamedayman22e.github.io/Simple-Clock/",
+    category: ["Small"],
+
     linkGit: "https://github.com/MohamedAyman22E/Simple-Clock",
     img: img39,
   },
@@ -435,6 +517,8 @@ const In = [
     tags: ["Html", "css", "Js"],
     date: "28 November , 2023",
     link: "https://mohamedayman22e.github.io/Digital-Clock/",
+    category: ["Small"],
+
     linkGit: "https://github.com/MohamedAyman22E/Digital-Clock",
     img: img40,
   },
@@ -444,6 +528,7 @@ const In = [
     tags: ["Html", "css", "Js"],
     date: "28 November , 2023",
     link: "https://mohamedayman22e.github.io/Simple-Form/",
+    category: ["Small"],
     linkGit: "https://github.com/MohamedAyman22E/Simple-Form",
     img: img41,
   },
@@ -453,6 +538,8 @@ const In = [
     tags: ["Html", "css", "Js"],
     date: "29 November , 2023",
     link: "https://mohamedayman22e.github.io/Multiple-Options-Select-Menu/",
+    category: ["Small"],
+
     linkGit: "https://github.com/MohamedAyman22E/Multiple-Options-Select-Menu",
     img: img42,
   },
@@ -462,6 +549,8 @@ const In = [
     tags: ["Html", "css", "Js"],
     date: "29 November , 2023",
     link: "https://mohamedayman22e.github.io/Password-Validation-Check/",
+    category: ["Small"],
+
     linkGit: "https://github.com/MohamedAyman22E/Password-Validation-Check",
     img: img43,
   },
@@ -471,6 +560,8 @@ const In = [
     tags: ["Html", "css", "Js"],
     date: "29 November , 2023",
     link: "https://mohamedayman22e.github.io/Multi-Step-Form/",
+    category: ["Small"],
+
     linkGit: "https://github.com/MohamedAyman22E/Multi-Step-Form",
     img: img44,
   },
@@ -480,6 +571,8 @@ const In = [
     tags: ["Html", "css", "Js"],
     date: "29 November , 2023",
     link: "https://mohamedayman22e.github.io/Portfolio-4/",
+    category: ["js"],
+
     linkGit: "https://github.com/MohamedAyman22E/Portfolio-4",
     img: img45,
   },
@@ -489,6 +582,8 @@ const In = [
     tags: ["Html", "css", "Js"],
     date: "30 November , 2023",
     link: "https://mohamedayman22e.github.io/Build-A-Gradient-Color-Generator/",
+    category: ["Small"],
+
     linkGit:
       "https://github.com/MohamedAyman22E/Build-A-Gradient-Color-Generator",
     img: img46,
@@ -499,6 +594,8 @@ const In = [
     tags: ["Html", "css", "Js"],
     date: "30 November , 2023",
     link: "https://mohamedayman22e.github.io/Action-Menu-with-Custom-Checkbox-Toggle/",
+    category: ["Small"],
+
     linkGit:
       "https://github.com/MohamedAyman22E/Action-Menu-with-Custom-Checkbox-Toggle",
     img: img47,
@@ -509,6 +606,8 @@ const In = [
     tags: ["Html", "css", "Js"],
     date: "30 November , 2023",
     link: "https://mohamedayman22e.github.io/watch/",
+    category: ["Small"],
+
     linkGit: "https://github.com/MohamedAyman22E/watch",
     img: img48,
   },
@@ -518,6 +617,8 @@ const In = [
     tags: ["Html", "css", "Js"],
     date: "30 November , 2023",
     link: "https://mohamedayman22e.github.io/Stop-watch/",
+    category: ["Small"],
+
     linkGit: "https://github.com/MohamedAyman22E/Stop-watch",
     img: img49,
   },
@@ -527,6 +628,8 @@ const In = [
     tags: ["Html", "css", "Js"],
     date: "1 Januari , 2024",
     link: "https://mohamedayman22e.github.io/Text-to-Speech-Converter/",
+    category: ["Small"],
+
     linkGit: "https://github.com/MohamedAyman22E/Text-to-Speech-Converter",
     img: img50,
   },
@@ -536,6 +639,8 @@ const In = [
     tags: ["Html", "css", "Js"],
     date: "1 Januari , 2024",
     link: "https://mohamedayman22e.github.io/Custom-Right-Click-Context-Menu//",
+    category: ["Small"],
+
     linkGit:
       "https://github.com/MohamedAyman22E/Custom-Right-Click-Context-Menu",
     img: img51,
@@ -546,6 +651,8 @@ const In = [
     tags: ["Html", "css", "Js"],
     date: "2 Januari , 2024",
     link: "https://mohamedayman22e.github.io/Star-Rating-System/",
+    category: ["Small"],
+
     linkGit: "https://github.com/MohamedAyman22E/Star-Rating-System",
     img: img52,
   },
@@ -555,6 +662,8 @@ const In = [
     tags: ["Html", "css", "Js"],
     date: "1 Desember, 2023",
     link: "https://mohamedayman22e.github.io/Costom-select/",
+    category: ["Small"],
+
     linkGit: "https://github.com/MohamedAyman22E/Costom-select",
     img: img53,
   },
@@ -564,6 +673,8 @@ const In = [
     tags: ["Html", "css", "Js"],
     date: "1 Desember, 2023",
     link: "https://mohamedayman22e.github.io/Calendar/",
+    category: ["Small"],
+
     linkGit: "https://github.com/MohamedAyman22E/Calendar",
     img: img54,
   },
@@ -573,6 +684,8 @@ const In = [
     tags: ["Html", "css", "Js"],
     date: "1 Desember, 2023",
     link: "https://mohamedayman22e.github.io/Check-Email-Validation/",
+    category: ["Small"],
+
     linkGit: "https://github.com/MohamedAyman22E/Check-Email-Validation",
     img: img55,
   },
@@ -582,6 +695,8 @@ const In = [
     tags: ["Html", "css", "Js"],
     date: "2 Desember, 2023",
     link: "https://mohamedayman22e.github.io/Draggable-Circular-Navigation-Menu/",
+    category: ["Small"],
+
     linkGit:
       "https://github.com/MohamedAyman22E/Draggable-Circular-Navigation-Menu",
     img: img56,
@@ -592,6 +707,8 @@ const In = [
     tags: ["Html", "css", "Js"],
     date: "2 Desember, 2023",
     link: "https://mohamedayman22e.github.io/calculation/",
+    category: ["Small"],
+
     linkGit: "https://github.com/MohamedAyman22E/calculation",
     img: img57,
   },
@@ -601,6 +718,8 @@ const In = [
     tags: ["Html", "css", "Js"],
     date: "2 Desember, 2023",
     link: "https://mohamedayman22e.github.io/Simple-Contact/",
+    category: ["Small"],
+
     linkGit: "https://github.com/MohamedAyman22E/Simple-Contact",
     img: img58,
   },
@@ -610,6 +729,8 @@ const In = [
     tags: ["Html", "Tilwind", "Js"],
     date: "28 November , 2023",
     link: "https://magnificent-lollipop-70c4ae.netlify.app/",
+    category: ["Tailwind", "js"],
+
     linkGit: "https://github.com/MohamedAyman22E/Volit",
     img: img59,
   },
@@ -619,6 +740,8 @@ const In = [
     tags: ["Html", "Css", "Js"],
     date: "16 Oktober , 2023",
     link: "https://mohamedayman22e.github.io/Foodcap/",
+    category: ["js"],
+
     linkGit: "https://github.com/MohamedAyman22E/Foodcap",
     img: img60,
   },
@@ -628,6 +751,8 @@ const In = [
     tags: ["Html", "Css", "Js"],
     date: "17 Oktober , 2023",
     link: "https://mohamedayman22e.github.io/Food-project/",
+    category: ["js"],
+
     linkGit: "https://github.com/MohamedAyman22E/Food-project",
     img: img61,
   },
@@ -637,6 +762,8 @@ const In = [
     tags: ["Html", "Bootstrap", "Js"],
     date: "20 Oktober , 2023",
     link: "https://mohamedayman22e.github.io/Electronic-Shop/",
+    category: ["js", "Bootstrap"],
+
     linkGit: "https://github.com/MohamedAyman22E/Electronic-Shop",
     img: img62,
   },
@@ -646,6 +773,7 @@ const In = [
     tags: ["Html", "Css", "Js"],
     date: "21 Oktober , 2023",
     link: "https://mohamedayman22e.github.io/CISECO/",
+    category: ["js"],
     linkGit: "https://github.com/MohamedAyman22E/CISECO",
     img: img63,
   },
@@ -655,6 +783,8 @@ const In = [
     tags: ["Html", "Css", "jQuery"],
     date: "22 Oktober , 2023",
     link: "https://mohamedayman22e.github.io/PLANTEX/",
+    category: ["js"],
+
     linkGit: "https://github.com/MohamedAyman22E/PLANTEX",
     img: img64,
   },
@@ -664,6 +794,8 @@ const In = [
     tags: ["Html", "Css", "Js"],
     date: "24 Oktober , 2023",
     link: "https://mohamedayman22e.github.io/BAILO/",
+    category: ["js"],
+
     linkGit: "https://github.com/MohamedAyman22E/BAILO",
     img: img65,
   },
@@ -673,6 +805,8 @@ const In = [
     tags: ["Html", "Scss", "Js"],
     date: "26 Oktober , 2023",
     link: "https://mohamedayman22e.github.io/FIXPRO/",
+    category: ["js"],
+
     linkGit: "https://github.com/MohamedAyman22E/FIXPRO",
     img: img66,
   },
@@ -682,6 +816,8 @@ const In = [
     tags: ["Html", "Scss", "Js"],
     date: "27 Oktober , 2023",
     link: "https://mohamedayman22e.github.io/Education-/",
+    category: ["Sass", "js"],
+
     linkGit: "https://github.com/MohamedAyman22E/Education-",
     img: img67,
   },
@@ -691,6 +827,8 @@ const In = [
     tags: ["Html", "css", "Js"],
     date: "27 Oktober , 2023",
     link: "https://mohamedayman22e.github.io/Dreams/",
+    category: ["js"],
+
     linkGit: "https://github.com/MohamedAyman22E/Dreams",
     img: img68,
   },
@@ -700,6 +838,8 @@ const In = [
     tags: ["Html", "css", "Js"],
     date: "29 Oktober , 2023",
     link: "https://mohamedayman22e.github.io/BARBER/",
+    category: ["js"],
+
     linkGit: "https://github.com/MohamedAyman22E/BARBER",
     img: img69,
   },
@@ -709,6 +849,8 @@ const In = [
     tags: ["Html", "css", "Js"],
     date: "31 Oktober , 2023",
     link: "https://mohamedayman22e.github.io/Educe/",
+    category: ["js"],
+
     linkGit: "https://github.com/MohamedAyman22E/Educe",
     img: img70,
   },
@@ -718,6 +860,8 @@ const In = [
     tags: ["Html", "css", "Js"],
     date: "27 Oktober , 2023",
     link: "https://mohamedayman22e.github.io/Foods/",
+    category: ["js"],
+
     linkGit: "https://github.com/MohamedAyman22E/Foods",
     img: img71,
   },
@@ -727,6 +871,8 @@ const In = [
     tags: ["Html", "css", "JQuery"],
     date: "2 November , 2023",
     link: "https://mohamedayman22e.github.io/Book/",
+    category: ["Jquery"],
+
     linkGit: "https://github.com/MohamedAyman22E/Book",
     img: img72,
   },
@@ -736,6 +882,8 @@ const In = [
     tags: ["Html", "Tilwind", "Js"],
     date: "4 November , 2023",
     link: "https://majestic-lokum-15a5b0.netlify.app/",
+    category: ["Tailwind", "js"],
+
     linkGit: "https://github.com/MohamedAyman22E/BURGERs",
     img: img73,
   },
@@ -745,6 +893,7 @@ const In = [
     tags: ["Html", "Css", "Js"],
     date: "5 November , 2023",
     link: "https://mohamedayman22e.github.io/Portfolio-2/",
+    category: ["js"],
     linkGit: "https://github.com/MohamedAyman22E/Portfolio-2",
     img: img74,
   },
@@ -754,6 +903,7 @@ const In = [
     tags: ["Html", "Css", "Js"],
     date: "7 November , 2023",
     link: "https://mohamedayman22e.github.io/Dizme/",
+    category: ["js"],
     linkGit: "https://github.com/MohamedAyman22E/Dizme",
     img: img75,
   },
@@ -763,6 +913,7 @@ const In = [
     tags: ["Html", "Css", "Js"],
     date: "9 November , 2023",
     link: "https://mohamedayman22e.github.io/Portfolio-3/",
+    category: ["js"],
     linkGit: "https://github.com/MohamedAyman22E/Portfolio-3",
     img: img76,
   },
@@ -772,6 +923,7 @@ const In = [
     tags: ["Html", "Tilwind", "Js"],
     date: "11 November , 2023",
     link: "https://mohamedayman22e.github.io/Car-/",
+    category: ["Tailwind", "js"],
     linkGit: "https://github.com/MohamedAyman22E/Car-",
     img: img77,
   },
@@ -781,6 +933,8 @@ const In = [
     tags: ["Html", "Css", "Js"],
     date: "13 November , 2023",
     link: "https://mohamedayman22e.github.io/Elmiz/",
+    category: ["js"],
+
     linkGit: "https://github.com/MohamedAyman22E/Elmiz",
     img: img78,
   },
@@ -790,6 +944,7 @@ const In = [
     tags: ["Html", "Css", "Js"],
     date: "16 November , 2023",
     link: "https://mohamedayman22e.github.io/Join/",
+    category: ["js"],
     linkGit: "https://github.com/MohamedAyman22E/Join",
     img: img79,
   },
@@ -799,6 +954,7 @@ const In = [
     tags: ["Html", "Css", "Js"],
     date: "19 November , 2023",
     link: "https://mohamedayman22e.github.io/Creway/",
+    category: ["js"],
     linkGit: "https://github.com/MohamedAyman22E/Creway",
     img: img80,
   },
@@ -808,6 +964,7 @@ const In = [
     tags: ["Html", "Css", "Js"],
     date: "22 November , 2023",
     link: "https://mohamedayman22e.github.io/Drawing-App/",
+    category: ["Small"],
     linkGit: "https://github.com/MohamedAyman22E/Drawing-App",
     img: img81,
   },
@@ -817,6 +974,7 @@ const In = [
     tags: ["Html", "Css", "Js"],
     date: "25 November , 2023",
     link: "https://mohamedayman22e.github.io/Bingles/",
+    category: ["js"],
     linkGit: "https://github.com/MohamedAyman22E/Bingles",
     img: img82,
   },
@@ -826,6 +984,7 @@ const In = [
     tags: ["React", "Css", "Redux"],
     date: "5 Maret , 2023",
     link: "https://mohamedayman22e.github.io/Food-/",
+    category: ["React", "Redux"],
     linkGit: "https://github.com/MohamedAyman22E/Food-",
     img: img83,
   },

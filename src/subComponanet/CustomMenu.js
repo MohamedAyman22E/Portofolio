@@ -187,11 +187,12 @@ const CustomMenu = () => {
   const [ShowMenu, SetShowMenu] = useState(false);
   const [colorMenu, SetColorMenu] = useState(false);
   const { t } = useTranslation();
+
   let menu = document.querySelector(".shareMenu");
   let shareMenu = document.querySelectorAll(".hidden");
   const handelContextMenu = e => {
-    SetShowMenu(true);
     e.preventDefault();
+    SetShowMenu(true);
     let x = e.offsetX,
       y = e.offsetY,
       winWidth = window.innerWidth,

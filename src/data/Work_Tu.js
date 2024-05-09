@@ -90,6 +90,9 @@ const Tu = [
     link: "https://mohamedayman22e.github.io/Portfolio-/",
     type: "js",
     img: img1,
+    category: ["Js"],
+
+    linkGit: "https://github.com/MohamedAyman22E/Portfolio-?tab=readme-ov-file",
   },
   {
     id: 2,
@@ -98,7 +101,10 @@ const Tu = [
     date: "10 Haziran, 2023",
     link: "https://mohamedayman22e.github.io/Portfolio/",
     type: "js",
+    category: ["Js"],
+
     img: img2,
+    linkGit: "https://github.com/MohamedAyman22E/Portfolio?tab=readme-ov-file",
   },
   {
     id: 3,
@@ -107,7 +113,10 @@ const Tu = [
     date: "23 Şubat, 2024",
     link: "https://mohamedayman22e.github.io/EducationJs/",
     type: "react",
+    category: ["React"],
+
     img: img3,
+    linkGit: "https://github.com/MohamedAyman22E/EducationJs",
   },
   {
     id: 4,
@@ -116,7 +125,10 @@ const Tu = [
     date: "14 Şubat, 2024",
     link: "https://lamppage.netlify.app/",
     type: "tilwind",
+    category: ["Tailwind", "Js"],
+
     img: img6,
+    linkGit: "https://github.com/MohamedAyman22E/Lamp-",
   },
   {
     id: 5,
@@ -125,7 +137,10 @@ const Tu = [
     date: "8 Haziran, 2024",
     link: "https://mohamedayman22e.github.io/SolnHub/",
     type: "react",
+    category: ["React"],
+
     img: img5,
+    linkGit: "https://github.com/MohamedAyman22E/SolnHub",
   },
   {
     id: 6,
@@ -133,7 +148,10 @@ const Tu = [
     tags: ["HTML", "css", "Js"],
     date: "14 Aralık, 2023",
     link: "https://mohamedayman22e.github.io/Wern/",
+    category: ["Js"],
+
     img: img4,
+    linkGit: "https://github.com/MohamedAyman22E/Wern",
   },
   {
     id: 7,
@@ -141,7 +159,10 @@ const Tu = [
     tags: ["HTML", "Css", "javascript"],
     date: "3 Aralık, 2023",
     link: "https://mohamedayman22e.github.io/Password-Strength-Checker/",
+    category: ["Small"],
+
     img: img7,
+    linkGit: "https://github.com/MohamedAyman22E/Password-Strength-Checker",
   },
   {
     id: 8,
@@ -149,7 +170,10 @@ const Tu = [
     tags: ["Html", "css", "js"],
     date: "2 Aralık, 2023",
     link: "https://mohamedayman22e.github.io/Circle-progress-par/",
+    category: ["Small"],
+
     img: img8,
+    linkGit: "https://github.com/MohamedAyman22E/Circle-progress-par",
   },
   {
     id: 9,
@@ -157,13 +181,18 @@ const Tu = [
     tags: ["Html", "css", "js"],
     date: "2 Aralık, 2023",
     link: "https://mohamedayman22e.github.io/Create-A-Custom-Select-Menu-with-Search-Box/",
+    category: ["Small"],
+
     img: img9,
+    linkGit:
+      "https://github.com/MohamedAyman22E/Create-A-Custom-Select-Menu-with-Search-Box",
   },
   {
     id: 10,
     name: "Html css js ile Basit Bir Yapılacaklar Listesi Oluşturun",
     tags: ["Html", "css", "js"],
     date: "15 Ocak, 2024",
+    category: ["Small"],
     link: "https://mohamedayman22e.github.io/Todo-List/",
     linkGit: "https://github.com/MohamedAyman22E/Todo-List",
     img: img12,
@@ -173,6 +202,8 @@ const Tu = [
     name: "React Scss js ile Basit Bir Bolby Doe React-Portfolio-Sass Oluşturun",
     tags: ["React", "scss"],
     date: "22 Ocak, 2024",
+    category: ["React", "Sass"],
+
     link: "https://mohamedayman22e.github.io/React-Portfolio-Sass/",
     linkGit: "https://github.com/MohamedAyman22E/React-Portfolio-Sass",
     img: img11,
@@ -182,6 +213,8 @@ const Tu = [
     name: "Html css js ile Kullanarak Basit Bir Düğüm Uygulaması Oluşturun",
     tags: ["Html", "css", "js"],
     date: "24 Ocak, 2024",
+    category: ["Small"],
+
     link: "https://mohamedayman22e.github.io/Notes-App/",
     linkGit: "https://github.com/MohamedAyman22E/Notes-App/tree/master",
     img: img10,
@@ -191,6 +224,8 @@ const Tu = [
     name: "Html css js ile Kullanarak Rastgele Şifre Uygulaması Oluşturun",
     tags: ["Html", "css", "js"],
     date: "9 Şubat, 2024",
+    category: ["Small"],
+
     link: " https://mohamedayman22e.github.io/Random-Password/",
     linkGit: "https://github.com/MohamedAyman22E/Random-Password",
     img: img18,
@@ -200,6 +235,8 @@ const Tu = [
     name: "Html css js kullanarak Basit Bir Dijital Saat Uygulaması Oluşturun",
     tags: ["Html", "css", "js"],
     date: "5 Şubat, 2024",
+    category: ["Small"],
+
     link: "https://mohamedayman22e.github.io/Digital-Clock2/",
     linkGit: "https://github.com/MohamedAyman22E/Digital-Clock2",
     img: img13,
@@ -209,6 +246,8 @@ const Tu = [
     name: "Html css js ile Kullanarak Basit Bir Bolby Web Sitesi Uygulaması Oluşturun",
     tags: ["Html", "css", "js"],
     date: "25 Ocak, 2024",
+    category: ["Js"],
+
     link: "https://mohamedayman22e.github.io/Bolby/",
     linkGit: "https://github.com/MohamedAyman22E/Bolby",
     img: img14,
@@ -218,6 +257,8 @@ const Tu = [
     name: "Html css js kullanarak Basit Bir Ağırlık Hesaplama Uygulaması Oluşturun",
     tags: ["Html", "css", "js"],
     date: "14 Ocak, 2024",
+    category: ["Small"],
+
     link: "https://mohamedayman22e.github.io/Simple-BMI-Calculator/",
     linkGit: "https://github.com/MohamedAyman22E/Simple-BMI-Calculator",
     img: img17,
@@ -227,6 +268,8 @@ const Tu = [
     name: "Html css js ile Kullanarak Basit Bir İmleç Tıklama Animasyonu Uygulaması Oluşturun",
     tags: ["Html", "css", "js"],
     date: "13 Ocak, 2024",
+    category: ["Small"],
+
     link: "https://mohamedayman22e.github.io/-Cursor-Click-Animation/",
     linkGit: "https://github.com/MohamedAyman22E/-Cursor-Click-Animation",
     img: img16,
@@ -236,6 +279,8 @@ const Tu = [
     name: "Html css js ile Kullanarak Basit Rastgele Hex Renk Uygulaması Oluşturun",
     tags: ["Html", "css", "js"],
     date: "10 Ocak, 2024",
+    category: ["Small"],
+
     link: "https://mohamedayman22e.github.io/Random-Hex-Color/",
     linkGit: "https://github.com/MohamedAyman22E/Random-Hex-Color",
     img: img15,
@@ -245,6 +290,8 @@ const Tu = [
     name: "Html css js ile Kullanarak Basit Bir Portföy Uygulaması Oluşturun",
     tags: ["Html", "css", "js"],
     date: "16 Aralık, 2023",
+    category: ["Js"],
+
     link: "https://mohamedayman22e.github.io/Simple-portfolios/",
     linkGit: "https://github.com/MohamedAyman22E/Simple-portfolios",
     img: img19,
@@ -252,8 +299,10 @@ const Tu = [
   {
     id: 20,
     name: "Html css js ile Kullanarak Basit Bir Elias React Tailwind Uygulaması Oluşturun",
-    tags: ["React", "css"],
+    tags: ["React", "css", "Tailwind"],
     date: "14 Aralık, 2023",
+    category: ["React", "Tailwind"],
+
     link: "https://mohamedayman22e.github.io/Elias-React-Tailwind-/#home",
     linkGit: "https://github.com/MohamedAyman22E/Elias-React-Tailwind-",
     img: img20,
@@ -263,6 +312,8 @@ const Tu = [
     name: "Html css js kullanarak Basit Rastgele Renk Oluşturucu Uygulaması Oluşturun",
     tags: ["Html", "css"],
     date: "4 Aralık, 2023",
+    category: ["Small"],
+
     link: "https://mohamedayman22e.github.io/Random-Color-Generator/",
     linkGit: "https://github.com/MohamedAyman22E/Random-Color-Generator",
     img: img21,
@@ -272,6 +323,8 @@ const Tu = [
     name: "Html css js kullanarak Basit Bir İlerleme Çubuğu Animasyon Uygulaması Oluşturun",
     tags: ["Html", "css", "js"],
     date: "6 Aralık, 2023",
+    category: ["Small"],
+
     link: "https://mohamedayman22e.github.io/-Progress-Bar-Animation/",
     linkGit: "https://github.com/MohamedAyman22E/-Progress-Bar-Animation",
     img: img24,
@@ -281,6 +334,8 @@ const Tu = [
     name: "Html css js Kullanarak Basit Bir Mektup Uzunluğu Uygulaması Oluşturun",
     tags: ["Html", "css", "js"],
     date: "6 Aralık, 2023",
+    category: ["Small"],
+
     link: "https://mohamedayman22e.github.io/Length-of-Letter/",
     linkGit: "https://github.com/MohamedAyman22E/Length-of-Letter",
     img: img23,
@@ -290,6 +345,8 @@ const Tu = [
     name: "Html css js ile Kullanarak Basit Bir RGB Renk Oluşturucu Uygulaması Oluşturun",
     tags: ["Html", "css", "js"],
     date: "6 Aralık, 2023",
+    category: ["Small"],
+
     link: "https://mohamedayman22e.github.io/RGB-Color-Generator/",
     linkGit: "https://github.com/MohamedAyman22E/RGB-Color-Generator",
     img: img22,
@@ -299,6 +356,8 @@ const Tu = [
     name: "Html css js ile Kullanarak Basit Bir Captcha Uyumlu Uygulama Oluşturun",
     tags: ["Html", "css", "js"],
     date: "6 Aralık, 2023",
+    category: ["Small"],
+
     link: "https://mohamedayman22e.github.io/Captcha-Matched/",
     linkGit: "https://github.com/MohamedAyman22E/Captcha-Matched",
     img: img25,
@@ -308,6 +367,8 @@ const Tu = [
     name: "Html css js ile Kullanarak Basit Bir Fare Etkinliği Uygulaması Oluşturun",
     tags: ["Html", "css", "js"],
     date: "6 Aralık, 2023",
+    category: ["Small"],
+
     link: "https://mohamedayman22e.github.io/Mouse-Event/",
     linkGit: "https://github.com/MohamedAyman22E/Mouse-Event",
     img: img26,
@@ -317,6 +378,8 @@ const Tu = [
     name: "Html css js ile Kullanarak Basit Bir Derecelendirme Formu Uygulaması Oluşturun",
     tags: ["Html", "css", "js"],
     date: "3 Aralık, 2023",
+    category: ["Small"],
+
     link: "https://mohamedayman22e.github.io/Create-Rating-Form/",
     linkGit: "https://github.com/MohamedAyman22E/Create-Rating-Form",
     img: img27,
@@ -326,6 +389,8 @@ const Tu = [
     name: "React css ile Basit Bir Alex React Uygulaması Oluşturun ",
     tags: ["React", "css"],
     date: "6 Aralık, 2023",
+    category: ["React"],
+
     link: "https://resonant-truffle-f4aad3.netlify.app/",
     linkGit: "https://github.com/MohamedAyman22E/React-Project",
     img: img28,
@@ -335,6 +400,8 @@ const Tu = [
     name: "React css ile Kullanarak Basit Bir Özel Aralık Giriş Uygulaması Oluşturun ",
     tags: ["Html", "css", "Js"],
     date: "28 Mart , 2024",
+    category: ["Small"],
+
     link: "https://mohamedayman22e.github.io/Custom-Range-Input-2/",
     linkGit: "https://github.com/MohamedAyman22E/Custom-Range-Input-2t",
     img: img29,
@@ -344,6 +411,8 @@ const Tu = [
     name: "React CSS ile Kullanarak Basit Bir React Jone Uygulaması Oluşturun ",
     tags: ["React", "css"],
     date: "20 Kasım, 2023",
+    category: ["React"],
+
     link: "https://mohamedayman22e.github.io/reactProjectOne/",
     linkGit: "https://github.com/MohamedAyman22E/reactProjectOne",
     img: img30,
@@ -353,6 +422,8 @@ const Tu = [
     name: "Html css js ile Kullanarak Basit Bir Web Sitesi Etimad Uygulaması Oluşturun ",
     tags: ["Html", "css", "Js"],
     date: "21 Kasım, 2023",
+    category: ["Js"],
+
     link: "https://mohamedayman22e.github.io/ETIMAD/",
     linkGit: "https://github.com/MohamedAyman22E/ETIMAD",
     img: img31,
@@ -362,6 +433,8 @@ const Tu = [
     name: "Html css js ile Kullanarak Basit Bir Web Sitesi Pixology Uygulaması Oluşturun ",
     tags: ["Html", "css", "Js"],
     date: "22 Kasım, 2023",
+    category: ["Js"],
+
     link: "https://mohamedayman22e.github.io/Pixology/",
     linkGit: "https://github.com/MohamedAyman22E/Pixology",
     img: img32,
@@ -371,6 +444,8 @@ const Tu = [
     name: "Html css js ile Kullanarak Basit Bir Web Sitesi Foodle Uygulaması Oluşturun ",
     tags: ["Html", "css", "Js"],
     date: "23 Kasım, 2023",
+    category: ["Js"],
+
     link: "https://mohamedayman22e.github.io/Foodle/",
     linkGit: "https://github.com/MohamedAyman22E/Foodle",
     img: img33,
@@ -380,6 +455,8 @@ const Tu = [
     name: "Html css js ile Kullanarak Basit Bir Web Sitesi Oluşturun Sosyal Medya Bağlantıları Uygulamasını Paylaşın ",
     tags: ["Html", "css", "Js"],
     date: "26 Kasım, 2023",
+    category: ["Small"],
+
     link: "https://mohamedayman22e.github.io/Share-Social-Media-Links/",
     linkGit: "https://github.com/MohamedAyman22E/Share-Social-Media-Links",
     img: img34,
@@ -389,6 +466,8 @@ const Tu = [
     name: "Html css js ile Kullanarak Basit Bir Web Sitesi Landio Uygulaması Oluşturun ",
     tags: ["Html", "css", "Js"],
     date: "24 Kasım, 2023",
+    category: ["Small"],
+
     link: "https://mohamedayman22e.github.io/Landio/",
     linkGit: "https://github.com/MohamedAyman22E/Landio",
     img: img35,
@@ -398,6 +477,8 @@ const Tu = [
     name: "Html css js ile Kullanarak Basit Bir Web Sitesi Geri Sayım Sayacı Uygulaması Oluşturun ",
     tags: ["Html", "css", "Js"],
     date: "26 Kasım, 2023",
+    category: ["Small"],
+
     link: "https://mohamedayman22e.github.io/Countdown-Timer/",
     linkGit: "https://github.com/MohamedAyman22E/Countdown-Timer",
     img: img36,
@@ -407,6 +488,8 @@ const Tu = [
     name: "Html css js ile Kullanarak Basit Bir NavBar Uygulaması Oluşturun ",
     tags: ["Html", "css", "Js"],
     date: "26 Kasım, 2023",
+    category: ["Small"],
+
     link: "https://mohamedayman22e.github.io/NavBar/#",
     linkGit: "https://github.com/MohamedAyman22E/NavBar",
     img: img37,
@@ -416,6 +499,8 @@ const Tu = [
     name: "Html css js ile Kullanarak Basit Bir Tolmol Uygulaması Oluşturun ",
     tags: ["Html", "css", "Js"],
     date: "28 Kasım, 2023",
+    category: ["Js"],
+
     link: "https://mohamedayman22e.github.io/Tolmol/",
     linkGit: "https://github.com/MohamedAyman22E/Tolmol",
     img: img38,
@@ -425,6 +510,8 @@ const Tu = [
     name: "Html css js ile Kullanarak Basit Bir Saat Uygulaması Oluşturun ",
     tags: ["Html", "css", "Js"],
     date: "28 Kasım, 2023",
+    category: ["Js"],
+
     link: "https://mohamedayman22e.github.io/Simple-Clock/",
     linkGit: "https://github.com/MohamedAyman22E/Simple-Clock",
     img: img39,
@@ -434,6 +521,8 @@ const Tu = [
     name: "Html css js ile Kullanarak Basit Bir Dijital Saat Uygulaması Oluşturun ",
     tags: ["Html", "css", "Js"],
     date: "28 Kasım, 2023",
+    category: ["Js"],
+
     link: "https://mohamedayman22e.github.io/Digital-Clock/",
     linkGit: "https://github.com/MohamedAyman22E/Digital-Clock",
     img: img40,
@@ -443,6 +532,8 @@ const Tu = [
     name: "Html css js ile Kullanarak Basit Form Uygulaması Oluşturun ",
     tags: ["Html", "css", "Js"],
     date: "28 Kasım, 2023",
+    category: ["Small"],
+
     link: "https://mohamedayman22e.github.io/Simple-Form/",
     linkGit: "https://github.com/MohamedAyman22E/Simple-Form",
     img: img41,
@@ -452,6 +543,8 @@ const Tu = [
     name: "Html css js ile Kullanarak Basit Bir Çoklu Seçenek Seçimi Menü Uygulaması Oluşturun ",
     tags: ["Html", "css", "Js"],
     date: "29 Kasım, 2023",
+    category: ["Small"],
+
     link: "https://mohamedayman22e.github.io/Multiple-Options-Select-Menu/",
     linkGit: "https://github.com/MohamedAyman22E/Multiple-Options-Select-Menu",
     img: img42,
@@ -461,6 +554,8 @@ const Tu = [
     name: "Html css js ile Kullanarak Basit Bir Şifre Doğrulama Kontrolü Uygulaması Oluşturun ",
     tags: ["Html", "css", "Js"],
     date: "29 Kasım, 2023",
+    category: ["Small"],
+
     link: "https://mohamedayman22e.github.io/Password-Validation-Check/",
     linkGit: "https://github.com/MohamedAyman22E/Password-Validation-Check",
     img: img43,
@@ -470,6 +565,8 @@ const Tu = [
     name: "Html css js ile Kullanarak Basit Çok Adımlı Form Uygulaması Oluşturun ",
     tags: ["Html", "css", "Js"],
     date: "29 Kasım, 2023",
+    category: ["Small"],
+
     link: "https://mohamedayman22e.github.io/Multi-Step-Form/",
     linkGit: "https://github.com/MohamedAyman22E/Multi-Step-Form",
     img: img44,
@@ -479,6 +576,8 @@ const Tu = [
     name: "Html css js ile Kullanarak Basit Bir Portföy Uygulaması Oluşturun ",
     tags: ["Html", "css", "Js"],
     date: "29 Kasım, 2023",
+    category: ["Js"],
+
     link: "https://mohamedayman22e.github.io/Portfolio-4/",
     linkGit: "https://github.com/MohamedAyman22E/Portfolio-4",
     img: img45,
@@ -488,6 +587,8 @@ const Tu = [
     name: "Html css js ile Kullanarak Basit Bir Degrade Renk Oluşturucu Uygulaması Oluşturun ",
     tags: ["Html", "css", "Js"],
     date: "30 Kasım, 2023",
+    category: ["Small"],
+
     link: "https://mohamedayman22e.github.io/Build-A-Gradient-Color-Generator/",
     linkGit:
       "https://github.com/MohamedAyman22E/Build-A-Gradient-Color-Generator",
@@ -498,6 +599,8 @@ const Tu = [
     name: "Html css js ile Özel Onay Kutusu Geçiş Uygulaması Kullanarak Basit Bir Eylem Menüsü Oluşturun ",
     tags: ["Html", "css", "Js"],
     date: "30 Kasım, 2023",
+    category: ["Small"],
+
     link: "https://mohamedayman22e.github.io/Action-Menu-with-Custom-Checkbox-Toggle/",
     linkGit:
       "https://github.com/MohamedAyman22E/Action-Menu-with-Custom-Checkbox-Toggle",
@@ -508,6 +611,8 @@ const Tu = [
     name: "Html css js ile Kullanarak Basit Bir İzleme Uygulaması Oluşturun ",
     tags: ["Html", "css", "Js"],
     date: "30 Kasım, 2023",
+    category: ["Small"],
+
     link: "https://mohamedayman22e.github.io/watch/",
     linkGit: "https://github.com/MohamedAyman22E/watch",
     img: img48,
@@ -517,6 +622,8 @@ const Tu = [
     name: "Html css js ile Kullanarak Basit Bir Durdurma Uygulaması Oluşturun ",
     tags: ["Html", "css", "Js"],
     date: "30 Kasım, 2023",
+    category: ["Small"],
+
     link: "https://mohamedayman22e.github.io/Stop-watch/",
     linkGit: "https://github.com/MohamedAyman22E/Stop-watch",
     img: img49,
@@ -526,6 +633,8 @@ const Tu = [
     name: "Html css js ile Kullanarak Basit Bir Metin-Konuşma Dönüştürücü Uygulaması Oluşturun ",
     tags: ["Html", "css", "Js"],
     date: "1 Ocak, 2024",
+    category: ["Small"],
+
     link: "https://mohamedayman22e.github.io/Text-to-Speech-Converter/",
     linkGit: "https://github.com/MohamedAyman22E/Text-to-Speech-Converter",
     img: img50,
@@ -535,6 +644,8 @@ const Tu = [
     name: "Html css js ile Kullanarak Basit Bir Özel Sağ Tıklama Bağlam Menüsü Uygulaması Oluşturun ",
     tags: ["Html", "css", "Js"],
     date: "1 Ocak, 2024",
+    category: ["Small"],
+
     link: "https://mohamedayman22e.github.io/Custom-Right-Click-Context-Menu//",
     linkGit:
       "https://github.com/MohamedAyman22E/Custom-Right-Click-Context-Menu",
@@ -545,6 +656,8 @@ const Tu = [
     name: "Html css js ile Basit Bir Yıldız Derecelendirme Sistemi Uygulaması Oluşturun ",
     tags: ["Html", "css", "Js"],
     date: "2 Ocak, 2024",
+    category: ["Small"],
+
     link: "https://mohamedayman22e.github.io/Star-Rating-System/",
     linkGit: "https://github.com/MohamedAyman22E/Star-Rating-System",
     img: img52,
@@ -554,6 +667,8 @@ const Tu = [
     name: "Html css js ile Kullanarak Basit Bir Özel Seçim Uygulaması Oluşturun ",
     tags: ["Html", "css", "Js"],
     date: "1 Aralık, 2023",
+    category: ["Small"],
+
     link: "https://mohamedayman22e.github.io/Costom-select/",
     linkGit: "https://github.com/MohamedAyman22E/Costom-select",
     img: img53,
@@ -563,6 +678,8 @@ const Tu = [
     name: "Html css js ile Kullanarak Basit Bir Takvim Uygulaması Oluşturun ",
     tags: ["Html", "css", "Js"],
     date: "1 Aralık, 2023",
+    category: ["Small"],
+
     link: "https://mohamedayman22e.github.io/Calendar/",
     linkGit: "https://github.com/MohamedAyman22E/Calendar",
     img: img54,
@@ -572,6 +689,8 @@ const Tu = [
     name: "Html css js ile Basit Bir Kontrol E-posta Doğrulama Uygulaması Oluşturun ",
     tags: ["Html", "css", "Js"],
     date: "1 Aralık, 2023",
+    category: ["Small"],
+
     link: "https://mohamedayman22e.github.io/Check-Email-Validation/",
     linkGit: "https://github.com/MohamedAyman22E/Check-Email-Validation",
     img: img55,
@@ -581,6 +700,8 @@ const Tu = [
     name: "Html css js ile Kullanarak Basit Sürüklenebilir Dairesel Gezinme Menü Uygulaması Oluşturun ",
     tags: ["Html", "css", "Js"],
     date: "2 Aralık, 2023",
+    category: ["Small"],
+
     link: "https://mohamedayman22e.github.io/Draggable-Circular-Navigation-Menu/",
     linkGit:
       "https://github.com/MohamedAyman22E/Draggable-Circular-Navigation-Menu",
@@ -591,6 +712,8 @@ const Tu = [
     name: "Html css js ile Kullanarak Basit Bir Hesaplama Menü Uygulaması Oluşturun ",
     tags: ["Html", "css", "Js"],
     date: "2 Aralık, 2023",
+    category: ["Small"],
+
     link: "https://mohamedayman22e.github.io/calculation/",
     linkGit: "https://github.com/MohamedAyman22E/calculation",
     img: img57,
@@ -600,6 +723,8 @@ const Tu = [
     name: "Html css js ile Kullanarak Basit Bir İletişim Menüsü Uygulaması Oluşturun ",
     tags: ["Html", "css", "Js"],
     date: "2 Aralık, 2023",
+    category: ["Small"],
+
     link: "https://mohamedayman22e.github.io/Simple-Contact/",
     linkGit: "https://github.com/MohamedAyman22E/Simple-Contact",
     img: img58,
@@ -609,6 +734,8 @@ const Tu = [
     name: "Html Tilwind js ile Kullanarak Basit Bir Volit Uygulaması Oluşturun ",
     tags: ["Html", "Tilwind", "Js"],
     date: "28 Kasım, 2023",
+    category: ["Tailwind", "Js"],
+
     link: "https://magnificent-lollipop-70c4ae.netlify.app/",
     linkGit: "https://github.com/MohamedAyman22E/Volit",
     img: img59,
@@ -618,6 +745,8 @@ const Tu = [
     name: "Html Css js ile Basit Bir Foodcap Uygulaması Oluşturun ",
     tags: ["Html", "Css", "Js"],
     date: "16 Ekim, 2023",
+    category: ["Js"],
+
     link: "https://mohamedayman22e.github.io/Foodcap/",
     linkGit: "https://github.com/MohamedAyman22E/Foodcap",
     img: img60,
@@ -627,6 +756,8 @@ const Tu = [
     name: "Html Css js ile Basit Bir Yemek Uygulaması Oluşturun ",
     tags: ["Html", "Css", "Js"],
     date: "17 Ekim, 2023",
+    category: ["Js"],
+
     link: "https://mohamedayman22e.github.io/Food-project/",
     linkGit: "https://github.com/MohamedAyman22E/Food-project",
     img: img61,
@@ -636,6 +767,8 @@ const Tu = [
     name: "Html Bootstrap js ile Basit Bir Elektronik Mağaza Uygulaması Oluşturun ",
     tags: ["Html", "Bootstrap", "Js"],
     date: "20 Ekim, 2023",
+    category: ["Js", "Bootstrap"],
+
     link: "https://mohamedayman22e.github.io/Electronic-Shop/",
     linkGit: "https://github.com/MohamedAyman22E/Electronic-Shop",
     img: img62,
@@ -645,6 +778,8 @@ const Tu = [
     name: "Html Css js ile Kullanarak Basit Bir CISECO Uygulaması Oluşturun ",
     tags: ["Html", "Css", "Js"],
     date: "21 Ekim, 2023",
+    category: ["Js"],
+
     link: "https://mohamedayman22e.github.io/CISECO/",
     linkGit: "https://github.com/MohamedAyman22E/CISECO",
     img: img63,
@@ -654,6 +789,8 @@ const Tu = [
     name: "Html Css jQuery ile Basit Bir PLANTEX Uygulaması Oluşturun ",
     tags: ["Html", "Css", "jQuery"],
     date: "22 Ekim, 2023",
+    category: ["Jquery", "Js"],
+
     link: "https://mohamedayman22e.github.io/PLANTEX/",
     linkGit: "https://github.com/MohamedAyman22E/PLANTEX",
     img: img64,
@@ -663,6 +800,8 @@ const Tu = [
     name: "Html Css Js ile Kullanarak Basit Bir BAILO Uygulaması Oluşturun ",
     tags: ["Html", "Css", "Js"],
     date: "24 Ekim, 2023",
+    category: ["Js"],
+
     link: "https://mohamedayman22e.github.io/BAILO/",
     linkGit: "https://github.com/MohamedAyman22E/BAILO",
     img: img65,
@@ -672,6 +811,8 @@ const Tu = [
     name: "Html Scss Js ile Basit Bir FIXPRO Uygulaması Oluşturun ",
     tags: ["Html", "Scss", "Js"],
     date: "26 Ekim, 2023",
+    category: ["Js"],
+
     link: "https://mohamedayman22e.github.io/FIXPRO/",
     linkGit: "https://github.com/MohamedAyman22E/FIXPRO",
     img: img66,
@@ -681,6 +822,8 @@ const Tu = [
     name: "Html Scss Js ile Basit Bir Eğitim Uygulaması Oluşturun ",
     tags: ["Html", "Scss", "Js"],
     date: "27 Ekim, 2023",
+    category: ["Sass", "Tailwind", "Js"],
+
     link: "https://mohamedayman22e.github.io/Education-/",
     linkGit: "https://github.com/MohamedAyman22E/Education-",
     img: img67,
@@ -690,6 +833,8 @@ const Tu = [
     name: "Html css Js ile Kullanarak Simple Dreams Uygulaması Oluşturun ",
     tags: ["Html", "css", "Js"],
     date: "27 Ekim, 2023",
+    category: ["Js"],
+
     link: "https://mohamedayman22e.github.io/Dreams/",
     linkGit: "https://github.com/MohamedAyman22E/Dreams",
     img: img68,
@@ -699,6 +844,8 @@ const Tu = [
     name: "Html css Js ile Basit Bir BARBER Uygulaması Oluşturun ",
     tags: ["Html", "css", "Js"],
     date: "29 Ekim, 2023",
+    category: ["Js"],
+
     link: "https://mohamedayman22e.github.io/BARBER/",
     linkGit: "https://github.com/MohamedAyman22E/BARBER",
     img: img69,
@@ -708,6 +855,8 @@ const Tu = [
     name: "Html css Js ile Basit Bir Educe Uygulaması Oluşturun ",
     tags: ["Html", "css", "Js"],
     date: "31 Ekim, 2023",
+    category: ["Js"],
+
     link: "https://mohamedayman22e.github.io/Educe/",
     linkGit: "https://github.com/MohamedAyman22E/Educe",
     img: img70,
@@ -717,6 +866,8 @@ const Tu = [
     name: "Html css Js ile Basit Bir Yiyecek Uygulaması Oluşturun ",
     tags: ["Html", "css", "Js"],
     date: "27 Ekim, 2023",
+    category: ["Js"],
+
     link: "https://mohamedayman22e.github.io/Foods/",
     linkGit: "https://github.com/MohamedAyman22E/Foods",
     img: img71,
@@ -726,6 +877,8 @@ const Tu = [
     name: "Html css JQuery ile Basit Bir Kitap Uygulaması Oluşturun ",
     tags: ["Html", "css", "JQuery"],
     date: "2 Kasım, 2023",
+    category: ["Jquery"],
+
     link: "https://mohamedayman22e.github.io/Book/",
     linkGit: "https://github.com/MohamedAyman22E/Book",
     img: img72,
@@ -735,6 +888,8 @@ const Tu = [
     name: "Html Tilwind Js ile Basit Bir BURGER Uygulaması Oluşturun",
     tags: ["Html", "Tilwind", "Js"],
     date: "4 Kasım, 2023",
+    category: ["Tailwind", "Js"],
+
     link: "https://majestic-lokum-15a5b0.netlify.app/",
     linkGit: "https://github.com/MohamedAyman22E/BURGERs",
     img: img73,
@@ -744,6 +899,8 @@ const Tu = [
     name: "Html Css Js ile Kullanarak Basit Bir Portföy Uygulaması Oluşturun ",
     tags: ["Html", "Css", "Js"],
     date: "5 Kasım, 2023",
+    category: ["Js"],
+
     link: "https://mohamedayman22e.github.io/Portfolio-2/",
     linkGit: "https://github.com/MohamedAyman22E/Portfolio-2",
     img: img74,
@@ -753,6 +910,8 @@ const Tu = [
     name: "Html Css Js ile Basit Dizme Uygulaması Oluşturma ",
     tags: ["Html", "Css", "Js"],
     date: "7 Kasım, 2023",
+    category: ["Js"],
+
     link: "https://mohamedayman22e.github.io/Dizme/",
     linkGit: "https://github.com/MohamedAyman22E/Dizme",
     img: img75,
@@ -762,6 +921,8 @@ const Tu = [
     name: "Html Css Js ile Kullanarak Basit Bir Portföy Uygulaması Oluşturun ",
     tags: ["Html", "Css", "Js"],
     date: "9 Kasım, 2023",
+    category: ["Js"],
+
     link: "https://mohamedayman22e.github.io/Portfolio-3/",
     linkGit: "https://github.com/MohamedAyman22E/Portfolio-3",
     img: img76,
@@ -771,6 +932,8 @@ const Tu = [
     name: "Html Tilwind Js ile Basit Bir Araba Uygulaması Oluşturun ",
     tags: ["Html", "Tilwind", "Js"],
     date: "11 Kasım, 2023",
+    category: ["Tailwind", "Js"],
+
     link: "https://mohamedayman22e.github.io/Car-/",
     linkGit: "https://github.com/MohamedAyman22E/Car-",
     img: img77,
@@ -780,6 +943,8 @@ const Tu = [
     name: "Html Css Js ile Basit Elmiz Uygulaması Oluşturma ",
     tags: ["Html", "Css", "Js"],
     date: "13 Kasım, 2023",
+    category: ["Js"],
+
     link: "https://mohamedayman22e.github.io/Elmiz/",
     linkGit: "https://github.com/MohamedAyman22E/Elmiz",
     img: img78,
@@ -789,6 +954,8 @@ const Tu = [
     name: "Html Css Js ile Kullanarak Basit Bir Katılma Uygulaması Oluşturun ",
     tags: ["Html", "Css", "Js"],
     date: "16 Kasım, 2023",
+    category: ["Js"],
+
     link: "https://mohamedayman22e.github.io/Join/",
     linkGit: "https://github.com/MohamedAyman22E/Join",
     img: img79,
@@ -798,6 +965,8 @@ const Tu = [
     name: "Html Css Js ile Basit Bir Creway Uygulaması Oluşturun ",
     tags: ["Html", "Css", "Js"],
     date: "19 Kasım, 2023",
+    category: ["Js"],
+
     link: "https://mohamedayman22e.github.io/Creway/",
     linkGit: "https://github.com/MohamedAyman22E/Creway",
     img: img80,
@@ -807,6 +976,8 @@ const Tu = [
     name: "Html Css Js ile Basit Bir Çizim Uygulaması Oluşturun ",
     tags: ["Html", "Css", "Js"],
     date: "22 Kasım, 2023",
+    category: ["Small"],
+
     link: "https://mohamedayman22e.github.io/Drawing-App/",
     linkGit: "https://github.com/MohamedAyman22E/Drawing-App",
     img: img81,
@@ -816,6 +987,8 @@ const Tu = [
     name: "Html Css Js ile Kullanarak Basit Bir Bingles Uygulaması Oluşturun ",
     tags: ["Html", "Css", "Js"],
     date: "25 Kasım, 2023",
+    category: ["Js"],
+
     link: "https://mohamedayman22e.github.io/Bingles/",
     linkGit: "https://github.com/MohamedAyman22E/Bingles",
     img: img82,
@@ -825,6 +998,8 @@ const Tu = [
     name: "React Css Redux ile Basit Bir Yemek Uygulaması Oluşturun ",
     tags: ["React", "Css", "Redux"],
     date: "5 Mart , 2023",
+    category: ["React", "Redux"],
+
     link: "https://mohamedayman22e.github.io/Food-/",
     linkGit: "https://github.com/MohamedAyman22E/Food-",
     img: img83,

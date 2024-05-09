@@ -88,7 +88,7 @@ const Ja = [
     tags: ["Html", "css", "js"],
     date: "1 六月, 2023",
     link: "https://mohamedayman22e.github.io/Portfolio-/",
-    type: "js",
+    category: "JS",
     img: img1,
   },
   {
@@ -97,7 +97,7 @@ const Ja = [
     tags: ["Html", "Css", "Js"],
     date: "10 六月, 2023",
     link: "https://mohamedayman22e.github.io/Portfolio/",
-    type: "js",
+    category: "JS",
     img: img2,
   },
   {
@@ -106,7 +106,8 @@ const Ja = [
     tags: ["react", "Css"],
     date: "23 2月, 2024",
     link: "https://mohamedayman22e.github.io/EducationJs/",
-    type: "react",
+    category: "JS",
+
     img: img3,
   },
   {
@@ -115,7 +116,8 @@ const Ja = [
     tags: ["HTML", "Tilwind", "Js"],
     date: "14 2月, 2024",
     link: "https://lamppage.netlify.app/",
-    type: "tilwind",
+    category: "JS",
+
     img: img6,
   },
   {
@@ -124,7 +126,8 @@ const Ja = [
     tags: ["react", "css"],
     date: "8 六月, 2024",
     link: "https://mohamedayman22e.github.io/SolnHub/",
-    type: "react",
+    category: "JS",
+
     img: img5,
   },
   {
@@ -133,6 +136,7 @@ const Ja = [
     tags: ["HTML", "css", "Js"],
     date: "14 12月, 2023",
     link: "https://mohamedayman22e.github.io/Wern/",
+    category: "JS",
     img: img4,
   },
   {
@@ -141,6 +145,7 @@ const Ja = [
     tags: ["HTML", "Css", "javascript"],
     date: "3 12月, 2023",
     link: "https://mohamedayman22e.github.io/Password-Strength-Checker/",
+    category: "JS",
     img: img7,
   },
   {
@@ -149,6 +154,7 @@ const Ja = [
     tags: ["Html", "css", "js"],
     date: "2 12月, 2023",
     link: "https://mohamedayman22e.github.io/Circle-progress-par/",
+    category: "JS",
     img: img8,
   },
   {
@@ -157,6 +163,7 @@ const Ja = [
     tags: ["Html", "css", "js"],
     date: "2 12月, 2023",
     link: "https://mohamedayman22e.github.io/Create-A-Custom-Select-Menu-with-Search-Box/",
+    category: "JS",
     img: img9,
   },
   {
@@ -165,7 +172,10 @@ const Ja = [
     tags: ["Html", "css", "js"],
     date: "15 1月, 2024",
     link: "https://mohamedayman22e.github.io/Todo-List/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/Todo-List",
+    category: "JS",
     img: img12,
   },
   {
@@ -174,7 +184,10 @@ const Ja = [
     tags: ["React", "scss"],
     date: "22 1月, 2024",
     link: "https://mohamedayman22e.github.io/React-Portfolio-Sass/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/React-Portfolio-Sass",
+    category: "JS",
     img: img11,
   },
   {
@@ -183,7 +196,10 @@ const Ja = [
     tags: ["Html", "css", "js"],
     date: "24 1月, 2024",
     link: "https://mohamedayman22e.github.io/Notes-App/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/Notes-App/tree/master",
+    category: "JS",
     img: img10,
   },
   {
@@ -192,7 +208,10 @@ const Ja = [
     tags: ["Html", "css", "js"],
     date: "9 2月, 2024",
     link: " https://mohamedayman22e.github.io/Random-Password/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/Random-Password",
+    category: "JS",
     img: img18,
   },
   {
@@ -201,7 +220,10 @@ const Ja = [
     tags: ["Html", "css", "js"],
     date: "5 2月, 2024",
     link: "https://mohamedayman22e.github.io/Digital-Clock2/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/Digital-Clock2",
+    category: "JS",
     img: img13,
   },
   {
@@ -210,7 +232,10 @@ const Ja = [
     tags: ["Html", "css", "js"],
     date: "25 1月, 2024",
     link: "https://mohamedayman22e.github.io/Bolby/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/Bolby",
+    category: "JS",
     img: img14,
   },
   {
@@ -219,7 +244,10 @@ const Ja = [
     tags: ["Html", "css", "js"],
     date: "14 1月, 2024",
     link: "https://mohamedayman22e.github.io/Simple-BMI-Calculator/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/Simple-BMI-Calculator",
+    category: "JS",
     img: img17,
   },
   {
@@ -228,7 +256,10 @@ const Ja = [
     tags: ["Html", "css", "js"],
     date: "13 1月, 2024",
     link: "https://mohamedayman22e.github.io/-Cursor-Click-Animation/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/-Cursor-Click-Animation",
+    category: "JS",
     img: img16,
   },
   {
@@ -237,7 +268,10 @@ const Ja = [
     tags: ["Html", "css", "js"],
     date: "10 1月, 2024",
     link: "https://mohamedayman22e.github.io/Random-Hex-Color/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/Random-Hex-Color",
+    category: "JS",
     img: img15,
   },
   {
@@ -246,7 +280,10 @@ const Ja = [
     tags: ["Html", "css", "js"],
     date: "16 12月, 2023",
     link: "https://mohamedayman22e.github.io/Simple-portfolios/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/Simple-portfolios",
+    category: "JS",
     img: img19,
   },
   {
@@ -255,7 +292,10 @@ const Ja = [
     tags: ["React", "css"],
     date: "14 12月, 2023",
     link: "https://mohamedayman22e.github.io/Elias-React-Tailwind-/#home",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/Elias-React-Tailwind-",
+    category: "JS",
     img: img20,
   },
   {
@@ -264,7 +304,10 @@ const Ja = [
     tags: ["Html", "css"],
     date: "4 12月, 2023",
     link: "https://mohamedayman22e.github.io/Random-Color-Generator/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/Random-Color-Generator",
+    category: "JS",
     img: img21,
   },
   {
@@ -273,7 +316,10 @@ const Ja = [
     tags: ["Html", "css", "js"],
     date: "6 12月, 2023",
     link: "https://mohamedayman22e.github.io/-Progress-Bar-Animation/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/-Progress-Bar-Animation",
+    category: "JS",
     img: img24,
   },
   {
@@ -282,7 +328,10 @@ const Ja = [
     tags: ["Html", "css", "js"],
     date: "6 12月, 2023",
     link: "https://mohamedayman22e.github.io/Length-of-Letter/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/Length-of-Letter",
+    category: "JS",
     img: img23,
   },
   {
@@ -291,7 +340,10 @@ const Ja = [
     tags: ["Html", "css", "js"],
     date: "6 12月, 2023",
     link: "https://mohamedayman22e.github.io/RGB-Color-Generator/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/RGB-Color-Generator",
+    category: "JS",
     img: img22,
   },
   {
@@ -300,7 +352,10 @@ const Ja = [
     tags: ["Html", "css", "js"],
     date: "6 12月, 2023",
     link: "https://mohamedayman22e.github.io/Captcha-Matched/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/Captcha-Matched",
+    category: "JS",
     img: img25,
   },
   {
@@ -309,7 +364,10 @@ const Ja = [
     tags: ["Html", "css", "js"],
     date: "6 12月, 2023",
     link: "https://mohamedayman22e.github.io/Mouse-Event/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/Mouse-Event",
+    category: "JS",
     img: img26,
   },
   {
@@ -318,7 +376,10 @@ const Ja = [
     tags: ["Html", "css", "js"],
     date: "3 12月, 2023",
     link: "https://mohamedayman22e.github.io/Create-Rating-Form/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/Create-Rating-Form",
+    category: "JS",
     img: img27,
   },
   {
@@ -327,7 +388,10 @@ const Ja = [
     tags: ["React", "css"],
     date: "6 12月, 2023",
     link: "https://resonant-truffle-f4aad3.netlify.app/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/React-Project",
+    category: "JS",
     img: img28,
   },
   {
@@ -336,7 +400,10 @@ const Ja = [
     tags: ["Html", "css", "Js"],
     date: "28 3月, 2024",
     link: "https://mohamedayman22e.github.io/Custom-Range-Input-2/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/Custom-Range-Input-2t",
+    category: "JS",
     img: img29,
   },
   {
@@ -345,7 +412,10 @@ const Ja = [
     tags: ["React", "css"],
     date: "20 11月, 2023",
     link: "https://mohamedayman22e.github.io/reactProjectOne/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/reactProjectOne",
+    category: "JS",
     img: img30,
   },
   {
@@ -354,7 +424,10 @@ const Ja = [
     tags: ["Html", "css", "Js"],
     date: "21 11月, 2023",
     link: "https://mohamedayman22e.github.io/ETIMAD/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/ETIMAD",
+    category: "JS",
     img: img31,
   },
   {
@@ -363,7 +436,10 @@ const Ja = [
     tags: ["Html", "css", "Js"],
     date: "22 11月, 2023",
     link: "https://mohamedayman22e.github.io/Pixology/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/Pixology",
+    category: "JS",
     img: img32,
   },
   {
@@ -372,7 +448,10 @@ const Ja = [
     tags: ["Html", "css", "Js"],
     date: "23 11月, 2023",
     link: "https://mohamedayman22e.github.io/Foodle/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/Foodle",
+    category: "JS",
     img: img33,
   },
   {
@@ -381,7 +460,10 @@ const Ja = [
     tags: ["Html", "css", "Js"],
     date: "26 11月, 2023",
     link: "https://mohamedayman22e.github.io/Share-Social-Media-Links/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/Share-Social-Media-Links",
+    category: "JS",
     img: img34,
   },
   {
@@ -390,7 +472,10 @@ const Ja = [
     tags: ["Html", "css", "Js"],
     date: "24 11月, 2023",
     link: "https://mohamedayman22e.github.io/Landio/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/Landio",
+    category: "JS",
     img: img35,
   },
   {
@@ -399,7 +484,10 @@ const Ja = [
     tags: ["Html", "css", "Js"],
     date: "26 11月, 2023",
     link: "https://mohamedayman22e.github.io/Countdown-Timer/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/Countdown-Timer",
+    category: "JS",
     img: img36,
   },
   {
@@ -408,7 +496,10 @@ const Ja = [
     tags: ["Html", "css", "Js"],
     date: "26 11月, 2023",
     link: "https://mohamedayman22e.github.io/NavBar/#",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/NavBar",
+    category: "JS",
     img: img37,
   },
   {
@@ -417,7 +508,10 @@ const Ja = [
     tags: ["Html", "css", "Js"],
     date: "28 11月, 2023",
     link: "https://mohamedayman22e.github.io/Tolmol/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/Tolmol",
+    category: "JS",
     img: img38,
   },
   {
@@ -426,7 +520,10 @@ const Ja = [
     tags: ["Html", "css", "Js"],
     date: "28 11月, 2023",
     link: "https://mohamedayman22e.github.io/Simple-Clock/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/Simple-Clock",
+    category: "JS",
     img: img39,
   },
   {
@@ -435,7 +532,10 @@ const Ja = [
     tags: ["Html", "css", "Js"],
     date: "28 11月, 2023",
     link: "https://mohamedayman22e.github.io/Digital-Clock/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/Digital-Clock",
+    category: "JS",
     img: img40,
   },
   {
@@ -444,7 +544,10 @@ const Ja = [
     tags: ["Html", "css", "Js"],
     date: "28 11月, 2023",
     link: "https://mohamedayman22e.github.io/Simple-Form/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/Simple-Form",
+    category: "JS",
     img: img41,
   },
   {
@@ -453,7 +556,10 @@ const Ja = [
     tags: ["Html", "css", "Js"],
     date: "29 11月, 2023",
     link: "https://mohamedayman22e.github.io/Multiple-Options-Select-Menu/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/Multiple-Options-Select-Menu",
+    category: "JS",
     img: img42,
   },
   {
@@ -462,7 +568,10 @@ const Ja = [
     tags: ["Html", "css", "Js"],
     date: "29 11月, 2023",
     link: "https://mohamedayman22e.github.io/Password-Validation-Check/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/Password-Validation-Check",
+    category: "JS",
     img: img43,
   },
   {
@@ -471,7 +580,10 @@ const Ja = [
     tags: ["Html", "css", "Js"],
     date: "29 11月, 2023",
     link: "https://mohamedayman22e.github.io/Multi-Step-Form/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/Multi-Step-Form",
+    category: "JS",
     img: img44,
   },
   {
@@ -480,7 +592,10 @@ const Ja = [
     tags: ["Html", "css", "Js"],
     date: "29 11月, 2023",
     link: "https://mohamedayman22e.github.io/Portfolio-4/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/Portfolio-4",
+    category: "JS",
     img: img45,
   },
   {
@@ -489,8 +604,11 @@ const Ja = [
     tags: ["Html", "css", "Js"],
     date: "30 11月, 2023",
     link: "https://mohamedayman22e.github.io/Build-A-Gradient-Color-Generator/",
+
+    category: ["moh", "Js"],
     linkGit:
       "https://github.com/MohamedAyman22E/Build-A-Gradient-Color-Generator",
+    category: "JS",
     img: img46,
   },
   {
@@ -499,8 +617,11 @@ const Ja = [
     tags: ["Html", "css", "Js"],
     date: "30 11月, 2023",
     link: "https://mohamedayman22e.github.io/Action-Menu-with-Custom-Checkbox-Toggle/",
+
+    category: ["moh", "Js"],
     linkGit:
       "https://github.com/MohamedAyman22E/Action-Menu-with-Custom-Checkbox-Toggle",
+    category: "JS",
     img: img47,
   },
   {
@@ -509,7 +630,10 @@ const Ja = [
     tags: ["Html", "css", "Js"],
     date: "30 11月, 2023",
     link: "https://mohamedayman22e.github.io/watch/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/watch",
+    category: "JS",
     img: img48,
   },
   {
@@ -518,7 +642,10 @@ const Ja = [
     tags: ["Html", "css", "Js"],
     date: "30 11月, 2023",
     link: "https://mohamedayman22e.github.io/Stop-watch/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/Stop-watch",
+    category: "JS",
     img: img49,
   },
   {
@@ -527,7 +654,10 @@ const Ja = [
     tags: ["Html", "css", "Js"],
     date: "1 1月, 2024",
     link: "https://mohamedayman22e.github.io/Text-to-Speech-Converter/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/Text-to-Speech-Converter",
+    category: "JS",
     img: img50,
   },
   {
@@ -536,8 +666,11 @@ const Ja = [
     tags: ["Html", "css", "Js"],
     date: "1 1月, 2024",
     link: "https://mohamedayman22e.github.io/Custom-Right-Click-Context-Menu//",
+
+    category: ["moh", "Js"],
     linkGit:
       "https://github.com/MohamedAyman22E/Custom-Right-Click-Context-Menu",
+    category: "JS",
     img: img51,
   },
   {
@@ -546,7 +679,10 @@ const Ja = [
     tags: ["Html", "css", "Js"],
     date: "2 1月, 2024",
     link: "https://mohamedayman22e.github.io/Star-Rating-System/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/Star-Rating-System",
+    category: "JS",
     img: img52,
   },
   {
@@ -555,7 +691,10 @@ const Ja = [
     tags: ["Html", "css", "Js"],
     date: "1 12月, 2023",
     link: "https://mohamedayman22e.github.io/Costom-select/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/Costom-select",
+    category: "JS",
     img: img53,
   },
   {
@@ -564,7 +703,10 @@ const Ja = [
     tags: ["Html", "css", "Js"],
     date: "1 12月, 2023",
     link: "https://mohamedayman22e.github.io/Calendar/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/Calendar",
+    category: "JS",
     img: img54,
   },
   {
@@ -573,8 +715,11 @@ const Ja = [
     tags: ["Html", "css", "Js"],
     date: "1 12月, 2023",
     link: "https://mohamedayman22e.github.io/Check-Email-Validation/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/Check-Email-Validation",
     img: img55,
+    category: "JS",
   },
   {
     id: 56,
@@ -582,8 +727,11 @@ const Ja = [
     tags: ["Html", "css", "Js"],
     date: "2 12月, 2023",
     link: "https://mohamedayman22e.github.io/Draggable-Circular-Navigation-Menu/",
+
+    category: ["moh", "Js"],
     linkGit:
       "https://github.com/MohamedAyman22E/Draggable-Circular-Navigation-Menu",
+    category: "JS",
     img: img56,
   },
   {
@@ -592,7 +740,10 @@ const Ja = [
     tags: ["Html", "css", "Js"],
     date: "2 12月, 2023",
     link: "https://mohamedayman22e.github.io/calculation/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/calculation",
+    category: "JS",
     img: img57,
   },
   {
@@ -601,7 +752,10 @@ const Ja = [
     tags: ["Html", "css", "Js"],
     date: "2 12月, 2023",
     link: "https://mohamedayman22e.github.io/Simple-Contact/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/Simple-Contact",
+    category: "JS",
     img: img58,
   },
   {
@@ -610,7 +764,10 @@ const Ja = [
     tags: ["Html", "Tilwind", "Js"],
     date: "28 11月, 2023",
     link: "https://magnificent-lollipop-70c4ae.netlify.app/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/Volit",
+    category: "JS",
     img: img59,
   },
   {
@@ -619,7 +776,10 @@ const Ja = [
     tags: ["Html", "Css", "Js"],
     date: "16 10月, 2023",
     link: "https://mohamedayman22e.github.io/Foodcap/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/Foodcap",
+    category: "JS",
     img: img60,
   },
   {
@@ -628,7 +788,10 @@ const Ja = [
     tags: ["Html", "Css", "Js"],
     date: "17 10月, 2023",
     link: "https://mohamedayman22e.github.io/Food-project/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/Food-project",
+    category: "JS",
     img: img61,
   },
   {
@@ -637,7 +800,10 @@ const Ja = [
     tags: ["Html", "Bootstrap", "Js"],
     date: "20 10月, 2023",
     link: "https://mohamedayman22e.github.io/Electronic-Shop/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/Electronic-Shop",
+    category: "JS",
     img: img62,
   },
   {
@@ -646,7 +812,10 @@ const Ja = [
     tags: ["Html", "Css", "Js"],
     date: "21 10月, 2023",
     link: "https://mohamedayman22e.github.io/CISECO/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/CISECO",
+    category: "JS",
     img: img63,
   },
   {
@@ -655,7 +824,10 @@ const Ja = [
     tags: ["Html", "Css", "jQuery"],
     date: "22 10月, 2023",
     link: "https://mohamedayman22e.github.io/PLANTEX/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/PLANTEX",
+    category: "JS",
     img: img64,
   },
   {
@@ -664,7 +836,10 @@ const Ja = [
     tags: ["Html", "Css", "Js"],
     date: "24 10月, 2023",
     link: "https://mohamedayman22e.github.io/BAILO/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/BAILO",
+    category: "JS",
     img: img65,
   },
   {
@@ -673,7 +848,10 @@ const Ja = [
     tags: ["Html", "Scss", "Js"],
     date: "26 10月, 2023",
     link: "https://mohamedayman22e.github.io/FIXPRO/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/FIXPRO",
+    category: "JS",
     img: img66,
   },
   {
@@ -682,7 +860,10 @@ const Ja = [
     tags: ["Html", "Scss", "Js"],
     date: "27 10月, 2023",
     link: "https://mohamedayman22e.github.io/Education-/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/Education-",
+    category: "JS",
     img: img67,
   },
   {
@@ -691,7 +872,10 @@ const Ja = [
     tags: ["Html", "css", "Js"],
     date: "27 10月, 2023",
     link: "https://mohamedayman22e.github.io/Dreams/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/Dreams",
+    category: "JS",
     img: img68,
   },
   {
@@ -700,7 +884,10 @@ const Ja = [
     tags: ["Html", "css", "Js"],
     date: "29 10月, 2023",
     link: "https://mohamedayman22e.github.io/BARBER/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/BARBER",
+    category: "JS",
     img: img69,
   },
   {
@@ -709,7 +896,10 @@ const Ja = [
     tags: ["Html", "css", "Js"],
     date: "31 10月, 2023",
     link: "https://mohamedayman22e.github.io/Educe/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/Educe",
+    category: "JS",
     img: img70,
   },
   {
@@ -718,7 +908,10 @@ const Ja = [
     tags: ["Html", "css", "Js"],
     date: "27 10月, 2023",
     link: "https://mohamedayman22e.github.io/Foods/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/Foods",
+    category: "JS",
     img: img71,
   },
   {
@@ -727,7 +920,10 @@ const Ja = [
     tags: ["Html", "css", "JQuery"],
     date: "2 11月, 2023",
     link: "https://mohamedayman22e.github.io/Book/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/Book",
+    category: "JS",
     img: img72,
   },
   {
@@ -736,7 +932,10 @@ const Ja = [
     tags: ["Html", "Tilwind", "Js"],
     date: "4 11月, 2023",
     link: "https://majestic-lokum-15a5b0.netlify.app/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/BURGERs",
+    category: "JS",
     img: img73,
   },
   {
@@ -745,7 +944,10 @@ const Ja = [
     tags: ["Html", "Css", "Js"],
     date: "5 11月, 2023",
     link: "https://mohamedayman22e.github.io/Portfolio-2/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/Portfolio-2",
+    category: "JS",
     img: img74,
   },
   {
@@ -754,7 +956,10 @@ const Ja = [
     tags: ["Html", "Css", "Js"],
     date: "7 11月, 2023",
     link: "https://mohamedayman22e.github.io/Dizme/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/Dizme",
+    category: "JS",
     img: img75,
   },
   {
@@ -763,7 +968,10 @@ const Ja = [
     tags: ["Html", "Css", "Js"],
     date: "9 11月, 2023",
     link: "https://mohamedayman22e.github.io/Portfolio-3/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/Portfolio-3",
+    category: "JS",
     img: img76,
   },
   {
@@ -772,7 +980,10 @@ const Ja = [
     tags: ["Html", "Tilwind", "Js"],
     date: "11 11月, 2023",
     link: "https://mohamedayman22e.github.io/Car-/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/Car-",
+    category: "JS",
     img: img77,
   },
   {
@@ -781,7 +992,10 @@ const Ja = [
     tags: ["Html", "Css", "Js"],
     date: "13 11月, 2023",
     link: "https://mohamedayman22e.github.io/Elmiz/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/Elmiz",
+    category: "JS",
     img: img78,
   },
   {
@@ -790,7 +1004,10 @@ const Ja = [
     tags: ["Html", "Css", "Js"],
     date: "16 11月, 2023",
     link: "https://mohamedayman22e.github.io/Join/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/Join",
+    category: "JS",
     img: img79,
   },
   {
@@ -799,7 +1016,10 @@ const Ja = [
     tags: ["Html", "Css", "Js"],
     date: "19 11月, 2023",
     link: "https://mohamedayman22e.github.io/Creway/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/Creway",
+    category: "JS",
     img: img80,
   },
   {
@@ -808,7 +1028,10 @@ const Ja = [
     tags: ["Html", "Css", "Js"],
     date: "22 11月, 2023",
     link: "https://mohamedayman22e.github.io/Drawing-App/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/Drawing-App",
+    category: "JS",
     img: img81,
   },
   {
@@ -817,7 +1040,10 @@ const Ja = [
     tags: ["Html", "Css", "Js"],
     date: "25 11月, 2023",
     link: "https://mohamedayman22e.github.io/Bingles/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/Bingles",
+    category: "JS",
     img: img82,
   },
   {
@@ -826,7 +1052,10 @@ const Ja = [
     tags: ["React", "Css", "Redux"],
     date: "5 3月, 2023",
     link: "https://mohamedayman22e.github.io/Food-/",
+
+    category: ["moh", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/Food-",
+    category: "JS",
     img: img83,
   },
 ];
