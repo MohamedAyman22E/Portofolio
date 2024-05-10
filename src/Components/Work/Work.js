@@ -21,7 +21,6 @@ import Indonesia from "../../data/Work_In";
 import It from "../../data/Work_It";
 import Po from "../../data/Work_Po";
 import Ru from "../../data/Work_Ru";
-// import Tu from "../../data/Work_Tu";
 import Tu from "../../data/Work_Tu";
 const MainContainer = styled(motion.div)`
   background-image: url(${img});
@@ -98,10 +97,11 @@ const Btn = styled.button`
   background-color: ${props => props.theme.text};
   color: ${props => props.theme.body};
   font-weight: 600;
-  transition: all.3s;
+  transition: all.1s;
   margin: 5px;
   cursor: pointer;
-  &:hover {
+  &:hover,
+  &.active {
     background-color: ${props => props.theme.body};
     color: ${props => props.theme.text};
   }
@@ -110,7 +110,7 @@ const Work = () => {
   const { t } = useTranslation();
   const [en, setEn] = useState(En);
   const [fr, setFr] = useState(Fr);
-  // const [tu, setTu] = useState(Tu);
+  const [tu, setTu] = useState(Tu);
   const [sp, setSp] = useState(Sp);
   const [ru, setRu] = useState(Ru);
   const [ja, setJa] = useState(Ja);
@@ -123,27 +123,27 @@ const Work = () => {
   const [indonesia, setIndonesia] = useState(Indonesia);
   const [it, setIt] = useState(It);
   const filterItem = category => {
-    // const newItemEn = En.filter(item => {
-    //   return item.category[0] === category
-    //     ? item
-    //     : item.category[1] === category
-    //     ? item
-    //     : null;
-    // });
-    // const newItemFr = Fr.filter(item => {
-    //   return item.category[0] === category
-    //     ? item
-    //     : item.category[1] === category
-    //     ? item
-    //     : null;
-    // });
-    // const newItemTu = Tu.filter(item => {
-    //   return item.category[0] === category
-    //     ? item
-    //     : item.category[1] === category
-    //     ? item
-    //     : null;
-    // });
+    const newItemEn = En.filter(item => {
+      return item.category[0] === category
+        ? item
+        : item.category[1] === category
+        ? item
+        : null;
+    });
+    const newItemFr = Fr.filter(item => {
+      return item.category[0] === category
+        ? item
+        : item.category[1] === category
+        ? item
+        : null;
+    });
+    const newItemTu = Tu.filter(item => {
+      return item.category[0] === category
+        ? item
+        : item.category[1] === category
+        ? item
+        : null;
+    });
     const newItemRu = Ru.filter(item => {
       return item.category[0] === category
         ? item
@@ -165,13 +165,13 @@ const Work = () => {
         ? item
         : null;
     });
-    // const newItemGe = Ge.filter(item => {
-    //   return item.category[0] === category
-    //     ? item
-    //     : item.category[1] === category
-    //     ? item
-    //     : null;
-    // });
+    const newItemGe = Ge.filter(item => {
+      return item.category[0] === category
+        ? item
+        : item.category[1] === category
+        ? item
+        : null;
+    });
     // const newItemCh = Ch.filter(item => {
     //   return item.category[0] === category
     //     ? item
@@ -221,14 +221,14 @@ const Work = () => {
         ? item
         : null;
     });
-    // setEn(newItemEn);
-    // setFr(newItemFr);
-    // setTu(newItemTu);
+    setEn(newItemEn);
+    setFr(newItemFr);
+    setTu(newItemTu);
     setSp(newItemSp);
     setRu(newItemRu);
     setJa(newItemJa);
     setPo(newItemPo);
-    // setGe(newItemGe);
+    setGe(newItemGe);
     // setCh(newItemCh);
     setKorean(newItemKorean);
     // setAr(newItemAr);
@@ -236,14 +236,14 @@ const Work = () => {
     setIndonesia(newItemIndonesia);
     setIt(newItemIt);
     if (category === "all") {
-      // setEn(En);
+      setEn(En);
       setSp(Sp);
-      // setFr(Fr);
-      // setTu(Tu);
+      setFr(Fr);
+      setTu(Tu);
       setRu(Ru);
       setJa(Ja);
       setPo(Po);
-      // setGe(Ge);
+      setGe(Ge);
       // setCh(Ch);
       setKorean(Korean);
       // setAr(Ar);
@@ -252,6 +252,14 @@ const Work = () => {
       setIt(It);
     }
   };
+  document.querySelectorAll(".filterBtn").forEach(e => {
+    e.addEventListener("click", () => {
+      document.querySelectorAll(".filterBtn").forEach(x => {
+        x.classList.remove("active");
+      });
+      e.classList.add("active");
+    });
+  });
 
   return (
     <MainContainer
@@ -268,14 +276,30 @@ const Work = () => {
         <Logo>{t("Work")}</Logo>
         <Center>
           <AllBtn>
-            <Btn onClick={() => filterItem("all")}>All</Btn>
-            <Btn onClick={() => filterItem("Js")}>Js</Btn>
-            <Btn onClick={() => filterItem("Sass")}>Sass</Btn>
-            <Btn onClick={() => filterItem("React")}>React</Btn>
-            <Btn onClick={() => filterItem("Bootstrap")}>Bootstrap</Btn>
-            <Btn onClick={() => filterItem("Tailwind")}>Tailwind</Btn>
-            <Btn onClick={() => filterItem("Redux")}>Redux</Btn>
-            <Btn onClick={() => filterItem("Small")}>Small Project</Btn>
+            <Btn className="filterBtn" onClick={() => filterItem("all")}>
+              All
+            </Btn>
+            <Btn className="filterBtn" onClick={() => filterItem("Js")}>
+              Js
+            </Btn>
+            <Btn className="filterBtn" onClick={() => filterItem("Sass")}>
+              Sass
+            </Btn>
+            <Btn className="filterBtn" onClick={() => filterItem("React")}>
+              React
+            </Btn>
+            <Btn className="filterBtn" onClick={() => filterItem("Bootstrap")}>
+              Bootstrap
+            </Btn>
+            <Btn className="filterBtn" onClick={() => filterItem("Tailwind")}>
+              Tailwind
+            </Btn>
+            <Btn className="filterBtn" onClick={() => filterItem("Redux")}>
+              Redux
+            </Btn>
+            <Btn className="filterBtn" onClick={() => filterItem("Small")}>
+              Small Project
+            </Btn>
           </AllBtn>
           {
             <Grid>
@@ -302,7 +326,7 @@ const Work = () => {
                 : document.querySelector("html").lang === "it"
                 ? it
                 : document.querySelector("html").lang === "tu"
-                ? Tu
+                ? tu
                 : document.querySelector("html").lang === "ru"
                 ? ru
                 : document.querySelector("html").lang === "po"

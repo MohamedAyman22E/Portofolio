@@ -88,7 +88,6 @@ const Da = [
     tags: ["Html", "css", "js"],
     date: "1 juni, 2023",
     link: "https://mohamedayman22e.github.io/Portfolio-/",
-    type: "js",
     img: img1,
   },
   {
