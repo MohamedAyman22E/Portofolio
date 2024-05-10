@@ -108,6 +108,7 @@ const Work = () => {
   const [en, setEn] = useState(En);
   const [fr, setFr] = useState(Fr);
   const [tu, setTu] = useState(Tu);
+  const [sp, setSp] = useState(Sp);
   const [ru, setRu] = useState(Ru);
   const [ja, setJa] = useState(Ja);
   const [po, setPo] = useState(Po);
@@ -119,27 +120,27 @@ const Work = () => {
   const [indonesia, setIndonesia] = useState(Indonesia);
   const [it, setIt] = useState(It);
   const filterItem = category => {
-    const newItemEn = En.filter(item => {
-      return item.category[0] === category
-        ? item
-        : item.category[1] === category
-        ? item
-        : null;
-    });
-    const newItemFr = Fr.filter(item => {
-      return item.category[0] === category
-        ? item
-        : item.category[1] === category
-        ? item
-        : null;
-    });
-    const newItemTu = Tu.filter(item => {
-      return item.category[0] === category
-        ? item
-        : item.category[1] === category
-        ? item
-        : null;
-    });
+    // const newItemEn = En.filter(item => {
+    //   return item.category[0] === category
+    //     ? item
+    //     : item.category[1] === category
+    //     ? item
+    //     : null;
+    // });
+    // const newItemFr = Fr.filter(item => {
+    //   return item.category[0] === category
+    //     ? item
+    //     : item.category[1] === category
+    //     ? item
+    //     : null;
+    // });
+    // const newItemTu = Tu.filter(item => {
+    //   return item.category[0] === category
+    //     ? item
+    //     : item.category[1] === category
+    //     ? item
+    //     : null;
+    // });
     const newItemRu = Ru.filter(item => {
       return item.category[0] === category
         ? item
@@ -147,34 +148,34 @@ const Work = () => {
         ? item
         : null;
     });
-    const newItemJa = Ja.filter(item => {
-      return item.category[0] === category
-        ? item
-        : item.category[1] === category
-        ? item
-        : null;
-    });
-    const newItemPo = Po.filter(item => {
-      return item.category[0] === category
-        ? item
-        : item.category[1] === category
-        ? item
-        : null;
-    });
-    const newItemGe = Ge.filter(item => {
-      return item.category[0] === category
-        ? item
-        : item.category[1] === category
-        ? item
-        : null;
-    });
-    const newItemCh = Ch.filter(item => {
-      return item.category[0] === category
-        ? item
-        : item.category[1] === category
-        ? item
-        : null;
-    });
+    // const newItemJa = Ja.filter(item => {
+    //   return item.category[0] === category
+    //     ? item
+    //     : item.category[1] === category
+    //     ? item
+    //     : null;
+    // });
+    // const newItemPo = Po.filter(item => {
+    //   return item.category[0] === category
+    //     ? item
+    //     : item.category[1] === category
+    //     ? item
+    //     : null;
+    // });
+    // const newItemGe = Ge.filter(item => {
+    //   return item.category[0] === category
+    //     ? item
+    //     : item.category[1] === category
+    //     ? item
+    //     : null;
+    // });
+    // const newItemCh = Ch.filter(item => {
+    //   return item.category[0] === category
+    //     ? item
+    //     : item.category[1] === category
+    //     ? item
+    //     : null;
+    // });
     const newItemKorean = Korean.filter(item => {
       return item.category[0] === category
         ? item
@@ -182,21 +183,28 @@ const Work = () => {
         ? item
         : null;
     });
-    const newItemAr = Ar.filter(item => {
-      return item.category[0] === category
-        ? item
-        : item.category[1] === category
-        ? item
-        : null;
-    });
-    const newItemDa = Da.filter(item => {
-      return item.category[0] === category
-        ? item
-        : item.category[1] === category
-        ? item
-        : null;
-    });
+    // const newItemAr = Ar.filter(item => {
+    //   return item.category[0] === category
+    //     ? item
+    //     : item.category[1] === category
+    //     ? item
+    //     : null;
+    // });
+    // const newItemDa = Da.filter(item => {
+    //   return item.category[0] === category
+    //     ? item
+    //     : item.category[1] === category
+    //     ? item
+    //     : null;
+    // });
     const newItemIndonesia = Indonesia.filter(item => {
+      return item.category[0] === category
+        ? item
+        : item.category[1] === category
+        ? item
+        : null;
+    });
+    const newItemSp = Sp.filter(item => {
       return item.category[0] === category
         ? item
         : item.category[1] === category
@@ -210,31 +218,33 @@ const Work = () => {
         ? item
         : null;
     });
-    setEn(newItemEn);
-    setFr(newItemFr);
-    setTu(newItemTu);
+    // setEn(newItemEn);
+    // setFr(newItemFr);
+    // setTu(newItemTu);
+    setSp(newItemSp);
     setRu(newItemRu);
-    setJa(newItemJa);
-    setPo(newItemPo);
-    setGe(newItemGe);
-    setCh(newItemCh);
+    // setJa(newItemJa);
+    // setPo(newItemPo);
+    // setGe(newItemGe);
+    // setCh(newItemCh);
     setKorean(newItemKorean);
-    setAr(newItemAr);
-    setDa(newItemDa);
+    // setAr(newItemAr);
+    // setDa(newItemDa);
     setIndonesia(newItemIndonesia);
     setIt(newItemIt);
     if (category === "all") {
-      setEn(En);
-      setFr(Fr);
-      setFr(Tu);
-      setFr(Ru);
-      setFr(Ja);
-      setPo(Po);
-      setGe(Ge);
-      setCh(Ch);
-      setKorean(korean);
-      setAr(Ar);
-      setDa(Da);
+      // setEn(En);
+      setSp(Sp);
+      // setFr(Fr);
+      // setTu(Tu);
+      setRu(Ru);
+      // setJa(Ja);
+      // setPo(Po);
+      // setGe(Ge);
+      // setCh(Ch);
+      setKorean(Korean);
+      // setAr(Ar);
+      // setDa(Da);
       setIndonesia(Indonesia);
       setIt(It);
     }
@@ -271,7 +281,7 @@ const Work = () => {
                 : document.querySelector("html").lang === "fr"
                 ? fr
                 : document.querySelector("html").lang === "sp"
-                ? Sp
+                ? sp
                 : document.querySelector("html").lang === "ge"
                 ? ge
                 : document.querySelector("html").lang === "ch"

@@ -115,7 +115,6 @@ const Ar = [
     tags: ["HTML", "Tilwind", "Js"],
     date: "14 فبراير 2024",
     link: "https://lamppage.netlify.app/",
-    type: "tilwind",
     img: img6,
   },
   {
