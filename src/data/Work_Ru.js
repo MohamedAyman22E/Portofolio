@@ -89,6 +89,7 @@ const Ru = [
     date: "1 июня, 2023",
     link: "https://mohamedayman22e.github.io/Portfolio-/",
     category: ["Js"],
+    linkGit: "https://github.com/MohamedAyman22E/Portfolio-?tab=readme-ov-file",
     img: img1,
   },
   {
@@ -98,6 +99,7 @@ const Ru = [
     date: "10 июня, 2023",
     category: ["Js"],
     link: "https://mohamedayman22e.github.io/Portfolio/",
+    linkGit: "https://github.com/MohamedAyman22E/Portfolio?tab=readme-ov-file",
     img: img2,
   },
   {
@@ -107,6 +109,7 @@ const Ru = [
     date: "23 февраля , 2024",
     category: ["React"],
     link: "https://mohamedayman22e.github.io/EducationJs/",
+    linkGit: "https://github.com/MohamedAyman22E/EducationJs",
     img: img3,
   },
   {
@@ -114,8 +117,9 @@ const Ru = [
     name: "Создайте простой веб-сайт с лампой с помощью tilwind css ",
     tags: ["HTML", "Tilwind", "Js"],
     date: "14 февраля , 2024",
-    category: ["Tailwind"],
+    category: ["Tailwind", "Js"],
     link: "https://lamppage.netlify.app/",
+    linkGit: "https://github.com/MohamedAyman22E/Lamp-",
     img: img6,
   },
   {
@@ -125,6 +129,7 @@ const Ru = [
     date: "8 июня, 2024",
     category: ["React"],
     link: "https://mohamedayman22e.github.io/SolnHub/",
+    linkGit: "https://github.com/MohamedAyman22E/SolnHub",
     img: img5,
   },
   {
@@ -134,6 +139,7 @@ const Ru = [
     date: "14 Декабря , 2023",
     category: ["Js"],
     link: "https://mohamedayman22e.github.io/Wern/",
+    linkGit: "https://github.com/MohamedAyman22E/Wern",
     img: img4,
   },
   {
@@ -143,6 +149,7 @@ const Ru = [
     date: "3 Декабря , 2023",
     category: ["Small"],
     link: "https://mohamedayman22e.github.io/Password-Strength-Checker/",
+    linkGit: "https://github.com/MohamedAyman22E/Password-Strength-Checker",
     img: img7,
   },
   {
@@ -152,6 +159,7 @@ const Ru = [
     date: "2 Декабря , 2023",
     category: ["Small"],
     link: "https://mohamedayman22e.github.io/Circle-progress-par/",
+    linkGit: "https://github.com/MohamedAyman22E/Circle-progress-par",
     img: img8,
   },
   {
@@ -162,6 +170,8 @@ const Ru = [
     category: ["Small"],
     link: "https://mohamedayman22e.github.io/Create-A-Custom-Select-Menu-with-Search-Box/",
     img: img9,
+    linkGit:
+      "https://github.com/MohamedAyman22E/Create-A-Custom-Select-Menu-with-Search-Box",
   },
   {
     id: 10,
@@ -399,7 +409,7 @@ const Ru = [
     tags: ["Html", "css", "Js"],
     date: "23 ноября , 2023",
     link: "https://mohamedayman22e.github.io/Foodle/",
-    category: ["Small"],
+    category: ["Js"],
     linkGit: "https://github.com/MohamedAyman22E/Foodle",
     img: img33,
   },
@@ -663,7 +673,7 @@ const Ru = [
     tags: ["Html", "Tilwind", "Js"],
     date: "28 ноября , 2023",
     link: "https://magnificent-lollipop-70c4ae.netlify.app/",
-    category: ["Tailwind"],
+    category: ["Tailwind", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/Volit",
     img: img59,
   },
@@ -713,7 +723,7 @@ const Ru = [
     tags: ["Html", "Css", "jQuery"],
     date: "22 октября, 2023",
     link: "https://mohamedayman22e.github.io/PLANTEX/",
-    category: ["jQuery"],
+    category: ["JQuery"],
     linkGit: "https://github.com/MohamedAyman22E/PLANTEX",
     img: img64,
   },

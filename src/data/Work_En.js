@@ -90,6 +90,7 @@ const En = [
     link: "https://mohamedayman22e.github.io/Portfolio-/",
     category: ["Js"],
     img: img1,
+    linkGit: "https://github.com/MohamedAyman22E/Portfolio-?tab=readme-ov-file",
   },
   {
     id: 2,
@@ -98,6 +99,7 @@ const En = [
     date: "10 Jun, 2023",
     link: "https://mohamedayman22e.github.io/Portfolio/",
     category: ["Js"],
+    linkGit: "https://github.com/MohamedAyman22E/Portfolio?tab=readme-ov-file",
     img: img2,
   },
   {
@@ -107,6 +109,7 @@ const En = [
     date: "23 Feb, 2024",
     link: "https://mohamedayman22e.github.io/EducationJs/",
     category: ["React"],
+    linkGit: "https://github.com/MohamedAyman22E/EducationJs",
     img: img3,
   },
   {
@@ -115,7 +118,8 @@ const En = [
     tags: ["HTML", "Tilwind", "Js"],
     date: "14 Feb, 2024",
     link: "https://lamppage.netlify.app/",
-    category: ["Tailwind"],
+    category: ["Tailwind", "Js"],
+    linkGit: "https://github.com/MohamedAyman22E/Lamp-",
     img: img6,
   },
   {
@@ -125,6 +129,7 @@ const En = [
     date: "8 Jun, 2024",
     link: "https://mohamedayman22e.github.io/SolnHub/",
     category: ["React"],
+    linkGit: "https://github.com/MohamedAyman22E/SolnHub",
     img: img5,
   },
   {
@@ -134,6 +139,7 @@ const En = [
     date: "14 Des, 2023",
     link: "https://mohamedayman22e.github.io/Wern/",
     img: img4,
+    linkGit: "https://github.com/MohamedAyman22E/Wern",
     category: ["Js"],
   },
   {
@@ -143,6 +149,7 @@ const En = [
     date: "3 Des, 2023",
     link: "https://mohamedayman22e.github.io/Password-Strength-Checker/",
     img: img7,
+    linkGit: "https://github.com/MohamedAyman22E/Password-Strength-Checker",
     category: ["Small"],
   },
   {
@@ -152,6 +159,7 @@ const En = [
     date: "2 Des, 2023",
     link: "https://mohamedayman22e.github.io/Circle-progress-par/",
     img: img8,
+    linkGit: "https://github.com/MohamedAyman22E/Circle-progress-par",
     category: ["Small"],
   },
   {
@@ -162,6 +170,8 @@ const En = [
     link: "https://mohamedayman22e.github.io/Create-A-Custom-Select-Menu-with-Search-Box/",
     img: img9,
     category: ["Small"],
+    linkGit:
+      "https://github.com/MohamedAyman22E/Create-A-Custom-Select-Menu-with-Search-Box",
   },
   {
     id: 10,

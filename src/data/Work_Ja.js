@@ -89,6 +89,7 @@ const Js = [
     category: ["Js"],
     date: "1 六月, 2023",
     link: "https://mohamedayman22e.github.io/Portfolio-/",
+    linkGit: "https://github.com/MohamedAyman22E/Portfolio-?tab=readme-ov-file",
     img: img1,
   },
   {
@@ -98,6 +99,7 @@ const Js = [
     category: ["Js"],
     date: "10 六月, 2023",
     link: "https://mohamedayman22e.github.io/Portfolio/",
+    linkGit: "https://github.com/MohamedAyman22E/Portfolio?tab=readme-ov-file",
     img: img2,
   },
   {
@@ -107,6 +109,7 @@ const Js = [
     category: ["React"],
     date: "23 2月, 2024",
     link: "https://mohamedayman22e.github.io/EducationJs/",
+    linkGit: "https://github.com/MohamedAyman22E/EducationJs",
     img: img3,
   },
   {
@@ -116,7 +119,7 @@ const Js = [
     category: ["Js", "Tailwind"],
     date: "14 2月, 2024",
     link: "https://lamppage.netlify.app/",
-
+    linkGit: "https://github.com/MohamedAyman22E/Lamp-",
     img: img6,
   },
   {
@@ -126,7 +129,7 @@ const Js = [
     category: ["React"],
     date: "8 六月, 2024",
     link: "https://mohamedayman22e.github.io/SolnHub/",
-
+    linkGit: "https://github.com/MohamedAyman22E/SolnHub",
     img: img5,
   },
   {
@@ -136,6 +139,7 @@ const Js = [
     category: ["Js"],
     date: "14 12月, 2023",
     link: "https://mohamedayman22e.github.io/Wern/",
+    linkGit: "https://github.com/MohamedAyman22E/Wern",
     img: img4,
   },
   {
@@ -145,6 +149,7 @@ const Js = [
     category: ["Small"],
     date: "3 12月, 2023",
     link: "https://mohamedayman22e.github.io/Password-Strength-Checker/",
+    linkGit: "https://github.com/MohamedAyman22E/Password-Strength-Checker",
     img: img7,
   },
   {
@@ -154,6 +159,7 @@ const Js = [
     category: ["Small"],
     date: "2 12月, 2023",
     link: "https://mohamedayman22e.github.io/Circle-progress-par/",
+    linkGit: "https://github.com/MohamedAyman22E/Circle-progress-par",
     img: img8,
   },
   {
@@ -164,6 +170,8 @@ const Js = [
     date: "2 12月, 2023",
     link: "https://mohamedayman22e.github.io/Create-A-Custom-Select-Menu-with-Search-Box/",
     img: img9,
+    linkGit:
+      "https://github.com/MohamedAyman22E/Create-A-Custom-Select-Menu-with-Search-Box",
   },
   {
     id: 10,
@@ -219,7 +227,7 @@ const Js = [
     id: 15,
     name: "Html css Js を使用してシンプルな Bolby ウェブサイト アプリを作成する",
     tags: ["Html", "css", "Js"],
-    category: ["Small"],
+    category: ["Js"],
     date: "25 1月, 2024",
     link: "https://mohamedayman22e.github.io/Bolby/",
     linkGit: "https://github.com/MohamedAyman22E/Bolby",
@@ -713,7 +721,7 @@ const Js = [
     id: 64,
     name: "Html Css jQueryを使用してシンプルなPLANTEXアプリを作成する ",
     tags: ["Html", "Css", "jQuery"],
-    category: ["Js"],
+    category: ["JQuery"],
     date: "22 10月, 2023",
     link: "https://mohamedayman22e.github.io/PLANTEX/",
     linkGit: "https://github.com/MohamedAyman22E/PLANTEX",

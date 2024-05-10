@@ -89,6 +89,7 @@ const Tu = [
     date: "1 Haziran, 2023",
     link: "https://mohamedayman22e.github.io/Portfolio-/",
     category: ["Js"],
+    linkGit: "https://github.com/MohamedAyman22E/Portfolio-?tab=readme-ov-file",
     img: img1,
   },
   {
@@ -98,6 +99,7 @@ const Tu = [
     date: "10 Haziran, 2023",
     link: "https://mohamedayman22e.github.io/Portfolio/",
     category: ["Js"],
+    linkGit: "https://github.com/MohamedAyman22E/Portfolio?tab=readme-ov-file",
     img: img2,
   },
   {
@@ -107,6 +109,7 @@ const Tu = [
     date: "23 Şubat , 2024",
     link: "https://mohamedayman22e.github.io/EducationJs/",
     category: ["React"],
+    linkGit: "https://github.com/MohamedAyman22E/EducationJs",
     img: img3,
   },
   {
@@ -115,7 +118,8 @@ const Tu = [
     tags: ["HTML", "Tilwind", "Js"],
     date: "14 Şubat , 2024",
     link: "https://lamppage.netlify.app/",
-    category: ["Tailwind"],
+    category: ["Tailwind", "Js"],
+    linkGit: "https://github.com/MohamedAyman22E/Lamp-",
     img: img6,
   },
   {
@@ -125,6 +129,7 @@ const Tu = [
     date: "8 Haziran, 2024",
     link: "https://mohamedayman22e.github.io/SolnHub/",
     category: ["React"],
+    linkGit: "https://github.com/MohamedAyman22E/SolnHub",
     img: img5,
   },
   {
@@ -134,6 +139,7 @@ const Tu = [
     date: "14 Aralık , 2023",
     link: "https://mohamedayman22e.github.io/Wern/",
     img: img4,
+    linkGit: "https://github.com/MohamedAyman22E/Wern",
     category: ["Js"],
   },
   {
@@ -143,6 +149,7 @@ const Tu = [
     date: "3 Aralık , 2023",
     link: "https://mohamedayman22e.github.io/Password-Strength-Checker/",
     img: img7,
+    linkGit: "https://github.com/MohamedAyman22E/Password-Strength-Checker",
     category: ["Small"],
   },
   {
@@ -152,6 +159,7 @@ const Tu = [
     date: "2 Aralık , 2023",
     link: "https://mohamedayman22e.github.io/Circle-progress-par/",
     img: img8,
+    linkGit: "https://github.com/MohamedAyman22E/Circle-progress-par",
     category: ["Small"],
   },
   {
@@ -162,6 +170,8 @@ const Tu = [
     link: "https://mohamedayman22e.github.io/Create-A-Custom-Select-Menu-with-Search-Box/",
     img: img9,
     category: ["Small"],
+    linkGit:
+      "https://github.com/MohamedAyman22E/Create-A-Custom-Select-Menu-with-Search-Box",
   },
   {
     id: 10,
@@ -663,7 +673,7 @@ const Tu = [
     tags: ["Html", "Tilwind", "Js"],
     date: "28 Kasım , 2023",
     link: "https://magnificent-lollipop-70c4ae.netlify.app/",
-    category: ["Tailwind"],
+    category: ["Tailwind", "Js"],
     linkGit: "https://github.com/MohamedAyman22E/Volit",
     img: img59,
   },
@@ -713,7 +723,7 @@ const Tu = [
     tags: ["Html", "Css", "jQuery"],
     date: "22 Ekim , 2023",
     link: "https://mohamedayman22e.github.io/PLANTEX/",
-    category: ["jQuery"],
+    category: ["JQuery"],
     linkGit: "https://github.com/MohamedAyman22E/PLANTEX",
     img: img64,
   },

@@ -135,7 +135,6 @@ const In = [
     type: "react",
     img: img5,
     category: ["React"],
-
     linkGit: "https://github.com/MohamedAyman22E/SolnHub",
   },
   {
@@ -146,7 +145,6 @@ const In = [
     link: "https://mohamedayman22e.github.io/Wern/",
     img: img4,
     category: ["Js"],
-
     linkGit: "https://github.com/MohamedAyman22E/Wern",
   },
   {
@@ -157,7 +155,6 @@ const In = [
     link: "https://mohamedayman22e.github.io/Password-Strength-Checker/",
     img: img7,
     category: ["Small"],
-
     linkGit: "https://github.com/MohamedAyman22E/Password-Strength-Checker",
   },
   {
@@ -168,7 +165,6 @@ const In = [
     link: "https://mohamedayman22e.github.io/Circle-progress-par/",
     img: img8,
     category: ["Small"],
-
     linkGit: "https://github.com/MohamedAyman22E/Circle-progress-par",
   },
   {
@@ -473,7 +469,7 @@ const In = [
     tags: ["Html", "css", "Js"],
     date: "26 November , 2023",
     link: "https://mohamedayman22e.github.io/Countdown-Timer/",
-    category: ["Js"],
+    category: ["Small"],
 
     linkGit: "https://github.com/MohamedAyman22E/Countdown-Timer",
     img: img36,
@@ -783,7 +779,7 @@ const In = [
     tags: ["Html", "Css", "jQuery"],
     date: "22 Oktober , 2023",
     link: "https://mohamedayman22e.github.io/PLANTEX/",
-    category: ["Js"],
+    category: ["JQuery"],
 
     linkGit: "https://github.com/MohamedAyman22E/PLANTEX",
     img: img64,

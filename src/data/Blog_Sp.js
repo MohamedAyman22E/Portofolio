@@ -55,7 +55,6 @@ const Sp = [
     description:
       "A reponsive navbar menu component in ReactJS with react-router functionalities. Built from scratch.",
     tags: ["react", "react-router", "css"],
-
     demo: "http://react-responsive-navbar-codebucks27.vercel.app/",
     github: "https://github.com/codebucks27/React-responsive-navbar",
   },

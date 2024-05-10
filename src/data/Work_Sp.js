@@ -89,6 +89,7 @@ const Sp = [
     date: "1 Junio, 2023",
     link: "https://mohamedayman22e.github.io/Portfolio-/",
     category: ["Js"],
+    linkGit: "https://github.com/MohamedAyman22E/Portfolio-?tab=readme-ov-file",
     img: img1,
   },
   {
@@ -96,6 +97,7 @@ const Sp = [
     name: "Cómo crear un sitio web de cartera simple con Html, Css, Js",
     tags: ["Html", "Css", "Js"],
     date: "10 Junio, 2023",
+    linkGit: "https://github.com/MohamedAyman22E/Portfolio?tab=readme-ov-file",
     link: "https://mohamedayman22e.github.io/Portfolio/",
     img: img2,
     category: ["Js"],
@@ -107,6 +109,7 @@ const Sp = [
     date: "23 Febrero, 2024",
     link: "https://mohamedayman22e.github.io/EducationJs/",
     category: ["React"],
+    linkGit: "https://github.com/MohamedAyman22E/EducationJs",
     img: img3,
   },
   {
@@ -116,6 +119,7 @@ const Sp = [
     date: "14 Febrero, 2024",
     link: "https://lamppage.netlify.app/",
     img: img6,
+    linkGit: "https://github.com/MohamedAyman22E/Lamp-",
     category: ["Tailwind", "Js"],
   },
   {
@@ -125,6 +129,7 @@ const Sp = [
     tags: ["React", "css"],
     date: "8 Junio, 2024",
     link: "https://mohamedayman22e.github.io/SolnHub/",
+    linkGit: "https://github.com/MohamedAyman22E/SolnHub",
     img: img5,
   },
   {
@@ -134,6 +139,7 @@ const Sp = [
     tags: ["HTML", "css", "Js"],
     date: "14 Diciembre, 2023",
     link: "https://mohamedayman22e.github.io/Wern/",
+    linkGit: "https://github.com/MohamedAyman22E/Wern",
     img: img4,
   },
   {
@@ -143,6 +149,7 @@ const Sp = [
     tags: ["HTML", "Css", "javascript"],
     date: "3 Diciembre, 2023",
     link: "https://mohamedayman22e.github.io/Password-Strength-Checker/",
+    linkGit: "https://github.com/MohamedAyman22E/Password-Strength-Checker",
     img: img7,
   },
   {
@@ -152,6 +159,7 @@ const Sp = [
     tags: ["Html", "css", "js"],
     date: "2 Diciembre, 2023",
     link: "https://mohamedayman22e.github.io/Circle-progress-par/",
+    linkGit: "https://github.com/MohamedAyman22E/Circle-progress-par",
     img: img8,
   },
   {
@@ -162,6 +170,8 @@ const Sp = [
     date: "2 Diciembre, 2023",
     link: "https://mohamedayman22e.github.io/Create-A-Custom-Select-Menu-with-Search-Box/",
     img: img9,
+    linkGit:
+      "https://github.com/MohamedAyman22E/Create-A-Custom-Select-Menu-with-Search-Box",
   },
   {
     id: 10,
@@ -205,7 +215,7 @@ const Sp = [
   },
   {
     id: 14,
-    category: ["Js"],
+    category: ["Small"],
     name: "Cree una aplicación de reloj digital simple usando HTML css js",
     tags: ["Html", "css", "js"],
     date: "5 Febrero, 2024",
@@ -245,7 +255,7 @@ const Sp = [
   },
   {
     id: 18,
-    category: ["Js"],
+    category: ["Small"],
     name: "Cree una aplicación simple de color hexadecimal aleatorio usando HTML css js",
     tags: ["Html", "css", "js"],
     date: "10 Enero, 2024",
@@ -435,7 +445,7 @@ const Sp = [
   },
   {
     id: 37,
-    category: ["Js"],
+    category: ["Small"],
     name: "Cree una aplicación NavBar simple usando HTML css js",
     tags: ["Html", "css", "Js"],
     date: "26 Noviembre, 2023",
@@ -902,7 +912,7 @@ const Sp = [
     id: 83,
     category: ["React", "Redux"],
     name: "Cree una aplicación de comida sencilla con React Css Redux",
-    tags: ["React", "Css", "Redux"],
+    tags: ["React", "Css", "Redux", "NavBar"],
     date: "5 Marzo, 2023",
     link: "https://mohamedayman22e.github.io/Food-/",
     linkGit: "https://github.com/MohamedAyman22E/Food-",

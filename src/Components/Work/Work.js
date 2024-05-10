@@ -172,13 +172,13 @@ const Work = () => {
         ? item
         : null;
     });
-    // const newItemCh = Ch.filter(item => {
-    //   return item.category[0] === category
-    //     ? item
-    //     : item.category[1] === category
-    //     ? item
-    //     : null;
-    // });
+    const newItemCh = Ch.filter(item => {
+      return item.category[0] === category
+        ? item
+        : item.category[1] === category
+        ? item
+        : null;
+    });
     const newItemKorean = Korean.filter(item => {
       return item.category[0] === category
         ? item
@@ -186,20 +186,20 @@ const Work = () => {
         ? item
         : null;
     });
-    // const newItemAr = Ar.filter(item => {
-    //   return item.category[0] === category
-    //     ? item
-    //     : item.category[1] === category
-    //     ? item
-    //     : null;
-    // });
-    // const newItemDa = Da.filter(item => {
-    //   return item.category[0] === category
-    //     ? item
-    //     : item.category[1] === category
-    //     ? item
-    //     : null;
-    // });
+    const newItemAr = Ar.filter(item => {
+      return item.category[0] === category
+        ? item
+        : item.category[1] === category
+        ? item
+        : null;
+    });
+    const newItemDa = Da.filter(item => {
+      return item.category[0] === category
+        ? item
+        : item.category[1] === category
+        ? item
+        : null;
+    });
     const newItemIndonesia = Indonesia.filter(item => {
       return item.category[0] === category
         ? item
@@ -229,10 +229,10 @@ const Work = () => {
     setJa(newItemJa);
     setPo(newItemPo);
     setGe(newItemGe);
-    // setCh(newItemCh);
+    setCh(newItemCh);
     setKorean(newItemKorean);
-    // setAr(newItemAr);
-    // setDa(newItemDa);
+    setAr(newItemAr);
+    setDa(newItemDa);
     setIndonesia(newItemIndonesia);
     setIt(newItemIt);
     if (category === "all") {
@@ -244,10 +244,10 @@ const Work = () => {
       setJa(Ja);
       setPo(Po);
       setGe(Ge);
-      // setCh(Ch);
+      setCh(Ch);
       setKorean(Korean);
-      // setAr(Ar);
-      // setDa(Da);
+      setAr(Ar);
+      setDa(Da);
       setIndonesia(Indonesia);
       setIt(It);
     }
@@ -260,7 +260,6 @@ const Work = () => {
       e.classList.add("active");
     });
   });
-
   return (
     <MainContainer
       variants={container}
@@ -281,6 +280,9 @@ const Work = () => {
             </Btn>
             <Btn className="filterBtn" onClick={() => filterItem("Js")}>
               Js
+            </Btn>
+            <Btn className="filterBtn" onClick={() => filterItem("JQuery")}>
+              JQuery
             </Btn>
             <Btn className="filterBtn" onClick={() => filterItem("Sass")}>
               Sass

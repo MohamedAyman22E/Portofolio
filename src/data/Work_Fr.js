@@ -89,6 +89,7 @@ const Fr = [
     category: ["Js"],
     date: "1 juin 2023",
     link: "https://mohamedayman22e.github.io/Portfolio-/",
+    linkGit: "https://github.com/MohamedAyman22E/Portfolio-?tab=readme-ov-file",
     img: img1,
   },
   {
@@ -98,6 +99,7 @@ const Fr = [
     category: ["Js"],
     date: "10 juin 2023",
     link: "https://mohamedayman22e.github.io/Portfolio/",
+    linkGit: "https://github.com/MohamedAyman22E/Portfolio?tab=readme-ov-file",
     img: img2,
   },
   {
@@ -107,6 +109,7 @@ const Fr = [
     category: ["React"],
     date: "23 février 2024",
     link: "https://mohamedayman22e.github.io/EducationJs/",
+    linkGit: "https://github.com/MohamedAyman22E/EducationJs",
     img: img3,
   },
   {
@@ -116,6 +119,7 @@ const Fr = [
     category: ["Js", "Tailwind"],
     date: "14 février 2024",
     link: "https://lamppage.netlify.app/",
+    linkGit: "https://github.com/MohamedAyman22E/Lamp-",
     img: img6,
   },
   {
@@ -126,6 +130,7 @@ const Fr = [
     date: "8 juin 2024",
     link: "https://mohamedayman22e.github.io/SolnHub/",
     type: "react",
+    linkGit: "https://github.com/MohamedAyman22E/SolnHub",
     img: img5,
   },
   {
@@ -135,6 +140,7 @@ const Fr = [
     category: ["Js"],
     date: "14 décembre 2023 ",
     link: "https://mohamedayman22e.github.io/Wern/",
+    linkGit: "https://github.com/MohamedAyman22E/Wern",
     img: img4,
   },
   {
@@ -144,6 +150,7 @@ const Fr = [
     category: ["Small"],
     date: "3 Décembre, 2023",
     link: "https://mohamedayman22e.github.io/Password-Strength-Checker/",
+    linkGit: "https://github.com/MohamedAyman22E/Password-Strength-Checker",
     img: img7,
   },
   {
@@ -153,6 +160,7 @@ const Fr = [
     category: ["Small"],
     date: "2 décembre, 2023",
     link: "https://mohamedayman22e.github.io/Circle-progress-par/",
+    linkGit: "https://github.com/MohamedAyman22E/Circle-progress-par",
     img: img8,
   },
   {
@@ -163,6 +171,8 @@ const Fr = [
     date: "2 décembre, 2023",
     link: "https://mohamedayman22e.github.io/Create-A-Custom-Select-Menu-with-Search-Box/",
     img: img9,
+    linkGit:
+      "https://github.com/MohamedAyman22E/Create-A-Custom-Select-Menu-with-Search-Box",
   },
   {
     id: 10,
@@ -712,7 +722,7 @@ const Fr = [
     id: 64,
     name: "Créer une application PLANTEX simple en utilisant avec Html Css jQuery",
     tags: ["Html", "Css", "jQuery"],
-    category: ["Js"],
+    category: ["JQuery"],
     date: "22 Octobre, 2023",
     link: "https://mohamedayman22e.github.io/PLANTEX/",
     linkGit: "https://github.com/MohamedAyman22E/PLANTEX",
