@@ -21,6 +21,7 @@ import Indonesia from "../../data/Work_In";
 import It from "../../data/Work_It";
 import Po from "../../data/Work_Po";
 import Ru from "../../data/Work_Ru";
+// import Tu from "../../data/Work_Tu";
 import Tu from "../../data/Work_Tu";
 const MainContainer = styled(motion.div)`
   background-image: url(${img});
@@ -85,8 +86,10 @@ const container = {
   },
 };
 const AllBtn = styled.div`
-  display: flex;
   z-index: 1;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
 `;
 const Btn = styled.button`
   text-decoration: none;
@@ -96,7 +99,7 @@ const Btn = styled.button`
   color: ${props => props.theme.body};
   font-weight: 600;
   transition: all.3s;
-  margin: 0 5px;
+  margin: 5px;
   cursor: pointer;
   &:hover {
     background-color: ${props => props.theme.body};
@@ -107,7 +110,7 @@ const Work = () => {
   const { t } = useTranslation();
   const [en, setEn] = useState(En);
   const [fr, setFr] = useState(Fr);
-  const [tu, setTu] = useState(Tu);
+  // const [tu, setTu] = useState(Tu);
   const [sp, setSp] = useState(Sp);
   const [ru, setRu] = useState(Ru);
   const [ja, setJa] = useState(Ja);
@@ -148,20 +151,20 @@ const Work = () => {
         ? item
         : null;
     });
-    // const newItemJa = Ja.filter(item => {
-    //   return item.category[0] === category
-    //     ? item
-    //     : item.category[1] === category
-    //     ? item
-    //     : null;
-    // });
-    // const newItemPo = Po.filter(item => {
-    //   return item.category[0] === category
-    //     ? item
-    //     : item.category[1] === category
-    //     ? item
-    //     : null;
-    // });
+    const newItemJa = Ja.filter(item => {
+      return item.category[0] === category
+        ? item
+        : item.category[1] === category
+        ? item
+        : null;
+    });
+    const newItemPo = Po.filter(item => {
+      return item.category[0] === category
+        ? item
+        : item.category[1] === category
+        ? item
+        : null;
+    });
     // const newItemGe = Ge.filter(item => {
     //   return item.category[0] === category
     //     ? item
@@ -223,8 +226,8 @@ const Work = () => {
     // setTu(newItemTu);
     setSp(newItemSp);
     setRu(newItemRu);
-    // setJa(newItemJa);
-    // setPo(newItemPo);
+    setJa(newItemJa);
+    setPo(newItemPo);
     // setGe(newItemGe);
     // setCh(newItemCh);
     setKorean(newItemKorean);
@@ -238,8 +241,8 @@ const Work = () => {
       // setFr(Fr);
       // setTu(Tu);
       setRu(Ru);
-      // setJa(Ja);
-      // setPo(Po);
+      setJa(Ja);
+      setPo(Po);
       // setGe(Ge);
       // setCh(Ch);
       setKorean(Korean);
@@ -298,24 +301,18 @@ const Work = () => {
                 ? indonesia
                 : document.querySelector("html").lang === "it"
                 ? it
-                : document.querySelector("html").lang === "po"
-                ? po
+                : document.querySelector("html").lang === "tu"
+                ? Tu
                 : document.querySelector("html").lang === "ru"
                 ? ru
-                : document.querySelector("html").lang === "tu"
-                ? tu
+                : document.querySelector("html").lang === "po"
+                ? po
                 : en
               ).map(item => (
                 <WorkContent key={item.id} blog={item} />
               ))}
             </Grid>
           }
-          {/* 
-          <Grid>
-            {en.map(item => (
-              <WorkContent key={item.id} blog={item} />
-            ))}
-          </Grid> */}
         </Center>
       </Container>
     </MainContainer>
