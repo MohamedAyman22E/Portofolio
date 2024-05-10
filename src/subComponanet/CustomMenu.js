@@ -606,6 +606,28 @@ const CustomMenu = () => {
                   Nafezly
                 </NavLink>
               </LinkContact>
+              <LinkContact>
+                <Icon>
+                  <FaLink />
+                </Icon>
+                <NavLink
+                  target="_blank"
+                  to={"https://vercel.com/mohamedayman22es-projects"}
+                >
+                  Versal
+                </NavLink>
+              </LinkContact>
+              <LinkContact>
+                <Icon>
+                  <FaLink />
+                </Icon>
+                <NavLink
+                  target="_blank"
+                  to={"https://app.netlify.com/teams/mohamedayman22e/overview"}
+                >
+                  Netlify
+                </NavLink>
+              </LinkContact>
             </Hidden>
           </Chose>
           <Line></Line>
