@@ -1,6 +1,9 @@
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import styled, { keyframes } from "styled-components";
-import music from "../assets/audio/003.mp3";
+import Quran from "../assets/audio/003.mp3";
+import Color from "./Color";
+import Quran1 from "../assets/audio/003.mp3";
+import Quran2 from "../assets/audio/YaserElDosary.mp3";
 const Box = styled.div`
   position: fixed;
   top: 3rem;
@@ -55,27 +58,70 @@ const Line = styled.span`
   width: 2px;
   margin: 0 0.1rem;
 `;
+const BoxQuran = styled.div`
+  background-color: #000;
+  box-shadow: 0 0 5px rgba(0, 0, 0.5);
+  margin-top: 20px;
+  padding: 15px 10px;
+  border-radius: 10px;
+  display: none;
+  ${Box}:hover & {
+    display: block;
+  }
+`;
+const SpanQuran = styled.span`
+  margin: 5px 0;
+  padding: 7px 12px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: block;
+  color: ${props => props.theme.body};
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+  }
+  &.active {
+    background-color: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+  }
+`;
+
 const SoundBar = props => {
   const ref = useRef(null);
   const [click, setClick] = useState(false);
+  const [q1, setQ1] = useState([]);
   const handelClick = () => {
     setClick(!click);
     if (!click) {
       ref.current.play();
+      const QuranS = [Quran1, Quran2];
+      document.querySelectorAll(".SpanQuranChange").forEach((e, Q) => {
+        e.addEventListener("click", () => {
+          document.querySelectorAll(".SpanQuranChange").forEach(() => {
+            setQ1([]);
+          });
+          setQ1(QuranS[Q]);
+        });
+      });
     } else {
       ref.current.pause();
     }
   };
+
   return (
     <Box onClick={() => handelClick()}>
       <AllLine>
-        <Line click={click} color={props.theme} />
-        <Line click={click} color={props.theme} />
-        <Line click={click} color={props.theme} />
-        <Line click={click} color={props.theme} />
-        <Line click={click} color={props.theme} />
+        <Line click={click} />
+        <Line click={click} />
+        <Line click={click} />
+        <Line click={click} />
+        <Line click={click} />
       </AllLine>
-      <audio src={music} ref={ref}></audio>
+      <audio src={q1} ref={ref}></audio>
+      <BoxQuran>
+        <SpanQuran className=" SpanQuranChange One">Yasser Al Dosary</SpanQuran>
+        <SpanQuran className=" SpanQuranChange two">Yasser Al Dosary</SpanQuran>
+      </BoxQuran>
     </Box>
   );
 };
