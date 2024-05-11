@@ -5,6 +5,7 @@ import Quran2 from "../assets/audio/Yasser Al Dosary.mp3";
 import Quran3 from "../assets/audio/Naser Al Katamy.mp3";
 import Quran4 from "../assets/audio/Muhammad Al-Tablawi.mp3";
 import Quran5 from "../assets/audio/Muhammad Al-Minshawy.mp3";
+import Quran6 from "../assets/audio/Maher Almaikulai.mp3";
 const Box = styled.div`
   position: fixed;
   top: 3rem;
@@ -100,7 +101,7 @@ const SoundBar = props => {
     }
   };
   useEffect(() => {
-    const QuranS = [Quran1, Quran2, Quran3, Quran4, Quran5];
+    const QuranS = [Quran1, Quran2, Quran3, Quran4, Quran5, Quran6];
     document.querySelectorAll(".SpanQuranChange").forEach((e, Q) => {
       e.addEventListener("click", () => {
         document.querySelectorAll(".SpanQuranChange").forEach(() => {
@@ -126,6 +127,7 @@ const SoundBar = props => {
         <SpanQuran className=" SpanQuranChange ">Naser Al Katamy</SpanQuran>
         <SpanQuran className=" SpanQuranChange ">Al-Tablawi</SpanQuran>
         <SpanQuran className=" SpanQuranChange ">Al-Minshawy</SpanQuran>
+        <SpanQuran className=" SpanQuranChange ">Almaikulai</SpanQuran>
       </BoxQuran>
     </Box>
   );
