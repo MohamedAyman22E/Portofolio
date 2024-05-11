@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import styled, { keyframes } from "styled-components";
 import Quran1 from "../assets/audio/003.mp3";
 import Quran2 from "../assets/audio/Yasser Al Dosary.mp3";
@@ -87,37 +87,38 @@ const SpanQuran = styled.span`
 `;
 
 const SoundBar = props => {
+  const [q1, setQ1] = useState([Quran1]);
   const ref = useRef(null);
   const [click, setClick] = useState(false);
-  const [q1, setQ1] = useState([]);
   const handelClick = () => {
     setClick(!click);
     if (!click) {
       ref.current.play();
-      const QuranS = [Quran1, Quran2, Quran3, Quran4];
-      document.querySelectorAll(".SpanQuranChange").forEach((e, Q) => {
-        e.addEventListener("click", () => {
-          document.querySelectorAll(".SpanQuranChange").forEach(() => {
-            setQ1([]);
-          });
-          setQ1(QuranS[Q]);
-        });
-      });
     } else {
       ref.current.pause();
     }
   };
-
+  useEffect(() => {
+    const QuranS = [Quran1, Quran2, Quran3, Quran4];
+    document.querySelectorAll(".SpanQuranChange").forEach((e, Q) => {
+      e.addEventListener("click", () => {
+        document.querySelectorAll(".SpanQuranChange").forEach(() => {
+          setQ1(null);
+        });
+        setQ1(QuranS[Q]);
+      });
+    });
+  }, [q1]);
   return (
-    <Box onClick={() => handelClick()}>
-      <AllLine>
+    <Box>
+      <AllLine onClick={() => handelClick()}>
         <Line click={click} />
         <Line click={click} />
         <Line click={click} />
         <Line click={click} />
         <Line click={click} />
       </AllLine>
-      <audio src={q1} ref={ref}></audio>
+      <audio className="aud" src={q1} ref={ref}></audio>
       <BoxQuran>
         <SpanQuran className=" SpanQuranChange ">Fares Abbad</SpanQuran>
         <SpanQuran className=" SpanQuranChange ">Yasser Al Dosary</SpanQuran>
