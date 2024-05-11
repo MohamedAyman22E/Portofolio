@@ -1,11 +1,16 @@
 import React, { useEffect, useRef, useState } from "react";
 import styled, { keyframes } from "styled-components";
 import Quran1 from "../assets/audio/003.mp3";
-import Quran2 from "../assets/audio/Yasser Al Dosary.mp3";
-import Quran3 from "../assets/audio/Naser Al Katamy.mp3";
-import Quran4 from "../assets/audio/Muhammad Al-Tablawi.mp3";
-import Quran5 from "../assets/audio/Muhammad Al-Minshawy.mp3";
+import Quran2 from "../assets/audio/Abdul Basit Abdul Samad.mp3";
+import Quran3 from "../assets/audio/Abdul Rahman Al Majid.mp3";
+import Quran4 from "../assets/audio/Abdul Rahman Al-Shahat.mp3";
+import Quran5 from "../assets/audio/Abdullrahman Alsudais.mp3";
 import Quran6 from "../assets/audio/Maher Almaikulai.mp3";
+import Quran7 from "../assets/audio/Muhammad Al-Minshawy.mp3";
+import Quran8 from "../assets/audio/Muhammad Al-Tablawi.mp3";
+import Quran9 from "../assets/audio/Naser Al Katamy.mp3";
+import Quran10 from "../assets/audio/Yasser Al Dosary.mp3";
+
 const Box = styled.div`
   position: fixed;
   top: 3rem;
@@ -63,6 +68,8 @@ const Line = styled.span`
 const BoxQuran = styled.div`
   background-color: #000;
   box-shadow: 0 0 5px rgba(0, 0, 0.5);
+  height: 150px;
+  overflow-y: auto;
   margin-top: 20px;
   padding: 15px 10px;
   border-radius: 10px;
@@ -101,12 +108,25 @@ const SoundBar = props => {
     }
   };
   useEffect(() => {
-    const QuranS = [Quran1, Quran2, Quran3, Quran4, Quran5, Quran6];
+    const QuranS = [
+      Quran1,
+      Quran2,
+      Quran3,
+      Quran4,
+      Quran5,
+      Quran6,
+      Quran7,
+      Quran8,
+      Quran9,
+      Quran10,
+    ];
     document.querySelectorAll(".SpanQuranChange").forEach((e, Q) => {
       e.addEventListener("click", () => {
-        document.querySelectorAll(".SpanQuranChange").forEach(() => {
+        document.querySelectorAll(".SpanQuranChange").forEach(x => {
           setQ1(null);
+          x.classList.remove("active");
         });
+        e.classList.add("active");
         setQ1(QuranS[Q]);
       });
     });
@@ -123,11 +143,15 @@ const SoundBar = props => {
       <audio className="aud" src={q1} ref={ref}></audio>
       <BoxQuran>
         <SpanQuran className=" SpanQuranChange ">Fares Abbad</SpanQuran>
-        <SpanQuran className=" SpanQuranChange ">Yasser Al Dosary</SpanQuran>
-        <SpanQuran className=" SpanQuranChange ">Naser Al Katamy</SpanQuran>
-        <SpanQuran className=" SpanQuranChange ">Al-Tablawi</SpanQuran>
-        <SpanQuran className=" SpanQuranChange ">Al-Minshawy</SpanQuran>
+        <SpanQuran className=" SpanQuranChange ">Abdul Basit</SpanQuran>
+        <SpanQuran className=" SpanQuranChange ">Al Majid</SpanQuran>
+        <SpanQuran className=" SpanQuranChange "> Al-Shahat</SpanQuran>
+        <SpanQuran className=" SpanQuranChange ">Alsudaisi</SpanQuran>
         <SpanQuran className=" SpanQuranChange ">Almaikulai</SpanQuran>
+        <SpanQuran className=" SpanQuranChange ">Al-Minshawy</SpanQuran>
+        <SpanQuran className=" SpanQuranChange ">Al-Tablawi</SpanQuran>
+        <SpanQuran className=" SpanQuranChange ">Al Katamy</SpanQuran>
+        <SpanQuran className=" SpanQuranChange ">Yasser Al Dosary</SpanQuran>
       </BoxQuran>
     </Box>
   );
