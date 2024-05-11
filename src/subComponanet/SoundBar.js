@@ -1,8 +1,9 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useRef, useState } from "react";
 import styled, { keyframes } from "styled-components";
 import Quran1 from "../assets/audio/003.mp3";
-import Quran2 from "../assets/audio/YaserElDosary.mp3";
+import Quran2 from "../assets/audio/Yasser Al Dosary.mp3";
 import Quran3 from "../assets/audio/Naser Al Katamy.mp3";
+import Quran4 from "../assets/audio/Muhammad Al-Tablawi.mp3";
 const Box = styled.div`
   position: fixed;
   top: 3rem;
@@ -93,7 +94,7 @@ const SoundBar = props => {
     setClick(!click);
     if (!click) {
       ref.current.play();
-      const QuranS = [Quran1, Quran2, Quran3];
+      const QuranS = [Quran1, Quran2, Quran3, Quran4];
       document.querySelectorAll(".SpanQuranChange").forEach((e, Q) => {
         e.addEventListener("click", () => {
           document.querySelectorAll(".SpanQuranChange").forEach(() => {
@@ -118,8 +119,10 @@ const SoundBar = props => {
       </AllLine>
       <audio src={q1} ref={ref}></audio>
       <BoxQuran>
-        <SpanQuran className=" SpanQuranChange One">Yasser Al Dosary</SpanQuran>
-        <SpanQuran className=" SpanQuranChange two">Yasser Al Dosary</SpanQuran>
+        <SpanQuran className=" SpanQuranChange ">Fares Abbad</SpanQuran>
+        <SpanQuran className=" SpanQuranChange ">Yasser Al Dosary</SpanQuran>
+        <SpanQuran className=" SpanQuranChange ">Naser Al Katamy</SpanQuran>
+        <SpanQuran className=" SpanQuranChange ">Al-Tablawi</SpanQuran>
       </BoxQuran>
     </Box>
   );
