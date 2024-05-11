@@ -3,8 +3,7 @@ import styled from "styled-components";
 import { IoClose } from "react-icons/io5";
 import { motion } from "framer-motion";
 import { lightThem } from "../global/Thems";
-import Quran1 from "../assets/audio/003.mp3";
-import Quran2 from "../assets/audio/YaserElDosary.mp3";
+
 // import "../App.css";
 const AllColor = styled.div`
   width: 100%;
@@ -271,25 +270,6 @@ const ColorItem = styled.span`
     border: 3px solid #000;
   }
 `;
-// Quran
-const BoxQuran = styled.div`
-  display: none;
-  width: 100%;
-`;
-const AllSpanQuran = styled.div`
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-  margin-top: 13px;
-`;
-const SpanQuran = styled.span`
-  height: 40px;
-  border-radius: 2px;
-  background-color: var(--bg-Color);
-  border: 3px solid #fff;
-  line-height: 40px;
-  cursor: pointer;
-`;
 const Color = ({ SetColorMenu }) => {
   const [changeBackGround, setChangeBackGround] = useState();
   const [changeColor, setChangeColor] = useState();
@@ -308,11 +288,7 @@ const Color = ({ SetColorMenu }) => {
     document.querySelector(".color").style.display = "none";
     document.querySelector(".quran").style.display = "block";
   };
-  const handelClickPrevThree = () => {
-    document.querySelector(".font").style.display = "none";
-    document.querySelector(".color").style.display = "block";
-    document.querySelector(".quran").style.display = "none";
-  };
+
   // backGround
   const colors = [
     "#2d3436",
@@ -439,20 +415,6 @@ const Color = ({ SetColorMenu }) => {
   });
   // quran
 
-  // useEffect(() => {
-  //   const QuranS = [Quran1, Quran2];
-  //   let audio;
-  //   document.querySelectorAll(".SpanQuranChange").forEach((e, Q) => {
-  //     e.addEventListener("click", () => {
-  //       document.querySelectorAll(".SpanQuranChange").forEach(x => {
-  //         x.classList.remove("active");
-  //       });
-  //       e.classList.add("active");
-  //       // console.log(audio);
-  //     });
-  //     audio = QuranS[Q];
-  //   });
-  // }, []);
   return (
     <motion.div
       initial={{ scale: 0 }}
@@ -572,24 +534,6 @@ const Color = ({ SetColorMenu }) => {
                 </BackGroundColor>
               </BackGroundMenu>
             </BoxColor>
-            <BoxQuran className="quran">
-              <FontSize>
-                <TitleFontSize>Quean</TitleFontSize>
-                <FontFamily>
-                  <AllSpanQuran className="fontFamily">
-                    <SpanQuran className="SpanQuranChange">
-                      Yasser Al Dosary1
-                    </SpanQuran>
-                    <SpanQuran className="SpanQuranChange">
-                      Yasser Al Dosary2
-                    </SpanQuran>
-                  </AllSpanQuran>
-                </FontFamily>
-              </FontSize>
-              <AllBtn>
-                <Prev onClick={handelClickPrevThree}> Prev</Prev>
-              </AllBtn>
-            </BoxQuran>
           </ChangeBox>
         </Box>
       </AllColor>

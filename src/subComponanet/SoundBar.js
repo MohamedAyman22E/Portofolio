@@ -1,9 +1,8 @@
 import React, { useEffect, useRef, useState } from "react";
 import styled, { keyframes } from "styled-components";
-import Quran from "../assets/audio/003.mp3";
-import Color from "./Color";
 import Quran1 from "../assets/audio/003.mp3";
 import Quran2 from "../assets/audio/YaserElDosary.mp3";
+import Quran3 from "../assets/audio/Naser Al Katamy.mp3";
 const Box = styled.div`
   position: fixed;
   top: 3rem;
@@ -94,7 +93,7 @@ const SoundBar = props => {
     setClick(!click);
     if (!click) {
       ref.current.play();
-      const QuranS = [Quran1, Quran2];
+      const QuranS = [Quran1, Quran2, Quran3];
       document.querySelectorAll(".SpanQuranChange").forEach((e, Q) => {
         e.addEventListener("click", () => {
           document.querySelectorAll(".SpanQuranChange").forEach(() => {
