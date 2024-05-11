@@ -4,8 +4,7 @@ import PowerButton from "../../subComponanet/PowerButton";
 import LogoComponents from "../../subComponanet/LogoComponents";
 import SocialIcon from "../../subComponanet/SocialIcon";
 import Card from "./Card";
-import { YinYang } from "../AllSvg/AllSvg";
-import { DarkThem } from "../../global/Thems";
+import img from "../../assets/svg/clipart-dodecagon-connections-512x512-ef2e.png";
 import { motion } from "framer-motion";
 import En from "../../data/Blog_En";
 import Fr from "../../data/Blog_Fr";
@@ -31,6 +30,8 @@ const Rotate = styled.span`
   width: 80px;
   height: 80px;
   z-index: 1;
+  background-color: ${props => props.theme.body};
+  border-radius: 50%;
 `;
 const Logo = styled.h2`
   font-weight: 700;
@@ -84,7 +85,7 @@ const Work = () => {
         ))}
       </MainWork>
       <Rotate ref={rotateRef}>
-        <YinYang width={80} height={80} fill={DarkThem.text} />
+        <img src={img} alt="" style={{ width: 80, height: 80 }} />
       </Rotate>
     </WorkContainer>
   );

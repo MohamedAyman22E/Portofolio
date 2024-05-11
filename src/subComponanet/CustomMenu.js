@@ -342,7 +342,7 @@ const CustomMenu = () => {
               <NameTwo to="/">{t("Main")}</NameTwo>
               <NameTwo to="/say">{t("SayHi")}</NameTwo>
               <NameTwo to="/work">{t("WorkLink")}</NameTwo>
-              <NameTwo to="/blog">{t("Work")}</NameTwo>
+              <NameTwo to="/blog">{t("Blog")}</NameTwo>
               <NameTwo to="/about">{t("About")}</NameTwo>
               <NameTwo to="/skills">{t("Skills")}</NameTwo>
             </Hidden>
