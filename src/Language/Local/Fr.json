@@ -47,8 +47,31 @@
     "Chinese":"Chinois",
     "Korean":"Coréen",
     "Japanese":"Japonais",
-    "Logo":"M.A"
-
-
-
+    "Logo":"M.A",
+    "FaresAbbad":"Fares Abbad",
+    "AbdulBasit":"Abd ElBasit",
+    "AlMajid":"Al Majid",
+    "AlShahat":"Al Shahat",
+    "Alsudaisi":"Al Sudaisi",
+    "Almaikulai":"Al Maikulai",
+    "AlMinshawy":"Al Minshawy",
+    "AlTablawi":"Al Tablawi",
+    "AlKatamy":"Al Katamy",
+    "YasserAlDosary":"Yasser AlDosary",
+    "CustomYourView":"Personnalisez votre vue",
+    "MangeTitle":"Gérez la taille, la couleur et l'arrière-plan de votre police",
+    "FontSize":"Taille de police",
+    "AaBig":"Aa",
+    "AaSmall":"Aa",
+    "FontFamily":"Famille de polices",
+    "Dancing":"Dansant",
+    "Shadows":"Ombres",
+    "Permanent":"Permanent",
+    "Bodoni":"Bodoni",
+    "Licorice":"Réglisse",
+    "Kaushan":"Kaushân",
+    "Rubik":"Rubik",
+    "Amatic":"Amatique",
+    "color":"couleur",
+    "BackgroundColor":"Couleur de l'arrière plan"
 }

@@ -10,6 +10,7 @@ import Quran7 from "../assets/audio/Muhammad Al-Minshawy.mp3";
 import Quran8 from "../assets/audio/Muhammad Al-Tablawi.mp3";
 import Quran9 from "../assets/audio/Naser Al Katamy.mp3";
 import Quran10 from "../assets/audio/Yasser Al Dosary.mp3";
+import { useTranslation } from "react-i18next";
 
 const Box = styled.div`
   position: fixed;
@@ -96,6 +97,8 @@ const SpanQuran = styled.span`
 `;
 
 const SoundBar = props => {
+  const { t } = useTranslation();
+
   const [q1, setQ1] = useState([Quran1]);
   const ref = useRef(null);
   const [click, setClick] = useState(false);
@@ -142,16 +145,18 @@ const SoundBar = props => {
       </AllLine>
       <audio className="aud" src={q1} ref={ref}></audio>
       <BoxQuran>
-        <SpanQuran className=" SpanQuranChange ">Fares Abbad</SpanQuran>
-        <SpanQuran className=" SpanQuranChange ">Abdul Basit</SpanQuran>
-        <SpanQuran className=" SpanQuranChange ">Al Majid</SpanQuran>
-        <SpanQuran className=" SpanQuranChange "> Al-Shahat</SpanQuran>
-        <SpanQuran className=" SpanQuranChange ">Alsudaisi</SpanQuran>
-        <SpanQuran className=" SpanQuranChange ">Almaikulai</SpanQuran>
-        <SpanQuran className=" SpanQuranChange ">Al-Minshawy</SpanQuran>
-        <SpanQuran className=" SpanQuranChange ">Al-Tablawi</SpanQuran>
-        <SpanQuran className=" SpanQuranChange ">Al Katamy</SpanQuran>
-        <SpanQuran className=" SpanQuranChange ">Yasser Al Dosary</SpanQuran>
+        <SpanQuran className=" SpanQuranChange ">{t("FaresAbbad")}</SpanQuran>
+        <SpanQuran className=" SpanQuranChange "> {t("AbdulBasit")}</SpanQuran>
+        <SpanQuran className=" SpanQuranChange "> {t("AlMajid")}</SpanQuran>
+        <SpanQuran className=" SpanQuranChange "> {t("AlShahat")}</SpanQuran>
+        <SpanQuran className=" SpanQuranChange "> {t("Alsudaisi")}</SpanQuran>
+        <SpanQuran className=" SpanQuranChange "> {t("Almaikulai")}</SpanQuran>
+        <SpanQuran className=" SpanQuranChange "> {t("AlMinshawy")}</SpanQuran>
+        <SpanQuran className=" SpanQuranChange "> {t("AlTablawi")}</SpanQuran>
+        <SpanQuran className=" SpanQuranChange "> {t("AlKatamy")}</SpanQuran>
+        <SpanQuran className=" SpanQuranChange ">
+          {t("YasserAlDosary")}
+        </SpanQuran>
       </BoxQuran>
     </Box>
   );

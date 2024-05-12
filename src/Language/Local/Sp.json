@@ -47,9 +47,31 @@
     "Chinese":"Chino",
     "Korean":"Coreano",
     "Japanese":"Japonés",
-    "Logo":"M.A"
-
-
-
-
+    "Logo":"M.A",
+    "FaresAbbad":"Fares Abbad",
+    "AbdulBasit":"Abd ElBasit",
+    "AlMajid":"Al Majid",
+    "AlShahat":"Al Shahat",
+    "Alsudaisi":"Al Sudaisi",
+    "Almaikulai":"Al Maikulai",
+    "AlMinshawy":"Al Minshawy",
+    "AlTablawi":"Al Tablawi",
+    "AlKatamy":"Al Katamy",
+    "YasserAlDosary":"Yasser AlDosary",
+    "CustomYourView":"Personaliza tu vista",
+    "MangeTitle":"Administre el tamaño, el color y el fondo de su fuente",
+    "FontSize":"Tamaño de fuente",
+    "AaBig":"Aa",
+    "AaSmall":"Aa",
+    "FontFamily":"Familia tipográfica",
+    "Dancing ":"Baile",
+    "Shadows":"Oscuridad",
+    "Permanent":"Permanente",
+    "Bodoni":"Bodoni",
+    "Licorice":"Regaliz",
+    "Kaushan":"Kaushan",
+    "Rubik":"Rubik",
+    "Amatic":"Amatic",
+    "color":"color",
+    "BackgroundColor":"Color de fondo"
 }

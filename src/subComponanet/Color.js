@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { IoClose } from "react-icons/io5";
 import { motion } from "framer-motion";
 import { lightThem } from "../global/Thems";
+import { useTranslation } from "react-i18next";
 
 // import "../App.css";
 const AllColor = styled.div`
@@ -271,24 +272,17 @@ const ColorItem = styled.span`
   }
 `;
 const Color = ({ SetColorMenu }) => {
+  const { t } = useTranslation();
   const [changeBackGround, setChangeBackGround] = useState();
   const [changeColor, setChangeColor] = useState();
   const handelClickNextOne = () => {
     document.querySelector(".font").style.display = "none";
     document.querySelector(".color").style.display = "block";
-    document.querySelector(".quran").style.display = "none";
   };
   const handelClickPrevOne = () => {
     document.querySelector(".font").style.display = "block";
     document.querySelector(".color").style.display = "none";
-    document.querySelector(".quran").style.display = "none";
   };
-  const handelClickNextTwo = () => {
-    document.querySelector(".font").style.display = "none";
-    document.querySelector(".color").style.display = "none";
-    document.querySelector(".quran").style.display = "block";
-  };
-
   // backGround
   const colors = [
     "#2d3436",
@@ -427,15 +421,15 @@ const Color = ({ SetColorMenu }) => {
             <IoClose onClick={() => SetColorMenu(false)} />
           </CloseIcon>
           <Title>
-            <H2>Custom Your View </H2>
-            <H3>Mange Your Font Size ,Color,BackGround and Quran</H3>
+            <H2>{t("CustomYourView")}</H2>
+            <H3>{t("MangeTitle")}</H3>
           </Title>
           <ChangeBox>
             <BoxFont className="font">
               <FontSize>
-                <TitleFontSize>Font Size</TitleFontSize>
+                <TitleFontSize>{t("FontSize")}</TitleFontSize>
                 <Change>
-                  <Small>Aa</Small>
+                  <Small>{t("AaBig")}</Small>
                   <AllSpan className="allFontSize">
                     <Span className="font-size-1"></Span>
                     <Span className="font-size-2 "></Span>
@@ -443,58 +437,58 @@ const Color = ({ SetColorMenu }) => {
                     <Span className="font-size-4"></Span>
                     <Span className="font-size-5"></Span>
                   </AllSpan>
-                  <Big>Aa</Big>
+                  <Big>{t("AaSmall")}</Big>
                 </Change>
                 <FontFamily>
-                  <TitleFontFamily>Font Family</TitleFontFamily>
+                  <TitleFontFamily>{t("FontFamily")}</TitleFontFamily>
                   <AllSpanFontFamily className="fontFamily">
                     <SpanFamily
                       className="font-family-1 active"
                       style={{ fontFamily: "'Dancing Script', cursive" }}
                     >
-                      Dancing
+                      {t("Dancing")}
                     </SpanFamily>
                     <SpanFamily
                       className="font-family-2"
                       style={{ fontFamily: "'Shadows Into Light', cursive" }}
                     >
-                      Shadows
+                      {t("Shadows")}
                     </SpanFamily>
                     <SpanFamily
                       className="font-family-3"
                       style={{ fontFamily: "'Permanent Marker', cursive" }}
                     >
-                      Permanent
+                      {t("Permanent")}
                     </SpanFamily>
                     <SpanFamily
                       className="font-family-4"
                       style={{ fontFamily: "'Bodoni Moda', serif" }}
                     >
-                      Bodoni
+                      {t("Bodoni")}
                     </SpanFamily>
                     <SpanFamily
                       className="font-family-5"
                       style={{ fontFamily: "'Licorice', cursive" }}
                     >
-                      Licorice
+                      {t("Licorice")}
                     </SpanFamily>
                     <SpanFamily
                       className="font-family-6"
                       style={{ fontFamily: "'Dancing Script', cursive" }}
                     >
-                      Kaushan
+                      {t("Kaushan")}
                     </SpanFamily>
                     <SpanFamily
                       className="font-family-7"
                       style={{ fontFamily: "'Rubik Scribble',system-ui" }}
                     >
-                      Rubik
+                      {t("Rubik")}
                     </SpanFamily>
                     <SpanFamily
                       className="font-family-8"
                       style={{ fontFamily: "'Amatic SC', sans-serif" }}
                     >
-                      Amatic
+                      {t("Amatic")}
                     </SpanFamily>
                   </AllSpanFontFamily>
                 </FontFamily>
@@ -505,7 +499,7 @@ const Color = ({ SetColorMenu }) => {
             </BoxFont>
             <BoxColor className="color">
               <ColorMenu>
-                <TitleFontSize>color</TitleFontSize>
+                <TitleFontSize>{t("color")}</TitleFontSize>
                 <ChangeColor>
                   <AllSpanColor className="colChange">
                     <SpanColor></SpanColor>
@@ -517,11 +511,10 @@ const Color = ({ SetColorMenu }) => {
                 </ChangeColor>
               </ColorMenu>
               <AllBtn>
-                <Next onClick={handelClickNextTwo}>Next</Next>
-                <Prev onClick={handelClickPrevOne}> Prev</Prev>
+                <Prev onClick={handelClickPrevOne}> Prev2</Prev>
               </AllBtn>
               <BackGroundMenu>
-                <TitleFontSize>Background color</TitleFontSize>
+                <TitleFontSize>{t("BackgroundColor")}</TitleFontSize>
                 <BackGroundColor>
                   <AllSpanBackGroundColor className="allSpan">
                     {colors.map((color, index) => (
