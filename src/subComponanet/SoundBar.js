@@ -144,7 +144,12 @@ const SoundBar = props => {
         <Line click={click} />
       </AllLine>
       <audio className="aud" src={q1} ref={ref}></audio>
-      <BoxQuran>
+      <BoxQuran
+        style={{
+          direction:
+            document.querySelector("html").lang === "ar" ? "rtl" : "ltr",
+        }}
+      >
         <SpanQuran className=" SpanQuranChange ">{t("FaresAbbad")}</SpanQuran>
         <SpanQuran className=" SpanQuranChange "> {t("AbdulBasit")}</SpanQuran>
         <SpanQuran className=" SpanQuranChange "> {t("AlMajid")}</SpanQuran>

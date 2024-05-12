@@ -1,19 +1,41 @@
 import React from "react";
 import styled from "styled-components";
-import { Github } from "../AllSvg/AllSvg";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 const Box = styled(motion.div)`
   background-color: ${props => props.theme.body};
   color: ${props => props.theme.text};
   width: 18rem;
-  height: 45vh;
   padding: 40px;
   border-radius: 0px 60px;
   list-style: none;
   text-decoration: none;
   border: 2px solid ${props => props.theme.body};
   transition: all.2s;
+  height: ${document.querySelector("html").lang === "ar"
+    ? "38vh"
+    : document.querySelector("html").lang === "fr"
+    ? "44vh"
+    : document.querySelector("html").lang === "sp"
+    ? "38vh"
+    : document.querySelector("html").lang === "ge"
+    ? "46vh"
+    : document.querySelector("html").lang === "in"
+    ? "40vh"
+    : document.querySelector("html").lang === "po"
+    ? "37vh"
+    : document.querySelector("html").lang === "ru"
+    ? "45vh"
+    : document.querySelector("html").lang === "ch"
+    ? "34vh"
+    : document.querySelector("html").lang === "da"
+    ? "38vh"
+    : document.querySelector("html").lang === "Ko"
+    ? "43vh"
+    : document.querySelector("html").lang === "ja"
+    ? "43vh"
+    : "36vh"};
   &:hover {
     background-color: ${props => props.theme.text};
     color: ${props => props.theme.body};
@@ -42,6 +64,9 @@ const Line = styled.div`
   width: 100%;
   height: 2px;
   background-color: ${props => props.theme.text};
+  ${Box}:hover & {
+    background-color: ${props => props.theme.body};
+  }
 `;
 const Skills = styled.div`
   display: flex;
@@ -54,7 +79,7 @@ const Skills = styled.div`
   }
 `;
 const Tag = styled.span`
-  font-size: 12px;
+  font-size: 19px;
 `;
 const GithubIcon = styled.li`
   display: flex;
@@ -81,14 +106,6 @@ const LinkDemo = styled(Link)`
     padding: 10px 30px;
   }
 `;
-const Git = styled.span`
-  ${Box}:hover & {
-    & > * {
-      transition: all.3s;
-      fill: ${props => props.theme.body};
-    }
-  }
-`;
 const Item = {
   hidden: {
     scale: 0,
@@ -102,9 +119,17 @@ const Item = {
   },
 };
 const Card = props => {
-  const { name, id, tags, demo, description } = props.data;
+  const { t } = useTranslation();
+
+  const { name, id, demo, tags, description } = props.data;
   return (
-    <Box key={id} variants={Item}>
+    <Box
+      key={id}
+      variants={Item}
+      style={{
+        direction: document.querySelector("html").lang === "ar" ? "rtl" : "ltr",
+      }}
+    >
       <Title>{name}</Title>
       <Description>{description}</Description>
       <Line></Line>
@@ -114,10 +139,9 @@ const Card = props => {
         })}
       </Skills>
       <GithubIcon>
-        <LinkDemo target="_blank">Visit</LinkDemo>
-        <Git>
-          <Github width={35} height={35} />
-        </Git>
+        <LinkDemo target="_blank" to={demo}>
+          {t("Visit")}
+        </LinkDemo>
       </GithubIcon>
     </Box>
   );

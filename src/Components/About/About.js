@@ -167,7 +167,6 @@ const Main = styled.div`
   }
 `;
 const Ul1 = styled.h2`
-  direction: ${document.querySelector("html").lang === "ar" ? "rtl" : "let"};
   font-size: calc(0.5em + 0.9vw);
   line-height: 30px;
   margin-top: ${document.querySelector("html").lang === "ar"
@@ -310,7 +309,12 @@ const MySkills = () => {
         <Logo>{t("About")}</Logo>
         <LogoComponents theme={"light"} />
         <SocialIcon theme={"light"} />
-        <Main>
+        <Main
+          style={{
+            direction:
+              document.querySelector("html").lang === "ar" ? "rtl" : "ltr",
+          }}
+        >
           <Ul1>{t("AboutUL1")}</Ul1>
           <Ul1>{t("AboutUL2")}</Ul1>
           <Ul1>{t("AboutUL3")}</Ul1>

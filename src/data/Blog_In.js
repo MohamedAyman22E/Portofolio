@@ -1,50 +1,50 @@
-const Sp = [
+const In = [
   {
     id: 1,
-    name: "Mi CV",
+    name: "CV saya",
     description:
-      "Soy desarrollador de software de Egipto. Me graduaré en junio.",
+      "Saya pengembang perangkat lunak Dari Mesir saya akan lulus pada bulan Juni",
     demo: "https://drive.google.com/file/d/198jAQts5gR5JGgpeDEgkgxPp7_zRUtNY/view?usp=drive_link",
     tags: ["Canva"],
   },
   {
     id: 2,
-    name: "Mi proyecto de graduación",
+    name: "Proyek Kelulusan Saya",
     description:
-      "Este es mi proyecto de graduación. Lo construí con mi equipo.",
+      "Ini adalah Proyek Kelulusan saya, Saya membangunnya Bersama Tim Saya",
     tags: ["react", "nodejs", "mongodb", ""],
     demo: "",
   },
   {
     id: 3,
-    name: "Tienda web de comida",
+    name: "Makanan Toko Web",
     description:
-      "Esta es solo una tienda web de alimentos construida con React css Redux y prueba de pago.",
+      "Ini hanyalah makanan toko web yang dibuat dengan React css Redux dan uji pembayaran",
     tags: ["react", "css", "Redux"],
     demo: "https://mohamedayman22e.github.io/Food-/",
   },
   {
     id: 4,
-    name: "Portafolio sencillo",
-    description: "Este es un portafolio simple para Ansel Klee. ",
+    name: "Portofolio sederhana ",
+    description: "Ini adalah portofolio sederhana untuk Ansel Klee ",
     tags: ["Html", "css", "js"],
     demo: "https://mohamedayman22e.github.io/Portfolio-2/",
   },
   {
     id: 5,
-    name: "Reloj digital",
+    name: "Jam digital",
     description:
-      "Esto es solo web. Reloj digital simple. Construido con HTML, CSS, JS.",
+      "Ini hanyalah web Jam Tangan Digital Sederhana yang dibuat dengan Html css js",
     tags: ["Html", "css", "js"],
     demo: "https://mohamedayman22e.github.io/BAILO/",
   },
   {
     id: 6,
-    name: "Servicio de limpieza",
+    name: "Petugas kebersihan",
     description:
-      "Esto es solo un servicio web de limpieza simple. Construido con HTML, CSS, JS.",
+      "Ini hanyalah web Layanan Pembersihan Sederhana yang Dibangun dengan Html css js",
     tags: ["Html", "css", "js"],
     demo: "https://mohamedayman22e.github.io/Tolmol/",
   },
 ];
-export default Sp;
+export default In;

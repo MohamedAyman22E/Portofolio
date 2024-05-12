@@ -1,50 +1,50 @@
-const Sp = [
+const It = [
   {
     id: 1,
-    name: "Mi CV",
+    name: "Il mio curriculum",
     description:
-      "Soy desarrollador de software de Egipto. Me graduaré en junio.",
+      "Sono uno sviluppatore di software dall'Egitto, mi laureerò a giugno",
     demo: "https://drive.google.com/file/d/198jAQts5gR5JGgpeDEgkgxPp7_zRUtNY/view?usp=drive_link",
     tags: ["Canva"],
   },
   {
     id: 2,
-    name: "Mi proyecto de graduación",
+    name: "Il mio progetto di laurea",
     description:
-      "Este es mi proyecto de graduación. Lo construí con mi equipo.",
+      "Questo è il mio progetto di laurea che ho realizzato con il mio team",
     tags: ["react", "nodejs", "mongodb", ""],
     demo: "",
   },
   {
     id: 3,
-    name: "Tienda web de comida",
+    name: "Negozio online di prodotti alimentari",
     description:
-      "Esta es solo una tienda web de alimentos construida con React css Redux y prueba de pago.",
+      "Questo è solo il cibo del negozio web creato con React css Redux e test di pagamento",
     tags: ["react", "css", "Redux"],
     demo: "https://mohamedayman22e.github.io/Food-/",
   },
   {
     id: 4,
-    name: "Portafolio sencillo",
-    description: "Este es un portafolio simple para Ansel Klee. ",
+    name: "Portafoglio semplice",
+    description: "Questo è un semplice portfolio per Ansel Klee",
     tags: ["Html", "css", "js"],
     demo: "https://mohamedayman22e.github.io/Portfolio-2/",
   },
   {
     id: 5,
-    name: "Reloj digital",
+    name: "Orologio digitale",
     description:
-      "Esto es solo web. Reloj digital simple. Construido con HTML, CSS, JS.",
+      "Questo è solo un semplice orologio digitale web costruito con Html css js",
     tags: ["Html", "css", "js"],
     demo: "https://mohamedayman22e.github.io/BAILO/",
   },
   {
     id: 6,
-    name: "Servicio de limpieza",
+    name: "Servizio di pulizia",
     description:
-      "Esto es solo un servicio web de limpieza simple. Construido con HTML, CSS, JS.",
+      "Questo è solo il servizio di pulizia semplice web Costruito con Html css js",
     tags: ["Html", "css", "js"],
     demo: "https://mohamedayman22e.github.io/Tolmol/",
   },
 ];
-export default Sp;
+export default It;

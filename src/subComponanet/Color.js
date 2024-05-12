@@ -21,17 +21,18 @@ const Box = styled.div`
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: ${props => props.theme.body};
-  width: 500px;
-  height: 400px;
+  width: 550px;
+  height: 450px;
   border-radius: 10px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   display: ${props => (props.close ? "none" : "block")};
   text-align: center;
-  @media (max-width: 525px) {
+  @media (max-width: 562px) {
     width: 450px;
   }
   @media (max-width: 485px) {
     width: 400px;
+    height: 500px;
   }
   @media (max-width: 420px) {
     width: 350px;
@@ -96,16 +97,11 @@ const BoxColor = styled.div`
 `;
 // change box
 const H2 = styled.h2`
-  font-size: 30px;
-  @media (max-width: 360px) {
-    font-size: 25px;
-  }
+  /* font-size: 30px; */
+  font-size: calc(1.3em + 2vw);
 `;
 const H3 = styled.h3`
-  font-size: 15px;
-  @media (max-width: 360px) {
-    font-size: 12px;
-  }
+  font-size: calc(0.4em + 1vw);
 `;
 const FontSize = styled.div`
   position: relative;
@@ -116,10 +112,7 @@ const FontSize = styled.div`
   }
 `;
 const TitleFontSize = styled.h3`
-  font-size: 25px;
-  @media (max-width: 360px) {
-    font-size: 20px;
-  }
+  font-size: calc(1.4em + 2vw);
 `;
 const Change = styled.div`
   background-color: ${props => `rgb(${props.theme.textRgba},.6)`};
@@ -175,8 +168,11 @@ const AllSpanFontFamily = styled.div`
   grid-template-columns: repeat(4, 1fr);
   gap: 8px;
   margin-top: 10px;
-  @media (max-width: 360px) {
+  @media (max-width: 1150px) {
     grid-template-columns: repeat(3, 1fr);
+  }
+  @media (max-width: 485px) {
+    grid-template-columns: repeat(2, 1fr);
   }
 `;
 const SpanFamily = styled.div`
@@ -195,12 +191,12 @@ const SpanFamily = styled.div`
   }
 `;
 const TitleFontFamily = styled.h2`
-  font-size: 30px;
-  @media (max-width: 360px) {
-    font-size: 20px;
-  }
+  font-size: calc(1em + 2vw);
 `;
 // color
+const TitleColor = styled.h3`
+  font-size: calc(1em + 2vw);
+`;
 const ColorMenu = styled.div`
   margin-top: 10px;
 `;
@@ -220,6 +216,7 @@ const AllSpanColor = styled.div`
   align-items: center;
   justify-content: space-between;
   height: 30px;
+  flex-wrap: wrap;
   position: relative;
   width: 90%;
   margin: auto;
@@ -250,6 +247,9 @@ const SpanColor = styled.span`
   }
 `;
 // background
+const TitleBackgroundColor = styled.h3`
+  font-size: calc(0.5em + 2vw);
+`;
 const BackGroundMenu = styled.div`
   width: 85%;
   margin: auto;
@@ -258,8 +258,14 @@ const BackGroundColor = styled.div``;
 const AllSpanBackGroundColor = styled.div`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
+  gap: 10px;
   margin-top: 13px;
+  @media (max-width: 1150px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  @media (max-width: 485px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
 `;
 const ColorItem = styled.span`
   height: 40px;
@@ -499,7 +505,7 @@ const Color = ({ SetColorMenu }) => {
             </BoxFont>
             <BoxColor className="color">
               <ColorMenu>
-                <TitleFontSize>{t("color")}</TitleFontSize>
+                <TitleColor>{t("color")}</TitleColor>
                 <ChangeColor>
                   <AllSpanColor className="colChange">
                     <SpanColor></SpanColor>
@@ -514,7 +520,9 @@ const Color = ({ SetColorMenu }) => {
                 <Prev onClick={handelClickPrevOne}> Prev2</Prev>
               </AllBtn>
               <BackGroundMenu>
-                <TitleFontSize>{t("BackgroundColor")}</TitleFontSize>
+                <TitleBackgroundColor>
+                  {t("BackgroundColor")}
+                </TitleBackgroundColor>
                 <BackGroundColor>
                   <AllSpanBackGroundColor className="allSpan">
                     {colors.map((color, index) => (

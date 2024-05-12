@@ -103,7 +103,12 @@ const WorkContent = props => {
 
   return (
     <Container variants={Item}>
-      <Box>
+      <Box
+        style={{
+          direction:
+            document.querySelector("html").lang === "ar" ? "rtl" : "ltr",
+        }}
+      >
         <AllImg className="allImg">
           <img src={img} alt="" />
         </AllImg>

@@ -9,6 +9,17 @@ import { motion } from "framer-motion";
 import En from "../../data/Blog_En";
 import Fr from "../../data/Blog_Fr";
 import Sp from "../../data/Blog_Sp";
+import Ge from "../../data/Blog_Ge";
+import In from "../../data/Blog_In";
+import It from "../../data/Blog_It";
+import Po from "../../data/Blog_Po";
+import Tu from "../../data/Blog_Tu";
+import Da from "../../data/Blog_Da";
+import Ru from "../../data/Blog_Ru";
+import Ch from "../../data/Blog_Ch";
+import Ko from "../../data/Blog_Ko";
+import Ja from "../../data/Blog_Ja";
+import Ar from "../../data/Blog_Ar";
 const WorkContainer = styled.div`
   background-color: ${props => props.theme.text};
   height: 400vh;
@@ -79,6 +90,28 @@ const Work = () => {
           ? Fr
           : document.querySelector("html").lang === "sp"
           ? Sp
+          : document.querySelector("html").lang === "ge"
+          ? Ge
+          : document.querySelector("html").lang === "ar"
+          ? Ar
+          : document.querySelector("html").lang === "ja"
+          ? Ja
+          : document.querySelector("html").lang === "ch"
+          ? Ch
+          : document.querySelector("html").lang === "ko"
+          ? Ko
+          : document.querySelector("html").lang === "tu"
+          ? Tu
+          : document.querySelector("html").lang === "in"
+          ? In
+          : document.querySelector("html").lang === "it"
+          ? It
+          : document.querySelector("html").lang === "po"
+          ? Po
+          : document.querySelector("html").lang === "da"
+          ? Da
+          : document.querySelector("html").lang === "ru"
+          ? Ru
           : En
         ).map(item => (
           <Card key={item} data={item} />
