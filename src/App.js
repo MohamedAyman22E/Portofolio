@@ -13,6 +13,7 @@ import { AnimatePresence } from "framer-motion";
 import SoundBar from "./subComponanet/SoundBar";
 import CustomMenu from "./subComponanet/CustomMenu";
 import Loading from "./subComponanet/Loading";
+import MyProphet from "./subComponanet/MyProphet";
 const LazyLoading = React.lazy(() => import("./Components/Work/Work"));
 const App = props => {
   const location = useLocation();
@@ -22,6 +23,7 @@ const App = props => {
       <ThemeProvider theme={lightThem}>
         <CustomMenu />
         <SoundBar />
+        <MyProphet />
         <AnimatePresence wait>
           <Routes location={location} key={location.pathname}>
             <Route exact path="/" element={<Main />} />
