@@ -81,6 +81,7 @@ import img80 from "../assets/Images/80.png";
 import img81 from "../assets/Images/81.png";
 import img82 from "../assets/Images/82.png";
 import img83 from "../assets/Images/83.png";
+import img84 from "../assets/Images/84.png";
 const Tu = [
   {
     id: 1,
@@ -916,6 +917,16 @@ const Tu = [
     category: ["React", "Redux"],
     linkGit: "https://github.com/MohamedAyman22E/Food-",
     img: img83,
+  },
+  {
+    id: 84,
+    name: "Html Css Js ile Basit Bir Yönetici Kontrol Paneli Oluşturun ",
+    tags: ["Html", "Css", "Js"],
+    date: "14 Mayıs 2024",
+    link: "https://mohamedayman22e.github.io/DashBoard/",
+    category: ["Js"],
+    linkGit: "https://github.com/MohamedAyman22E/DashBoard",
+    img: img84,
   },
 ];
 export default Tu;
