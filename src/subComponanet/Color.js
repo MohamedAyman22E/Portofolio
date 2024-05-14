@@ -4,8 +4,6 @@ import { IoClose } from "react-icons/io5";
 import { motion } from "framer-motion";
 import { lightThem } from "../global/Thems";
 import { useTranslation } from "react-i18next";
-
-// import "../App.css";
 const AllColor = styled.div`
   width: 100%;
   height: 100vh;
@@ -98,7 +96,7 @@ const BoxColor = styled.div`
 // change box
 const H2 = styled.h2`
   /* font-size: 30px; */
-  font-size: calc(1.3em + 2vw);
+  font-size: calc(1.3em + 1vw);
 `;
 const H3 = styled.h3`
   font-size: calc(0.4em + 1vw);
@@ -112,7 +110,7 @@ const FontSize = styled.div`
   }
 `;
 const TitleFontSize = styled.h3`
-  font-size: calc(1.4em + 2vw);
+  font-size: calc(1.4em + 1vw);
 `;
 const Change = styled.div`
   background-color: ${props => `rgb(${props.theme.textRgba},.6)`};
@@ -191,11 +189,11 @@ const SpanFamily = styled.div`
   }
 `;
 const TitleFontFamily = styled.h2`
-  font-size: calc(1em + 2vw);
+  font-size: calc(1em + 1vw);
 `;
 // color
 const TitleColor = styled.h3`
-  font-size: calc(1em + 2vw);
+  font-size: calc(1em + 1vw);
 `;
 const ColorMenu = styled.div`
   margin-top: 10px;
@@ -248,7 +246,7 @@ const SpanColor = styled.span`
 `;
 // background
 const TitleBackgroundColor = styled.h3`
-  font-size: calc(0.5em + 2vw);
+  font-size: calc(0.5em + 1vw);
 `;
 const BackGroundMenu = styled.div`
   width: 85%;
