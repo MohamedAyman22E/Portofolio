@@ -1,22 +1,41 @@
 import React from "react";
 import styled from "styled-components";
-import { DarkThem } from "../global/Thems";
-import { useTranslation } from "react-i18next";
-const Logo = styled.h1`
+import img from "../assets/svg/logo3.png";
+const Logo = styled.div`
   display: inline-block;
-  color: ${props => (props.color === "dark" ? DarkThem.body : DarkThem.text)};
+  color: #e55451;
   position: fixed;
-  left: 2rem;
-  top: 2rem;
+  left: 0rem;
+  top: -3rem;
   z-index: 100000;
-  @media (max-width: 500px) {
-    left: 0.5rem;
+  img {
+    width: 270px;
+  }
+  @media (max-width: 600px) {
+    left: -1rem;
+    img {
+      width: 250px;
+    }
+  }
+  @media (max-width: 460px) {
+    top: -2rem;
+    img {
+      width: 200px;
+    }
+  }
+  @media (max-width: 350px) {
+    top: -1rem;
+    img {
+      width: 170px;
+    }
   }
 `;
 const LogoComponents = props => {
-  const { t } = useTranslation();
-
-  return <Logo color={props.theme}>{t("Logo")}</Logo>;
+  return (
+    <Logo>
+      <img src={img} alt="" />
+    </Logo>
+  );
 };
 
 export default LogoComponents;

@@ -11,20 +11,20 @@ import Quran8 from "../assets/audio/Muhammad Al-Tablawi.mp3";
 import Quran9 from "../assets/audio/Naser Al Katamy.mp3";
 import Quran10 from "../assets/audio/Yasser Al Dosary.mp3";
 import { useTranslation } from "react-i18next";
-
 const Box = styled.div`
   position: fixed;
   top: 3rem;
-  left: 7rem;
+  left: 15rem;
   z-index: 1111100000000000;
   @media (max-width: 850px) {
-    left: 7rem;
+    left: 15rem;
+  }
+  @media (max-width: 600px) {
+    top: 30rem;
+    left: 2rem;
   }
   @media (max-width: 500px) {
-    left: 5.5rem;
-  }
-  @media (max-width: 450px) {
-    left: 4.5rem;
+    left: 0.5rem;
   }
 `;
 const AllLine = styled.div`
@@ -98,7 +98,6 @@ const SpanQuran = styled.span`
 
 const SoundBar = props => {
   const { t } = useTranslation();
-
   const [q1, setQ1] = useState([Quran1]);
   const ref = useRef(null);
   const [click, setClick] = useState(false);
