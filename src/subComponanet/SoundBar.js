@@ -20,7 +20,7 @@ const Box = styled.div`
     left: 15rem;
   }
   @media (max-width: 600px) {
-    top: 30rem;
+    top: 24rem;
     left: 2rem;
   }
   @media (max-width: 500px) {
@@ -95,7 +95,6 @@ const SpanQuran = styled.span`
     cursor: pointer;
   }
 `;
-
 const SoundBar = props => {
   const { t } = useTranslation();
   const [q1, setQ1] = useState([Quran1]);
